@@ -1,0 +1,184 @@
+﻿100 = {
+	name = "Sadia"
+	dna = sadia_dna
+	female = yes
+	dynasty_house = house_hakali
+	religion = "al_haqia"
+	culture = "hizani"
+	sexuality = bisexual	
+	mother = 3
+
+	## Stats 
+	martial = 12
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 8
+	learning = 11
+
+	## Personality Traits
+	trait = lustful
+	trait = ambitious
+	trait = zealous
+
+	## Education Traits 
+	trait = education_martial_3
+
+	## Genetic Traits
+	trait = beauty_good_3
+	trait = blood_of_prophet
+
+
+	disallow_random_traits = yes 
+
+	88.5.15 = {
+		birth = yes
+	}
+	
+	120.1.1 = {
+		effect = {
+			add_pressed_claim = k_jrit_hajar
+			add_martial_lifestyle_perk_points = 3
+			add_perk = faithful_perk
+		}
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+101 = {
+	name = "Hanfasi"
+	female = yes
+	dynasty = 101
+	religion = "al_haqia"
+	culture = "hizani"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+102 = {
+	name = "Ashia"
+	female = yes
+	dynasty = 102
+	religion = "qital"
+	culture = "hizani"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+103 = {
+	name = "Qamra"
+	female = yes
+	dynasty = 103
+	religion = "al_haqia"
+	culture = "hizani"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+104 = {
+	name = "Tanazila"
+	female = yes
+	dynasty_house = house_rumkal
+	religion = "al_haqia"
+	culture = "hizani"
+	mother = 3
+	sexuality = homosexual
+
+	## Personality Traits
+	trait = lazy
+	trait = trusting
+	trait = arbitrary
+
+	## Education Traits 
+	trait = education_learning_1
+
+	## Genetic Traits
+	trait = blood_of_prophet
+
+	disallow_random_traits = yes 
+
+	91.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+105 = {
+	name = "Abu-Sharida"
+	female = yes
+	dynasty = 105
+	religion = "al_haqia"
+	culture = "hizani"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+106 = {
+	name = "Ghedduda"
+	female = yes
+	dynasty = 106
+	religion = "al_haqia"
+	culture = "hizani"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}

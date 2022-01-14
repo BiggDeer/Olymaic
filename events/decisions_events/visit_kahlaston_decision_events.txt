@@ -1,0 +1,283 @@
+﻿namespace = kahlaston_visit_event
+
+
+### Which Kahlaston to visit?
+kahlaston_visit_event.1 = {
+    type = character_event
+	title = kahlaston_visit_event.1.t
+	desc = kahlaston_visit_event.1.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+    immediate = {
+
+        any_holy_site = {
+			count >= $COUNT$
+			county = {
+				is_holy_site_controlled_by = $CHARACTER$
+				holder.faith = $CHARACTER$.faith
+			}
+		}
+		faith = {
+            every_holy_site = {
+                if = {
+					limit = {
+						NOT = { exists = scope:holy_site_1 }
+					}
+					save_scope_as = holy_site_1
+				}
+
+                if = {
+					limit = {
+						NOT = { exists = scope:holy_site_2 }
+					}
+					save_scope_as = holy_site_2
+				}
+
+                if = {
+					limit = {
+						NOT = { exists = scope:holy_site_3 }
+					}
+					save_scope_as = holy_site_3
+				}
+
+                if = {
+					limit = {
+						NOT = { exists = scope:holy_site_4 }
+					}
+					save_scope_as = holy_site_4
+				}
+
+                if = {
+					limit = {
+						NOT = { exists = scope:holy_site_5 }
+					}
+					save_scope_as = holy_site_5
+				}
+            }
+        }
+	}
+
+	option = {
+		name = kahlaston_visit_event.1.a
+        trigger = {
+            exists = scope:holy_site_1
+            scope:holy_site_1 = {
+                is_holy_site_controlled_by = root
+            }
+        }
+	}
+
+    option = {
+		name = kahlaston_visit_event.1.b
+        trigger = {
+            exists = scope:holy_site_2
+        }
+	}
+
+    option = {
+		name = kahlaston_visit_event.1.c
+        trigger = {
+            exists = scope:holy_site_3
+        }
+	}
+
+    option = {
+		name = kahlaston_visit_event.1.d
+        trigger = {
+            exists = scope:holy_site_4
+        }
+	}
+
+    option = {
+		name = kahlaston_visit_event.1.e
+        trigger = {
+            exists = scope:holy_site_5
+        }
+	}
+}
+
+kahlaston_visit_event.2 = {
+    type = character_event
+	title = kahlaston_visit_event.2.t
+	desc = kahlaston_visit_event.2.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+	option = { ### Prayer time!
+		name = kahlaston_visit_event.2.a
+        trigger = {
+            NOT = {
+                has_character_flag = kahlaston_recently_prayed
+            }
+        }
+
+        trigger_event = {
+            id = kahlaston_visit_event.3
+        }
+	}
+
+    option = {
+        name = kahlaston_visit_event.2.b
+        trigger = {
+             NOT = {
+                has_character_flag = kahlaston_recently_prayed
+            }
+            OR = {
+                has_character_modifier = blessed_by_strength
+                has_character_modifier = blessed_by_courage
+                has_character_modifier = blessed_by_lust
+                has_character_modifier = blessed_by_wisdom
+            }
+        }
+
+        trigger_event = {
+            id = kahlaston_visit_event.4
+        }
+    }
+
+    option = { ### Leave
+		name = kahlaston_visit_event.2.c
+	}
+}
+
+### Praying at the Kahlaston
+kahlaston_visit_event.3 = {
+    type = character_event
+	title = kahlaston_visit_event.3.t
+	desc = kahlaston_visit_event.3.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+    immediate = {
+        add_character_flag = {
+			flag = kahlaston_recently_prayed
+			days = 365
+		}
+        add_piety = minor_piety_gain
+    }
+
+	option = { ## Prayer for Strength
+		name = kahlaston_visit_event.3.a
+        if = {
+            limit = {
+                faith = { 
+                    has_doctrine = tenet_kahlaston 
+                }
+            }
+
+           add_character_modifier = {
+                modifier = blessed_by_strength
+                years = 10
+            }
+        }
+
+        else = {
+            add_character_modifier = {
+                modifier = blessed_by_strength
+                years = 5
+            }
+        }
+	}
+
+    option = { ## Prayer for Courage
+		name = kahlaston_visit_event.3.b
+        if = {
+            limit = {
+                faith = { 
+                    has_doctrine = tenet_kahlaston 
+                }
+            }
+
+           add_character_modifier = {
+                modifier = blessed_by_courage
+                years = 10
+            }
+        }
+
+        else = {
+            add_character_modifier = {
+                modifier = blessed_by_courage
+                years = 5
+            }
+        }
+	}
+
+    option = { ## Prayer for Fertility
+		name = kahlaston_visit_event.3.c
+        if = {
+            limit = {
+                faith = { 
+                    has_doctrine = tenet_kahlaston 
+                }
+            }
+
+           add_character_modifier = {
+                modifier = blessed_by_lust
+                years = 10
+            }
+        }
+
+        else = {
+            add_character_modifier = {
+                modifier = blessed_by_lust
+                years = 5
+            }
+        }
+	}
+
+    option = { ## Prayer for Wisdom
+		name = kahlaston_visit_event.3.d
+        if = {
+            limit = {
+                faith = { 
+                    has_doctrine = tenet_kahlaston 
+                }
+            }
+
+           add_character_modifier = {
+                modifier = blessed_by_wisdom
+                years = 10
+            }
+        }
+
+        else = {
+            add_character_modifier = {
+                modifier = blessed_by_wisdom
+                years = 5
+            }
+        }
+	}
+}
+
+kahlaston_visit_event.4 = {
+    type = character_event
+	title = kahlaston_visit_event.4.t
+	desc = kahlaston_visit_event.4.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+    immediate = {
+        add_character_flag = {
+			flag = kahlaston_recently_prayed
+			days = 365
+		}
+        add_piety = minor_piety_gain
+    }
+
+    option = {
+        name = kahlaston_visit_event.4.a
+    }
+}

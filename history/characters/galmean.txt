@@ -1,0 +1,104 @@
+﻿200 = {
+	name = "Fadia"
+	female = yes
+	dynasty = 200
+	religion = "aljisa"
+	culture = "galmean"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+201 = {
+	name = "Kharidea"
+	female = yes
+	dynasty = 201
+	religion = "aljisa"
+	culture = "galmean"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+202 = {
+	name = "Simma"
+	female = yes
+	dynasty = 202
+	religion = "aljisa"
+	culture = "galmean"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+203 = {
+	name = "Sa-Asyan"
+	female = yes
+	dynasty = 203
+	religion = "aljisa"
+	culture = "galmean"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+204 = {
+	name = "Nevea"
+	female = yes
+	dynasty = 204
+	religion = "aljisa"
+	culture = "galmean"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+	100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}

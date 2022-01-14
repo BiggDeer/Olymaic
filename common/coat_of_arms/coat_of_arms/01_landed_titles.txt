@@ -1,0 +1,205 @@
+@smCastleX = 0.27
+@smCastleY = 0.23
+@smLysX = 0.23
+@smLysY = 0.26
+@smCross = 0.22
+
+e_ar_yafaj = {
+	pattern = "pattern_horizontal_split_02.dds"
+	color1 = "purple"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_star_05.dds"
+		color1 = "white"
+		color2 = "white"
+
+		instance = {
+			scale = { 0.8 0.8 }
+			position = { 0.5 0.4}
+		}
+	}
+}
+
+k_jrit_hajar = {
+	pattern = "pattern_chevron_01.dds"
+	color1 = "white"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_waves_01.dds"
+		color1 = "white"
+		color2 = "blue"
+	}
+
+	colored_emblem = {
+		texture = "ce_triangle_mask.dds"
+		color1 = "grey"
+		color2 = "grey"
+
+		instance = {
+			scale = { 1.4 1.4 }
+			position = { 0.1 1 }
+			rotation = 135
+		}
+	}
+}
+
+k_man_jaf = {
+	pattern = "pattern_horizontal_split_02.dds"
+	color1 = "purple"
+	color2 = "green"
+
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}
+
+d_samrana = {
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "red"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_sabre.dds"
+		color1 = "purple"
+		color2 = "white"
+
+		instance = {
+			scale = { 1.2 1.2 }
+			position = { 0.5 0.5}
+			rotation = 320
+		}
+	}
+
+	colored_emblem = {
+		texture = "ce_sabre.dds"
+		color1 = "purple"
+		color2 = "white"
+
+		instance = {
+			scale = { 1.2 1.2 }
+			position = { 0.5 0.5}
+			rotation = 220
+		}
+	}
+}
+
+d_khas = {
+	pattern = "pattern_checkers_02.dds"
+	color1 = "orange"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_religion_custom_faith_6.dds"
+		color1 = "green"
+		color2 = "green"
+
+		instance = {
+			scale = { 0.8 0.8 }
+		}
+	}
+}
+
+d_alti_hajari = {
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "green"
+	
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+
+	colored_emblem = {
+		texture = "ce_pile_mask.dds"
+		color1 = "grey"
+		color2 = "grey"
+
+		instance = {
+			position = { 0.5 0.8}
+		}
+	}
+}
+
+d_al_tamad = {
+	pattern = "pattern_horizontal_stripes_01.dds"
+	color1 = rgb { 150 35 90 }
+	color2 = white
+
+	colored_emblem = {
+		texture = "ce_border_shield.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+}
+
+d_sukuna = {
+	pattern = "pattern_bend_02.dds"
+	color1 = "blue"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = "ce_crown_head.dds"
+		color1 = "yellow"
+		color2 = "white"
+	}
+}
+
+c_hafkal = {
+	pattern = "pattern_bend_02.dds"
+	color1 = "blue"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = "ce_mena_pale.dds"
+		color1 = "white"
+		color2 = "white"
+	}	
+}
+
+d_yasal = {
+	pattern = "pattern_waves_01.dds"
+	color1 = "white"
+	color2 = "yellow"
+}
+
+c_musay_al_aziz = {
+	pattern = "pattern_waves_01.dds"
+	color1 = "blue"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = "ce_border_circle_doted.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+
+	colored_emblem = {
+		texture = "ce_mena_sun.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+
+		instance = {
+			scale = { 0.6 0.6 }
+		}
+	}
+}
+
+d_al_asa = {
+	pattern = "pattern_vertical_stripes_02.dds"
+	color1 = "blue"
+	color2 = "grey"
+
+	colored_emblem = {
+		texture = "ce_barbels_addorsed.dds"
+		color1 = "white"
+		color2 = "white"
+
+		instance = {
+			scale = { 0.9 0.9 }
+		}
+	}
+}

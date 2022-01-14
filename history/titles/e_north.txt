@@ -1,0 +1,234 @@
+
+### Cherushai Rulers
+## Cecilia
+d_awaran = {
+	100.1.1 = {
+		holder = 400
+	}
+}
+
+c_bidahg = {
+	100.1.1 = {
+		holder = 400
+	}
+}
+
+c_saravan = {
+	100.1.1 = {
+		holder = 400
+	}
+}
+
+## Hafridr
+
+c_kafar = {
+	100.1.1 = {
+		holder = 401
+	}
+}
+
+## Saga
+
+d_baftan = {
+	100.1.1 = {
+		holder = 402
+	}
+}
+
+c_pipal = {
+	100.1.1 = {
+		holder = 402
+	}
+}
+
+c_kurumb = {
+	100.1.1 = {
+		holder = 402
+	}
+}
+
+c_guijo = {
+	100.1.1 = {
+		holder = 402
+	}
+}
+
+## Ingibjorg
+
+c_dostinia = {
+	100.1.1 = {
+		liege = d_awaran
+		holder = 403
+	}
+}
+
+## Autr
+
+c_panur = {
+	100.1.1 = {
+		liege = d_awaran
+		holder = 404
+	}
+}
+
+## Edla 
+
+c_ahrak = {
+	100.1.1 = {
+		liege = d_awaran
+		holder = 405
+	}
+}
+
+##
+
+c_tuhayth = {
+	100.1.1 = {
+		holder = 406
+	}
+}
+
+c_udayah = {
+	100.1.1 = {
+		holder = 406
+	}
+}
+
+##
+
+c_fazah = {
+	100.1.1 = {
+		holder = 407
+	}
+}
+
+c_sullam = {
+	100.1.1 = {
+		holder = 407
+	}
+}
+
+##
+
+c_mandoba = {
+	100.1.1 = {
+		holder = 408
+	}
+}
+
+c_madgou = {
+	100.1.1 = {
+		holder = 408
+	}
+}
+
+##
+
+c_karachi = {
+	100.1.1 = {
+		holder = 409
+	}
+}
+
+##
+
+c_abarak = {
+	100.1.1 = {
+		holder = 410
+	}
+}
+
+##
+
+c_keamri = {
+	100.1.1 = {
+		holder = 411
+	}
+}
+
+##
+
+c_mouzund = {
+	100.1.1 = {
+		holder = 412
+	}
+}
+
+##
+
+c_uma_kalmat = {
+	100.1.1 = {
+		holder = 413
+	}
+}
+
+c_buhara = {
+	100.1.1 = {
+		holder = 413
+	}
+}
+
+##
+
+d_bukan = {
+	100.1.1 = {
+		holder = 500
+	}
+}
+
+d_adan = {
+	100.1.1 = {
+		holder = 500
+	}
+}
+
+c_adira = {
+	100.1.1 = {
+		holder = 500
+	}
+}
+
+c_najran = {
+	100.1.1 = {
+		holder = 500
+	}
+}
+
+##
+
+c_ahran = {
+	100.1.1 = {
+		liege = d_bukan
+		holder = 501
+	}
+}
+
+c_baish = {
+	100.1.1 = {
+		liege = d_bukan
+		holder = 501
+	}
+}
+
+c_bayt_al_aqih = {
+	100.1.1 = {
+		liege = d_bukan
+		holder = 501
+	}
+}
+
+##
+
+c_arsa = {
+	100.1.1 = {
+		liege = d_bukan
+		holder = 502
+	}
+}
+
+c_eyhan = {
+	100.1.1 = {
+		liege = d_bukan
+		holder = 502
+	}
+}

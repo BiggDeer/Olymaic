@@ -1,0 +1,44 @@
+﻿story_cycle_kahla = {
+
+	on_setup = {
+		story_owner = {
+			add_character_flag = searching_for_kahla
+		}
+	}
+
+	on_end = {
+		story_owner = {
+			remove_character_flag = searching_for_kahla
+		}
+	}
+
+	on_owner_death = {
+
+	}
+
+	
+	### You've gotten a lead on where a verse might be! 
+	effect_group = { 
+		days = { 365 600 }
+		chance = 50
+
+		trigger = {
+			story_owner = {
+				has_character_flag = searching_for_kahla
+			}
+		}
+
+		first_valid = {
+			triggered_effect = {
+				trigger = { always = yes }
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = kahla_lead_found
+						}
+					}
+				}
+			}
+		}
+	}
+}

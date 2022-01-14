@@ -1,0 +1,4 @@
+﻿prophet_galitia = {
+	texture = "gfx/interface/icons/event_types/type_faith.dds"
+	alias = { galitia }
+}

@@ -1,0 +1,150 @@
+﻿namespace = kahla_verses_event
+
+
+##########################
+### VERSE IN A VILLAGE ###
+##########################
+## Opener event 
+kahla_verses_event.100 = {
+	title = kahla_verses_event.100.t
+	desc = kahla_verses_event.100.desc
+	theme = realm
+
+	immediate = {
+		add_character_flag = active_search_event
+	}
+
+	option = {
+		name = kahla_verses_event.100.a
+
+		random_events = {
+			80 = kahla_verses_event.102
+			10 = kahla_verses_event.101
+			10 = kahla_verses_event.103
+		}
+	}
+
+	option = {
+		name = kahla_verses_event.100.b
+
+		hidden_effect = {
+			remove_character_flag = active_search_event
+		}
+	}
+}
+
+## Peasant won't give it up 
+kahla_verses_event.101 = {
+	title = kahla_verses_event.101.t
+	desc = kahla_verses_event.101.desc
+	theme = realm
+
+	option = { ## Beat him into submission
+		name = kahla_verses_event.101.a
+	}
+
+	option = { ## Bribe him
+		name = kahla_verses_event.101.b
+		remove_short_term_gold = minor_gold_value
+	}
+
+	after = {
+		trigger_event = {
+			id = kahla_verses_event.104
+		}
+	}
+}
+
+## Peasant hands it over
+kahla_verses_event.102 = {
+	title = kahla_verses_event.102.t
+	desc = kahla_verses_event.102.desc
+	theme = realm
+
+	option = { ## Cool
+		name = kahla_verses_event.102.a
+
+		trigger_event = {
+			id = kahla_verses_event.104
+		}
+	}
+}
+
+## Peasant Lost it
+kahla_verses_event.103 = {
+	title = kahla_verses_event.103.t
+	desc = kahla_verses_event.103.desc
+	theme = realm
+
+	option = { ## Search for it 
+		name = kahla_verses_event.103.a
+		
+		remove_short_term_gold = minor_gold_value
+
+		hidden_effect = {
+			duel = {
+				skill = stewardship
+				value = 8
+				20 = { ## Found it
+					trigger_event = {
+						id = kahla_verses_event.104
+						days = { 5 10 }
+					}
+				}
+				5 = { ## Lost it
+					trigger_event = {
+						id = kahla_verses_event.105
+						days = { 5 10 }
+					}
+				}
+			}
+		}
+	}
+
+	option = { ## Waste of time
+		name = kahla_verses_event.103.b
+
+		remove_character_flag = active_search_event
+
+		add_piety = medium_piety_loss
+	}
+}
+
+## verse found!
+kahla_verses_event.104 = {
+	title = kahla_verses_event.104.t
+	desc = kahla_verses_event.104.desc
+	theme = realm
+
+	immediate = {
+		remove_character_flag = active_search_event
+	}
+
+	option = { ## Accept it 
+		name = kahla_verses_event.104.a
+
+		add_piety = medium_piety_gain
+	}
+
+	option = { ## Reject it
+		name = kahla_verses_event.104.b
+
+		add_piety = medium_piety_loss
+	}
+}
+
+## verse lost
+kahla_verses_event.105 = {
+	title = kahla_verses_event.105.t
+	desc = kahla_verses_event.105.desc
+	theme = realm
+
+	immediate = {
+		remove_character_flag = active_search_event
+		add_piety = medium_piety_loss
+	}
+
+	option = { ## Damn
+		name = kahla_verses_event.105.a
+	}
+}

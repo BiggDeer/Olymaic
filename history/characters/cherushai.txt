@@ -1,0 +1,224 @@
+﻿400 = {
+	name = "CecilI_a"
+	female = yes
+	dynasty = 400
+	religion = "caeyelt"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+401 = {
+	name = "HafrI_D_r"
+	female = yes
+	dynasty = 401
+	religion = "caeyelt"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+402 = {
+	name = "SA_ga"
+	female = yes
+	dynasty = 402
+	religion = "caeyelt"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+403 = {
+	name = "IngibjO_rg"
+	female = yes
+	dynasty = 403
+	religion = "caeyelt"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+404 = {
+	name = "AuT_r"
+	female = yes
+	dynasty = 404
+	religion = "caeyelt"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+405 = {
+	name = "ED_la"
+	female = yes
+	dynasty = 405
+	religion = "caeyelt"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+406 = {
+	name = "U_lfhildr"
+	female = yes
+	dynasty = 406
+	religion = "steralti"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+407 = {
+	name = "T_O_runn"
+	female = yes
+	dynasty = 407
+	religion = "steralti"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+408 = {
+	name = "SkjaldvO_r"
+	female = yes
+	dynasty = 408
+	religion = "steralti"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+409 = {
+	name = "Ylva"
+	female = yes
+	dynasty = 409
+	religion = "steralti"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+410 = {
+	name = "Y_r"
+	female = yes
+	dynasty = 410
+	religion = "steralti"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+411 = {
+	name = "RI_kiza"
+	female = yes
+	dynasty = 411
+	religion = "steralti"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+412 = {
+	name = "BjO_rg"
+	female = yes
+	dynasty = 412
+	religion = "steralti"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+413 = {
+	name = "RO_gnfrI_D_r"
+	female = yes
+	dynasty = 413
+	religion = "steralti"
+	culture = "cherushai"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+

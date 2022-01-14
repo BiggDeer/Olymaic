@@ -1,0 +1,15 @@
+﻿house_hakali = {
+	name = "dynn_hakali"
+	dynasty = 100
+	motto = "dynn_hakali_motto"
+}
+house_rumkal = {
+	name = "dynn_rumkal"
+	dynasty = 100
+	motto = "dynn_rumkal_motto"
+}
+house_azziza = {
+	name = "dynn_azziza"
+	dynasty = 100
+	motto = "dynn_azziza_motto"
+}

@@ -1,0 +1,674 @@
+﻿southern_olymaic_group = {
+	graphical_cultures = {
+		arabic_group_coa_gfx
+		arabic_group_building_gfx
+		mena_building_gfx
+		mena_clothing_gfx
+		mena_unit_gfx
+		dde_abbasid_clothing_gfx
+	}
+
+	mercenary_names = {
+		{ name = "mercenary_company_mamluks" coat_of_arms = "mc_mamluks" }
+	}
+	
+	hizani = {
+		
+		color = { 0.1 0.95 0.35 }
+
+		cadet_dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+			"dynn_Hallaj"
+			"dynn_Baghdadi"
+			"dynn_Bistami"
+			"dynn_Karkhi"
+			"dynn_Qadir"
+			"dynn_Jilani"
+			"dynn_Chishti"
+			"dynn_Badr"
+			"dynn_Miqadiyid"
+			"dynn_Munirid"
+			"dynn_Nabhanid"
+			"dynn_Nadjafid"
+			"dynn_Hamdan"
+			"dynn_Ashhadid"
+			"dynn_Quraishid"
+			"dynn_Kamalid"
+			"dynn_Mosulid"
+			"dynn_Jazrid"
+			"dynn_Husayn"
+			"dynn_Nazeerid"
+			"dynn_Nasrid"
+			"dynn_Bichrid"
+			"dynn_Hafizid"
+			"dynn_Fakhourid"
+			"dynn_Nawawid"
+			"dynn_Naderid"
+			"dynn_Chakroun"
+			"dynn_Atrashid"
+			"dynn_Shehhid"
+			"dynn_Hasanid"
+			"dynn_Qasimid"
+			"dynn_Sulaymanid"
+			"dynn_Halwasid"
+			"dynn_Jamalid"
+			"dynn_Abbasid"
+			"dynn_Razinid"
+			"dynn_Numayrid"
+			"dynn_Kaabid"
+			"dynn_Jabrid"
+			"dynn_Chrusarkha"
+			"dynn_Hakamid"
+			"dynn_Hanaya"
+			"dynn_Ibrahimid"
+			"dynn_Al-Duhli"
+			"dynn_Kinda"
+			"dynn_Madhhij"
+			{ "dynnp_al-" "dynn_Zawayhi" }
+			"dynn_Mufaddalid"
+			"dynn_Zurayid"
+			"dynn_Bannu_Man"
+			"dynn_Mahdid"
+			"dynn_Hatimid"
+			"dynn_Sulaymanid"
+			"dynn_Tanukh"
+			"dynn_Hilalid"
+			{ "dynnp_al-" "dynn_Riyahdid" }
+			{ "dynnp_al-" "dynn_Athbejid" }
+			{ "dynnp_al-" "dynn_Zoghbadid" }
+			{ "dynnp_al-" "dynn_Adid" }
+			"dynn_Suleimid"
+			{ "dynnp_al-" "dynn_Zegbid" }
+			{ "dynnp_al-" "dynn_Debbabid" }
+			{ "dynnp_al-" "dynn_Awfid" }
+		}
+
+		dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+			"dynn_Hallaj"
+			"dynn_Baghdadi"
+			"dynn_Bistami"
+			"dynn_Karkhi"
+			"dynn_Qadir"
+			"dynn_Jilani"
+			"dynn_Chishti"
+			"dynn_Badr"
+			"dynn_Miqadiyid"
+			"dynn_Munirid"
+			"dynn_Nabhanid"
+			"dynn_Nadjafid"
+			"dynn_Hamdan"
+			"dynn_Ashhadid"
+			"dynn_Quraishid"
+			"dynn_Kamalid"
+			"dynn_Mosulid"
+			"dynn_Jazrid"
+			"dynn_Husayn"
+			"dynn_Nazeerid"
+			"dynn_Nasrid"
+			"dynn_Bichrid"
+			"dynn_Hafizid"
+			"dynn_Fakhourid"
+			"dynn_Nawawid"
+			"dynn_Naderid"
+			"dynn_Chakroun"
+			"dynn_Atrashid"
+			"dynn_Shehhid"
+			"dynn_Hasanid"
+			"dynn_Qasimid"
+			"dynn_Sulaymanid"
+			"dynn_Halwasid"
+			"dynn_Jamalid"
+			"dynn_Abbasid"
+			"dynn_Razinid"
+			"dynn_Numayrid"
+			"dynn_Kaabid"
+			"dynn_Jabrid"
+			"dynn_Chrusarkha"
+			"dynn_Hakamid"
+			"dynn_Hanaya"
+			"dynn_Ibrahimid"
+			"dynn_Al-Duhli"
+			"dynn_Kinda"
+			"dynn_Madhhij"
+			{ "dynnp_al-" "dynn_Zawayhi" }
+			"dynn_Mufaddalid"
+			"dynn_Zurayid"
+			"dynn_Bannu_Man"
+			"dynn_Mahdid"
+			"dynn_Hatimid"
+			"dynn_Sulaymanid"
+			"dynn_Tanukh"
+			"dynn_Hilalid"
+			{ "dynnp_al-" "dynn_Riyahdid" }
+			{ "dynnp_al-" "dynn_Athbejid" }
+			{ "dynnp_al-" "dynn_Zoghbadid" }
+			{ "dynnp_al-" "dynn_Adid" }
+			"dynn_Suleimid"
+			{ "dynnp_al-" "dynn_Zegbid" }
+			{ "dynnp_al-" "dynn_Debbabid" }
+			{ "dynnp_al-" "dynn_Awfid" }
+		}
+		
+		male_names = {
+			Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir Abdul-Wahab Abdul Abdullah Aghlab Akin Ali Alim Aram Azam Bahir Burhanaddin
+			Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Husam Hussayn Ibrahim Idris Is_mail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud
+			Mansur Mirza Mubarak Muhammad Mukhtar Murad Musa Muslihiddin Muzaffaraddin Najib Nasr Nizam Qawurd Ramadan Sa_daddin Sadiq Sami Samir Shaiban
+			Shamir Shujah Sulayman Talib Ubayd Uways Yahya Ya_qub Youkhanna Yusuf Zeyd
+			Abakada Abazza Abbas Abdul Abdul-Azeem Abdul-Haleem Abdul-Kareem Abdul-Rahman Abdullah Abidin Abu_Bakr Adal Adam Aderbal Adergazuz
+			Adherbal Admer Adrir Adum Afaghis Afalawas Afalku Afer Afulay Agafay Agama Agdada Agdun Agellid Aggur Aghali Aghecher Aghilas Agwillul
+			Ahamatu Aheyyad Ahmad Ajdir Ajeddig Akaday Akateiaji Akli Akorakor Aksel Aksil Akutla Akzer Al_a_addin al-Athir Ali Alyamas Amawal
+			Amayas Amaz_uz_ Ambay Amdegh Amellal Amennay Ameska Amessan Amin Amma Ammuc Amray Amri Amud Anaba Annaber Antalas Anwa Aras
+			Asad Asaru Asirem Aszellay Atissi Awdia Awgustin Awinagh Awlagh Awzal Aylal Ayt_ere Az_ar Az_regh Azenkwed Azim Azrur Badda Badis
+			Bagay Barakat Batin Beddis Berkan Bezz_i Br_ir_uc Bukkus Buwayh Buxtuc Capussa Cucung Dali Fahd Fath Fella Firhun Firmus Frawsen Gaia Galussa Gauda
+			Gaya Ghani Ghanim Ghaysan Ghumer Gildun Gulusa H_emmu Haidar Hamad Hashim Hiba Hiempsal Himmi Hotha Hussamaddin Ibiza Ibrahim Iccaam
+			Ifni Ifser Ighlaf Igider Igmi Iher Iken Ilyas Immeghar Immel Irgen Is_mail Isalcas Ishaq Isli Issam It_ij Itber Itri Ixfensen Ixzi Izri Jaffar Jamal Jibril Kadidu
+			Kamal Karidenna Kawsen Kenan Keraja Khalid Khanchla Khenchela Khidr Kussil Lacumaces Laweye Lewnis Luki Madidu Magsen Mahtar Malik
+			Marwan Masgaba Masgava Masinissa Masmud Masnsen Massinissa Massiva Massnsen Mastan Mastanabal Matiya Maysar Maziba Mazigh
+			Medjan Mellal Mennad Menzu Meq_wran Mez_yan Mezwar Micipsa Misagenes Misibsen Mu_izz Muh_end Muhammad Mukhtar Mula Murad Musa Mustafa
+			Muzaffaraddin N_Guna Nasr Nazar Nizar Niptasan Nizamaddin Ptolemee Qutaiba Rashid Sa_id Salah Salla Salomon Sammer
+			Sayyid Seghada Sekla Shamsaddin Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan T_ar_iq Tabat Tacfin Taffounnout Tahir Takfarinas Talakakin Tanan Tariq
+			Tegama Thabitah Thakiya Tifan Tifawt Tiljad Ugdada Ugwistan Umar Uqess_un Uregh Urtilian Urz_ig Uzmir Uzza Wahab Watt_as Wattas Xamida Yabdas Yaghmurasen
+			Yahya Yattuy Yeften Yeh_lem Yiliyen Yuba Yugerten Yugurthen Youkhanna Yunes Yusuf Yuva Z_effun Zafir Zalelsan Zayar Zer_wal Zigza Ziri Zubeyr
+		}
+		female_names = {
+			Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+			Aaliyah Aamina Aamira Aaqila Aarifa Aazzi Adelah Adiba Adilah Adilia Adiva Adjan Aeesha Aesha Aisha Amira Badeea Badia Badra Bahac
+			Bahiyya Bajila Bakka Baraah Barakah Baria Bashira Basilie Basima Basimah Bghnat Bibya Bilqis Cala Canh_a Cantara D_r_ifa Daisha Dalal Dasin
+			Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Faghissa Fahriya Fariza Fedada Fer_r_udja Gedduda Ghida Ghnima Guraya Gwejda H_edda
+			Hadiya Hawwa Hemu Herru Iija Iiju IttU_ Izza Jaida Jdira Jeddjiga Kahina Kamila Kanimana Kella Kenwa Kisa Kulla Kwella Lalla Laysa Lem_an Lemta
+			Lumsi Lunja Lwiza Lyaqut Mamma Massa Meghighda Melek Menna Menza Mernissa Monica Myassa Najiba R_uza Ra_isa Rahima Randja Rula Sadiqa
+			Salaama Sekkura Siddiqa Silya Siman T_awes T_item Tadefi Tadla Tadmut Tafrara Tafsut Tagwillult Taheyyatt Takama Taklit Talalit Taljat Tament
+			Tamimunt Tamrust Tanaszart Tanebdatt Tanefzawit Tanest Taninna Tarifa Tariwelt Tasa Tasa_fut Taszellayt Tatbirt Tati Taweckint Tawenza Tawnat
+			Tawzalt Tayri Tayyurt Tazdayt Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Tintifawin Tinzert Tisent
+			Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh_r_ict Tureght Ultafa Wenza Wnissa Wrina Z_diant Z_ergha Zaghwa Zahida Zamba Zibba Zilgum Zubayda
+			Zunagha Zwina Zwira
+		}
+		dynasty_of_location_prefix = "dynnp_mn"
+		
+		patronym_prefix_male = "dynnpat_pre_ibn"
+		patronym_prefix_female = "dynnpat_pre_bint"
+
+		ethnicities = {
+			10 = arab
+			4 = east_african
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_the_wanderers" }
+			{ name = "mercenary_company_bedouin_company_of_place" }
+		}
+	}
+
+	galmean = {
+		
+		color = { 0.9 0.5 0.5 }
+
+		cadet_dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+			"dynn_Hallaj"
+			"dynn_Baghdadi"
+			"dynn_Bistami"
+			"dynn_Karkhi"
+			"dynn_Qadir"
+			"dynn_Jilani"
+			"dynn_Chishti"
+			"dynn_Badr"
+			"dynn_Miqadiyid"
+			"dynn_Munirid"
+			"dynn_Nabhanid"
+			"dynn_Nadjafid"
+			"dynn_Hamdan"
+			"dynn_Ashhadid"
+			"dynn_Quraishid"
+			"dynn_Kamalid"
+			"dynn_Mosulid"
+			"dynn_Jazrid"
+			"dynn_Husayn"
+			"dynn_Nazeerid"
+			"dynn_Nasrid"
+			"dynn_Bichrid"
+			"dynn_Hafizid"
+			"dynn_Fakhourid"
+			"dynn_Nawawid"
+			"dynn_Naderid"
+			"dynn_Chakroun"
+			"dynn_Atrashid"
+			"dynn_Shehhid"
+			"dynn_Hasanid"
+			"dynn_Qasimid"
+			"dynn_Sulaymanid"
+			"dynn_Halwasid"
+			"dynn_Jamalid"
+			"dynn_Abbasid"
+			"dynn_Razinid"
+			"dynn_Numayrid"
+			"dynn_Kaabid"
+			"dynn_Jabrid"
+			"dynn_Chrusarkha"
+			"dynn_Hakamid"
+			"dynn_Hanaya"
+			"dynn_Ibrahimid"
+			"dynn_Al-Duhli"
+			"dynn_Kinda"
+			"dynn_Madhhij"
+			{ "dynnp_al-" "dynn_Zawayhi" }
+			"dynn_Mufaddalid"
+			"dynn_Zurayid"
+			"dynn_Bannu_Man"
+			"dynn_Mahdid"
+			"dynn_Hatimid"
+			"dynn_Sulaymanid"
+			"dynn_Tanukh"
+			"dynn_Hilalid"
+			{ "dynnp_al-" "dynn_Riyahdid" }
+			{ "dynnp_al-" "dynn_Athbejid" }
+			{ "dynnp_al-" "dynn_Zoghbadid" }
+			{ "dynnp_al-" "dynn_Adid" }
+			"dynn_Suleimid"
+			{ "dynnp_al-" "dynn_Zegbid" }
+			{ "dynnp_al-" "dynn_Debbabid" }
+			{ "dynnp_al-" "dynn_Awfid" }
+		}
+
+		dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+			"dynn_Hallaj"
+			"dynn_Baghdadi"
+			"dynn_Bistami"
+			"dynn_Karkhi"
+			"dynn_Qadir"
+			"dynn_Jilani"
+			"dynn_Chishti"
+			"dynn_Badr"
+			"dynn_Miqadiyid"
+			"dynn_Munirid"
+			"dynn_Nabhanid"
+			"dynn_Nadjafid"
+			"dynn_Hamdan"
+			"dynn_Ashhadid"
+			"dynn_Quraishid"
+			"dynn_Kamalid"
+			"dynn_Mosulid"
+			"dynn_Jazrid"
+			"dynn_Husayn"
+			"dynn_Nazeerid"
+			"dynn_Nasrid"
+			"dynn_Bichrid"
+			"dynn_Hafizid"
+			"dynn_Fakhourid"
+			"dynn_Nawawid"
+			"dynn_Naderid"
+			"dynn_Chakroun"
+			"dynn_Atrashid"
+			"dynn_Shehhid"
+			"dynn_Hasanid"
+			"dynn_Qasimid"
+			"dynn_Sulaymanid"
+			"dynn_Halwasid"
+			"dynn_Jamalid"
+			"dynn_Abbasid"
+			"dynn_Razinid"
+			"dynn_Numayrid"
+			"dynn_Kaabid"
+			"dynn_Jabrid"
+			"dynn_Chrusarkha"
+			"dynn_Hakamid"
+			"dynn_Hanaya"
+			"dynn_Ibrahimid"
+			"dynn_Al-Duhli"
+			"dynn_Kinda"
+			"dynn_Madhhij"
+			{ "dynnp_al-" "dynn_Zawayhi" }
+			"dynn_Mufaddalid"
+			"dynn_Zurayid"
+			"dynn_Bannu_Man"
+			"dynn_Mahdid"
+			"dynn_Hatimid"
+			"dynn_Sulaymanid"
+			"dynn_Tanukh"
+			"dynn_Hilalid"
+			{ "dynnp_al-" "dynn_Riyahdid" }
+			{ "dynnp_al-" "dynn_Athbejid" }
+			{ "dynnp_al-" "dynn_Zoghbadid" }
+			{ "dynnp_al-" "dynn_Adid" }
+			"dynn_Suleimid"
+			{ "dynnp_al-" "dynn_Zegbid" }
+			{ "dynnp_al-" "dynn_Debbabid" }
+			{ "dynnp_al-" "dynn_Awfid" }
+		}
+
+		male_names = {
+			Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir Abdul-Wahab Abdul Abdullah Aghlab Akin Ali Alim Aram Azam Bahir Burhanaddin
+			Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Husam Hussayn Ibrahim Idris Is_mail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud
+			Mansur Mirza Mubarak Muhammad Mukhtar Murad Musa Muslihiddin Muzaffaraddin Najib Nasr Nizam Qawurd Ramadan Sa_daddin Sadiq Sami Samir Shaiban
+			Shamir Shujah Sulayman Talib Ubayd Uways Yahya Ya_qub Youkhanna Yusuf Zeyd
+			Abakada Abazza Abbas Abdul Abdul-Azeem Abdul-Haleem Abdul-Kareem Abdul-Rahman Abdullah Abidin Abu_Bakr Adal Adam Aderbal Adergazuz
+			Adherbal Admer Adrir Adum Afaghis Afalawas Afalku Afer Afulay Agafay Agama Agdada Agdun Agellid Aggur Aghali Aghecher Aghilas Agwillul
+			Ahamatu Aheyyad Ahmad Ajdir Ajeddig Akaday Akateiaji Akli Akorakor Aksel Aksil Akutla Akzer Al_a_addin al-Athir Ali Alyamas Amawal
+			Amayas Amaz_uz_ Ambay Amdegh Amellal Amennay Ameska Amessan Amin Amma Ammuc Amray Amri Amud Anaba Annaber Antalas Anwa Aras
+			Asad Asaru Asirem Aszellay Atissi Awdia Awgustin Awinagh Awlagh Awzal Aylal Ayt_ere Az_ar Az_regh Azenkwed Azim Azrur Badda Badis
+			Bagay Barakat Batin Beddis Berkan Bezz_i Br_ir_uc Bukkus Buwayh Buxtuc Capussa Cucung Dali Fahd Fath Fella Firhun Firmus Frawsen Gaia Galussa Gauda
+			Gaya Ghani Ghanim Ghaysan Ghumer Gildun Gulusa H_emmu Haidar Hamad Hashim Hiba Hiempsal Himmi Hotha Hussamaddin Ibiza Ibrahim Iccaam
+			Ifni Ifser Ighlaf Igider Igmi Iher Iken Ilyas Immeghar Immel Irgen Is_mail Isalcas Ishaq Isli Issam It_ij Itber Itri Ixfensen Ixzi Izri Jaffar Jamal Jibril Kadidu
+			Kamal Karidenna Kawsen Kenan Keraja Khalid Khanchla Khenchela Khidr Kussil Lacumaces Laweye Lewnis Luki Madidu Magsen Mahtar Malik
+			Marwan Masgaba Masgava Masinissa Masmud Masnsen Massinissa Massiva Massnsen Mastan Mastanabal Matiya Maysar Maziba Mazigh
+			Medjan Mellal Mennad Menzu Meq_wran Mez_yan Mezwar Micipsa Misagenes Misibsen Mu_izz Muh_end Muhammad Mukhtar Mula Murad Musa Mustafa
+			Muzaffaraddin N_Guna Nasr Nazar Nizar Niptasan Nizamaddin Ptolemee Qutaiba Rashid Sa_id Salah Salla Salomon Sammer
+			Sayyid Seghada Sekla Shamsaddin Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan T_ar_iq Tabat Tacfin Taffounnout Tahir Takfarinas Talakakin Tanan Tariq
+			Tegama Thabitah Thakiya Tifan Tifawt Tiljad Ugdada Ugwistan Umar Uqess_un Uregh Urtilian Urz_ig Uzmir Uzza Wahab Watt_as Wattas Xamida Yabdas Yaghmurasen
+			Yahya Yattuy Yeften Yeh_lem Yiliyen Yuba Yugerten Yugurthen Youkhanna Yunes Yusuf Yuva Z_effun Zafir Zalelsan Zayar Zer_wal Zigza Ziri Zubeyr
+		}
+		female_names = {
+			Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+			Aaliyah Aamina Aamira Aaqila Aarifa Aazzi Adelah Adiba Adilah Adilia Adiva Adjan Aeesha Aesha Aisha Amira Badeea Badia Badra Bahac
+			Bahiyya Bajila Bakka Baraah Barakah Baria Bashira Basilie Basima Basimah Bghnat Bibya Bilqis Cala Canh_a Cantara D_r_ifa Daisha Dalal Dasin
+			Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Faghissa Fahriya Fariza Fedada Fer_r_udja Gedduda Ghida Ghnima Guraya Gwejda H_edda
+			Hadiya Hawwa Hemu Herru Iija Iiju IttU_ Izza Jaida Jdira Jeddjiga Kahina Kamila Kanimana Kella Kenwa Kisa Kulla Kwella Lalla Laysa Lem_an Lemta
+			Lumsi Lunja Lwiza Lyaqut Mamma Massa Meghighda Melek Menna Menza Mernissa Monica Myassa Najiba R_uza Ra_isa Rahima Randja Rula Sadiqa
+			Salaama Sekkura Siddiqa Silya Siman T_awes T_item Tadefi Tadla Tadmut Tafrara Tafsut Tagwillult Taheyyatt Takama Taklit Talalit Taljat Tament
+			Tamimunt Tamrust Tanaszart Tanebdatt Tanefzawit Tanest Taninna Tarifa Tariwelt Tasa Tasa_fut Taszellayt Tatbirt Tati Taweckint Tawenza Tawnat
+			Tawzalt Tayri Tayyurt Tazdayt Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Tintifawin Tinzert Tisent
+			Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh_r_ict Tureght Ultafa Wenza Wnissa Wrina Z_diant Z_ergha Zaghwa Zahida Zamba Zibba Zilgum Zubayda
+			Zunagha Zwina Zwira
+		}
+		dynasty_of_location_prefix = "dynnp_mn"
+		
+		patronym_prefix_male = "dynnpat_pre_ibn"
+		patronym_prefix_female = "dynnpat_pre_bint"
+
+		ethnicities = {
+			10 = arab
+			4 = east_african
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_the_wanderers" }
+			{ name = "mercenary_company_bedouin_company_of_place" }
+		}
+	}
+
+	watteri = {
+		
+		color = { 0.1 0.1 0.9 }
+
+		cadet_dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+			"dynn_Hallaj"
+			"dynn_Baghdadi"
+			"dynn_Bistami"
+			"dynn_Karkhi"
+			"dynn_Qadir"
+			"dynn_Jilani"
+			"dynn_Chishti"
+			"dynn_Badr"
+			"dynn_Miqadiyid"
+			"dynn_Munirid"
+			"dynn_Nabhanid"
+			"dynn_Nadjafid"
+			"dynn_Hamdan"
+			"dynn_Ashhadid"
+			"dynn_Quraishid"
+			"dynn_Kamalid"
+			"dynn_Mosulid"
+			"dynn_Jazrid"
+			"dynn_Husayn"
+			"dynn_Nazeerid"
+			"dynn_Nasrid"
+			"dynn_Bichrid"
+			"dynn_Hafizid"
+			"dynn_Fakhourid"
+			"dynn_Nawawid"
+			"dynn_Naderid"
+			"dynn_Chakroun"
+			"dynn_Atrashid"
+			"dynn_Shehhid"
+			"dynn_Hasanid"
+			"dynn_Qasimid"
+			"dynn_Sulaymanid"
+			"dynn_Halwasid"
+			"dynn_Jamalid"
+			"dynn_Abbasid"
+			"dynn_Razinid"
+			"dynn_Numayrid"
+			"dynn_Kaabid"
+			"dynn_Jabrid"
+			"dynn_Chrusarkha"
+			"dynn_Hakamid"
+			"dynn_Hanaya"
+			"dynn_Ibrahimid"
+			"dynn_Al-Duhli"
+			"dynn_Kinda"
+			"dynn_Madhhij"
+			{ "dynnp_al-" "dynn_Zawayhi" }
+			"dynn_Mufaddalid"
+			"dynn_Zurayid"
+			"dynn_Bannu_Man"
+			"dynn_Mahdid"
+			"dynn_Hatimid"
+			"dynn_Sulaymanid"
+			"dynn_Tanukh"
+			"dynn_Hilalid"
+			{ "dynnp_al-" "dynn_Riyahdid" }
+			{ "dynnp_al-" "dynn_Athbejid" }
+			{ "dynnp_al-" "dynn_Zoghbadid" }
+			{ "dynnp_al-" "dynn_Adid" }
+			"dynn_Suleimid"
+			{ "dynnp_al-" "dynn_Zegbid" }
+			{ "dynnp_al-" "dynn_Debbabid" }
+			{ "dynnp_al-" "dynn_Awfid" }
+		}
+
+		dynasty_names = {
+			"dynn_Rasulid"
+			"dynn_Umarid"
+			"dynn_Najadid"
+			"dynn_Dinnid"
+			"dynn_Qutalmish"
+			"dynn_Qadir"
+			"dynn_Toghan"
+			"dynn_Walashma"
+			"dynn_Usfurid"
+			"dynn_Jarwanid"
+			"dynn_Zurayid"
+			"dynn_Muazzamid"
+			"dynn_Banu_Hatim"
+			"dynn_Qubaybid"
+			"dynn_Halabanid"
+			"dynn_Basri"
+			"dynn_Hallaj"
+			"dynn_Baghdadi"
+			"dynn_Bistami"
+			"dynn_Karkhi"
+			"dynn_Qadir"
+			"dynn_Jilani"
+			"dynn_Chishti"
+			"dynn_Badr"
+			"dynn_Miqadiyid"
+			"dynn_Munirid"
+			"dynn_Nabhanid"
+			"dynn_Nadjafid"
+			"dynn_Hamdan"
+			"dynn_Ashhadid"
+			"dynn_Quraishid"
+			"dynn_Kamalid"
+			"dynn_Mosulid"
+			"dynn_Jazrid"
+			"dynn_Husayn"
+			"dynn_Nazeerid"
+			"dynn_Nasrid"
+			"dynn_Bichrid"
+			"dynn_Hafizid"
+			"dynn_Fakhourid"
+			"dynn_Nawawid"
+			"dynn_Naderid"
+			"dynn_Chakroun"
+			"dynn_Atrashid"
+			"dynn_Shehhid"
+			"dynn_Hasanid"
+			"dynn_Qasimid"
+			"dynn_Sulaymanid"
+			"dynn_Halwasid"
+			"dynn_Jamalid"
+			"dynn_Abbasid"
+			"dynn_Razinid"
+			"dynn_Numayrid"
+			"dynn_Kaabid"
+			"dynn_Jabrid"
+			"dynn_Chrusarkha"
+			"dynn_Hakamid"
+			"dynn_Hanaya"
+			"dynn_Ibrahimid"
+			"dynn_Al-Duhli"
+			"dynn_Kinda"
+			"dynn_Madhhij"
+			{ "dynnp_al-" "dynn_Zawayhi" }
+			"dynn_Mufaddalid"
+			"dynn_Zurayid"
+			"dynn_Bannu_Man"
+			"dynn_Mahdid"
+			"dynn_Hatimid"
+			"dynn_Sulaymanid"
+			"dynn_Tanukh"
+			"dynn_Hilalid"
+			{ "dynnp_al-" "dynn_Riyahdid" }
+			{ "dynnp_al-" "dynn_Athbejid" }
+			{ "dynnp_al-" "dynn_Zoghbadid" }
+			{ "dynnp_al-" "dynn_Adid" }
+			"dynn_Suleimid"
+			{ "dynnp_al-" "dynn_Zegbid" }
+			{ "dynnp_al-" "dynn_Debbabid" }
+			{ "dynnp_al-" "dynn_Awfid" }
+		}
+
+		male_names = {
+			Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir Abdul-Wahab Abdul Abdullah Aghlab Akin Ali Alim Aram Azam Bahir Burhanaddin
+			Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Husam Hussayn Ibrahim Idris Is_mail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud
+			Mansur Mirza Mubarak Muhammad Mukhtar Murad Musa Muslihiddin Muzaffaraddin Najib Nasr Nizam Qawurd Ramadan Sa_daddin Sadiq Sami Samir Shaiban
+			Shamir Shujah Sulayman Talib Ubayd Uways Yahya Ya_qub Youkhanna Yusuf Zeyd
+			Abakada Abazza Abbas Abdul Abdul-Azeem Abdul-Haleem Abdul-Kareem Abdul-Rahman Abdullah Abidin Abu_Bakr Adal Adam Aderbal Adergazuz
+			Adherbal Admer Adrir Adum Afaghis Afalawas Afalku Afer Afulay Agafay Agama Agdada Agdun Agellid Aggur Aghali Aghecher Aghilas Agwillul
+			Ahamatu Aheyyad Ahmad Ajdir Ajeddig Akaday Akateiaji Akli Akorakor Aksel Aksil Akutla Akzer Al_a_addin al-Athir Ali Alyamas Amawal
+			Amayas Amaz_uz_ Ambay Amdegh Amellal Amennay Ameska Amessan Amin Amma Ammuc Amray Amri Amud Anaba Annaber Antalas Anwa Aras
+			Asad Asaru Asirem Aszellay Atissi Awdia Awgustin Awinagh Awlagh Awzal Aylal Ayt_ere Az_ar Az_regh Azenkwed Azim Azrur Badda Badis
+			Bagay Barakat Batin Beddis Berkan Bezz_i Br_ir_uc Bukkus Buwayh Buxtuc Capussa Cucung Dali Fahd Fath Fella Firhun Firmus Frawsen Gaia Galussa Gauda
+			Gaya Ghani Ghanim Ghaysan Ghumer Gildun Gulusa H_emmu Haidar Hamad Hashim Hiba Hiempsal Himmi Hotha Hussamaddin Ibiza Ibrahim Iccaam
+			Ifni Ifser Ighlaf Igider Igmi Iher Iken Ilyas Immeghar Immel Irgen Is_mail Isalcas Ishaq Isli Issam It_ij Itber Itri Ixfensen Ixzi Izri Jaffar Jamal Jibril Kadidu
+			Kamal Karidenna Kawsen Kenan Keraja Khalid Khanchla Khenchela Khidr Kussil Lacumaces Laweye Lewnis Luki Madidu Magsen Mahtar Malik
+			Marwan Masgaba Masgava Masinissa Masmud Masnsen Massinissa Massiva Massnsen Mastan Mastanabal Matiya Maysar Maziba Mazigh
+			Medjan Mellal Mennad Menzu Meq_wran Mez_yan Mezwar Micipsa Misagenes Misibsen Mu_izz Muh_end Muhammad Mukhtar Mula Murad Musa Mustafa
+			Muzaffaraddin N_Guna Nasr Nazar Nizar Niptasan Nizamaddin Ptolemee Qutaiba Rashid Sa_id Salah Salla Salomon Sammer
+			Sayyid Seghada Sekla Shamsaddin Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan T_ar_iq Tabat Tacfin Taffounnout Tahir Takfarinas Talakakin Tanan Tariq
+			Tegama Thabitah Thakiya Tifan Tifawt Tiljad Ugdada Ugwistan Umar Uqess_un Uregh Urtilian Urz_ig Uzmir Uzza Wahab Watt_as Wattas Xamida Yabdas Yaghmurasen
+			Yahya Yattuy Yeften Yeh_lem Yiliyen Yuba Yugerten Yugurthen Youkhanna Yunes Yusuf Yuva Z_effun Zafir Zalelsan Zayar Zer_wal Zigza Ziri Zubeyr
+		}
+		female_names = {
+			Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+			Aaliyah Aamina Aamira Aaqila Aarifa Aazzi Adelah Adiba Adilah Adilia Adiva Adjan Aeesha Aesha Aisha Amira Badeea Badia Badra Bahac
+			Bahiyya Bajila Bakka Baraah Barakah Baria Bashira Basilie Basima Basimah Bghnat Bibya Bilqis Cala Canh_a Cantara D_r_ifa Daisha Dalal Dasin
+			Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Faghissa Fahriya Fariza Fedada Fer_r_udja Gedduda Ghida Ghnima Guraya Gwejda H_edda
+			Hadiya Hawwa Hemu Herru Iija Iiju IttU_ Izza Jaida Jdira Jeddjiga Kahina Kamila Kanimana Kella Kenwa Kisa Kulla Kwella Lalla Laysa Lem_an Lemta
+			Lumsi Lunja Lwiza Lyaqut Mamma Massa Meghighda Melek Menna Menza Mernissa Monica Myassa Najiba R_uza Ra_isa Rahima Randja Rula Sadiqa
+			Salaama Sekkura Siddiqa Silya Siman T_awes T_item Tadefi Tadla Tadmut Tafrara Tafsut Tagwillult Taheyyatt Takama Taklit Talalit Taljat Tament
+			Tamimunt Tamrust Tanaszart Tanebdatt Tanefzawit Tanest Taninna Tarifa Tariwelt Tasa Tasa_fut Taszellayt Tatbirt Tati Taweckint Tawenza Tawnat
+			Tawzalt Tayri Tayyurt Tazdayt Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Tintifawin Tinzert Tisent
+			Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh_r_ict Tureght Ultafa Wenza Wnissa Wrina Z_diant Z_ergha Zaghwa Zahida Zamba Zibba Zilgum Zubayda
+			Zunagha Zwina Zwira
+		}
+		dynasty_of_location_prefix = "dynnp_mn"
+		
+		patronym_prefix_male = "dynnpat_pre_ibn"
+		patronym_prefix_female = "dynnpat_pre_bint"
+
+		ethnicities = {
+			10 = arab
+			6 = east_african
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_the_wanderers" }
+			{ name = "mercenary_company_bedouin_company_of_place" }
+		}
+	}
+}

@@ -1,0 +1,77 @@
+﻿object={
+	name="cliff big 01"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_big_01_mesh"
+	count=0
+}
+object={
+	name="cliff big 02"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_big_02_mesh"
+	count=0
+}
+object={
+	name="cliff end 01"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_end_01_mesh"
+	count=0
+}
+object={
+	name="cliff end 02"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_end_02_mesh"
+	count=0
+}
+object={
+	name="cliff rock 01"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_rock_01_mesh"
+	count=2
+	transform="143.641953 -0.462059 53.825504 0.000000 0.000000 0.000000 1.000000 1.428657 1.428657 1.428657
+187.190292 0.572395 56.923798 0.000000 -0.492121 0.000000 0.870527 1.000000 1.000000 1.000000
+"}
+object={
+	name="cliff rock 02"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_rock_02_mesh"
+	count=1
+	transform="193.407486 0.752632 55.445034 0.000000 0.355259 0.000000 0.934768 1.000000 1.000000 1.000000
+"}
+object={
+	name="cliff rock 03"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_rock_03_mesh"
+	count=2
+	transform="148.986633 0.000000 56.578377 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+186.176132 0.000000 55.806950 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="cliff small 01"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="cliff_small_01_mesh"
+	count=0
+}

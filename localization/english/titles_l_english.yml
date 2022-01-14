@@ -1,0 +1,219 @@
+﻿l_english:
+ TITLE_NAME:0 "$NAME$"
+ TITLE_TIERED_NAME:0 "$TIER|U$ of $NAME$"
+ TITLE_CLAN_TIERED_NAME:0 "the $NAME$ $TIER|U$"
+ TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "the $NAME$ $TIER|U$ #F ($TIER|U$ of $BASE_NAME$) #!"
+ TITLE_TIER_AS_NAME:0 "$TIER|U$"
+
+ e_ar_yafaj:0 "Ar-Yafaj"
+
+ k_jrit_hajar:0 "Jrit-Hajar"
+
+ d_samrana:0 "Samrana"
+
+ c_sizar:0 "Sizar"
+ b_akcasah:0 "Akcasah"
+ b_pinacal:0 "Pinacal"
+ b_al_iskalujah:0 "Al-Iskalujah"
+ b_qanura:0 "Qanura"
+ b_dubaha:0 "Dubaha"
+
+ c_ziran:0 "Ziran"
+ b_azzazi:0 "Azzazi"
+ b_curuk:0 "Curuk"
+ b_kashaft:0 "Kashaft"
+ b_selime:0 "Selime"
+ b_aath:0 "Aath"
+
+ c_farallah:0 "Farallah"
+ b_mharaouz:0 "Mharaouz"
+ b_khorrar:0 "Khorrar"
+ b_kangazd:0 "Kangazd"
+ b_dhumran:0 "Dhumran"
+
+ c_gharel:0 "Gharel"
+ b_el_ghasna:0 "El-Ghasna"
+ b_thila:0 "Thila"
+ b_al_suqamal:0 "Al-Suqamal"
+ b_oladal:0 "Oladal"
+ b_sibbaqib:0 "Sibbaqib"
+
+ d_alti_hajari:0 "Alti-Hajari"
+
+ c_diram:0 "Diram"
+ b_akpankaya:0 "Akpankaya"
+ b_gonask:0 "Gonask"
+ b_arazima:0 "Arazima"
+ b_gonaska:0 "Gonaska"
+
+ c_saran:0 "Saran"
+ b_umm_qabair:0 "Umm-Qabair"
+ b_siwamein:0 "Siwamein"
+ b_ash_shayoum:0 "Ash-Shayoum"
+ b_qayla:0 "Qayla"
+
+ c_ahviz:0 "Ahviz"
+ b_hurawei:0 "Hurawei"
+ b_ghadah:0 "Ghadah"
+ b_as_saidiyya:0 "As-Saidiyaa"
+ b_hammannish:0 "Hammannish"
+
+ c_hafkal:0 "Hafkal"
+ b_mehmeslu:0 "Mehmeslu"
+ b_pinarhisa:0 "Pinarhisa"
+ b_genabod:0 "Genabod"
+ b_zarririn:0 "Zarririn"
+
+ d_khas:0 "Khas"
+
+ c_bosteyezh:0 "Bosteyezh"
+ b_sirigz:0 "Sirigz"
+ b_malkassa:0 "Malkassa"
+ b_khorasar:0 "Khorasar"
+ b_erbidin:0 "Erbidin"
+
+ c_izeh:0 "Izeh"
+ b_al_falluriyah:0 "Al-Falluriyah"
+ b_el_mamalut:0 "El-Mamalut"
+ b_as_sasae:0 "As-Sasae"
+ b_uqanbu:0 "Uqanbu"
+
+ c_omideyh:0 "Omideyh"
+ b_hofusha:0 "Hofusha"
+ b_socowkha:0 "Socowkha"
+ b_doubk:0 "Doubk"
+ b_al_hudajjah:0 "Al-Hudajjah"
+
+ c_dehsadh:0 "Dehsadh"
+ b_felayuvva:0 "Felayuvva"
+ b_najandaj:0 "Najandaj"
+ b_khohat:0 "Khohat"
+ b_haisa:0 "Haisa"
+
+ k_man_jaf:0 "ManJ af"
+
+ d_al_tamad:0 "Al-Tamad"
+
+ c_bandae:0 "Bandae"
+ b_al_jarradir:0 "Al-Jarradir"
+ b_az_zaydidshi:0 "Az-Zaydidshi"
+ b_mhasra:0 "Mhasra"
+ b_azhura:0 "Azhura"
+ b_arimiyah:0 "Arimiyah"
+
+ c_leond:0 "Leond"
+ b_kararly:0 "Kararly"
+ b_badengazi:0 "Badengazi"
+ b_firoujan:0 "Firoujan"
+ b_araman:0 "Araman"
+
+ c_al_bussan:0 "Al-Bussan"
+ b_el_arihel:0 "El-Arihel"
+ b_halamman:0 "Halamman"
+ b_uqaiweeiyah:0 "Uqaiweeiyah"
+
+ d_sukuna:0 "Sukuna"
+ 
+ c_rumayth:0 "Rumayth"
+ b_agakisla:0 "Agakisla"
+ b_zahesta:0 "Zahesta"
+ b_qahuk:0 "Qahuk"
+ b_tell_radin:0 "Tell-Radin"
+ b_khashawai:0 "Khashawai"
+
+ c_ihahdi:0 "Ihahdi"
+ b_medidayea:0 "Medidayea"
+ b_sahat:0 "Sahat"
+ b_banah:0 "Banah"
+ b_farra:0 "Farra"
+
+ d_yasal:0 "Yasal"
+ 
+ c_musay_al_aziz:0 "Musay Al-Aziz"
+ b_lihyaq:0 "Lihyaq"
+ b_haumailah:0 "Haumailah"
+ b_kilash:0 "Kilash"
+ b_el_qaseir:0 "El-Qaseir"
+
+ c_salman:0 "Salman"
+ b_bairabah:0 "Bairabah"
+ b_khabashniyah:0 "Khabashniyah"
+ b_jasseran:0 "Jasseran"
+ b_dikitalan:0 "Dikitalan"
+
+ c_sulldan:0 "Sulldan"
+ b_eritha:0 "Eritha"
+ b_tall_diwabil:0 "Tall-Diwabil"
+ b_al_fayana:0 "Al-Fayana"
+ b_al_artamah:0 "Al-Artamah"
+
+ d_al_asa:0 "Al-Asa"
+
+ c_rahbah_al_khan:0 "Rahbah Al-Khan"
+ b_sufayyan:0 "Sufayyan"
+ b_misraydah:0 "Misraydah"
+ b_dousiyah:0 "Dousiyah"
+ b_al_qusaq:0 "Al-Qusaq"
+
+ c_dasim:0 "Dasim"
+ b_hereyuva:0 "Hereyuva"
+ b_espisalih:0 "Espisalih"
+ b_varachan:0 "Varachan"
+ b_khanaditha:0 "Khanaditha"
+
+ c_gammas:0 "Gammas"
+ b_kholoj:0 "Kholoj"
+ b_dirirraz:0 "Dirirraz"
+ b_qai_icha:0 "Qai-Icha"
+ b_kafatina:0 "Kafatina"
+ b_qamihum:0 "Qamihum"
+
+ e_shamuta_wahis:0 "Shamuta Wahis"
+
+ k_alhi_khasa:0 "Alhi-Khasa"
+
+ d_adan:0 "Adan"
+ c_arsa:0 "Arsa"
+ c_eyhan:0 "Eyhan"
+ c_adira:0 "Adira"
+
+ d_bukan:0 "Bukan"
+ c_najran:0 "Najran"
+ c_ahran:0 "Ahran"
+ c_baish:0 "Baish"
+
+ d_mazahar:0 "Mazahar"
+ c_bayt_al_aqih:0 "Bayt Al-Aqih"
+ c_udayah:0 "Udayah"
+ c_tuhayth:0 "Tuhayth"
+ c_fazah:0 "Fazah"
+ c_sullam:0 "Sullam"
+
+ d_fayyal:0 "Fayyal"
+ c_madgou:0 "Madgou"
+ c_mandoba:0 "Mandoba"
+
+ k_tamtadu:0 "Tamtadu-Khasa"
+
+ d_hul:0 "Hul"
+ c_keamri:0 "Keamri"
+ c_mouzund:0 "Mouzund"
+ c_abarak:0 "Abarak"
+ c_karachi:0 "Karachi"
+
+ d_shamei:0 "Shamei"
+ c_buhara:0 "Buhara"
+ c_uma_kalmat:0 "Uma-Kalmat"
+ c_guijo:0 "Guijo"
+
+ d_awaran:0 "Awaran"
+ c_panur:0 "Panur"
+ c_dostinia:0 "Dostinia"
+ c_ahrak:0 "Ahrak"
+ c_saravan:0 "Saravan"
+ c_bidahg:0 "Bidahg"
+
+ d_baftan:0 "Baftan"
+ c_kurumb:0 "Kurumb"
+ c_pipal:0 "Pipal"
+ c_kafar:0 "Kafar"

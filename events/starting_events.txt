@@ -1,0 +1,21 @@
+﻿namespace = starting_story_event
+
+starting_story_event.1 = { ## Opener for Sadia
+	title = starting_story_event.1.t
+	desc = starting_story_event.1.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = {
+		is_ai = no
+		has_title = title:d_samrana
+	}
+
+	option = {
+		name = starting_story_event.1.a
+	}
+}

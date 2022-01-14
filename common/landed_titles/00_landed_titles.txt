@@ -1,0 +1,1970 @@
+﻿e_ar_yafaj = {
+	color = { 33 143 18 }
+	color2 = { 33 143 18 }
+	
+	capital = c_sizar
+	
+	k_jrit_hajar = {
+		color = { 105 171 1 }
+		color2 = { 255 255 23 }
+		
+		capital = c_sizar
+		
+		d_samrana = {
+			color = { 151 158 38 }
+			color2 = { 255 255 255 }
+			
+			capital = c_sizar
+
+			c_sizar = {
+				color = { 150 139 57 }
+				color2 = { 255 255 255 }
+				
+				b_akcasah = {
+					province = 17
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_pinacal = {
+					province = 9
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_al_iskalujah = {
+					province = 18
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_qanura = {
+					province = 8
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_dubaha = {
+					province = 16
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_ziran = {
+				color = { 127 161 41 }
+				color2 = { 255 255 255 }
+				
+				b_azzazi = {
+					province = 11
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_curuk = {
+					province = 10
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_kashaft = {
+					province = 12
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_selime = {
+					province = 14
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_aath = {
+					province = 15
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_farallah = {
+				color = { 124 156 1 }
+				color2 = { 255 255 255 }
+				
+				b_mharaouz = {
+					province = 13
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_khorrar = {
+					province = 23
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_kangazd = {
+					province = 24
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_dhumran = {
+					province = 25
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_gharel = {
+				color = { 151 149 1 }
+				color2 = { 255 255 255 }
+				
+				b_el_ghasna = {
+					province = 22
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_thila = {
+					province = 21
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_al_suqamal = {
+					province = 27
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_oladal = {
+					province = 20
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_sibbaqib = {
+					province = 19
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_alti_hajari = {
+			color = { 112 145 16 }
+			color2 = { 255 255 255 }
+			
+			capital = c_diram
+
+			c_diram = {
+				color = { 76 158 1 }
+				color2 = { 255 255 255 }
+				
+				b_akpankaya = {
+					province = 33
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_gonask = {
+					province = 31
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_arazima = {
+					province = 32 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_gonaska = {
+					province = 34
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_saran = {
+				color = { 61 144 1 }
+				color2 = { 255 255 255 }
+				
+				b_umm_qabair = {
+					province = 26
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_siwamein = {
+					province = 28 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_ash_shayoum = {
+					province = 29
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_qayla = {
+					province = 30
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_ahviz = {
+				color = { 123 142 11 }
+				color2 = { 255 255 255 }
+				
+				b_hurawei = {
+					province = 36
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_ghadah = {
+					province = 35 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_as_saidiyya = {
+					province = 40
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_hammannish = {
+					province = 42
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_hafkal = {
+				color = { 112 156 1 }
+				color2 = { 255 255 255 }
+				
+				b_mehmeslu = {
+					province = 39
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_pinarhisa = {
+					province = 37 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_genabod = {
+					province = 38
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_zarririn = {
+					province = 55
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_khas = {
+			color = { 130 195 1 }
+			color2 = { 255 255 255 }
+			
+			capital = c_bosteyezh
+
+			c_bosteyezh = {
+				color = { 167 211 74 }
+				color2 = { 255 255 255 }
+				
+				b_sirigz = {
+					province = 44
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_malkassa = {
+					province = 43 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_khorasar = {
+					province = 46
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_erbidin = {
+					province = 45
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_izeh = {
+				color = { 154 193 1 }
+				color2 = { 255 255 255 }
+				
+				b_al_falluriyah = {
+					province = 49
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_el_mamalut = {
+					province = 48 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_as_sasae = {
+					province = 52
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_uqanbu = {
+					province = 47
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_omideyh = {
+				color = { 94 190 1 }
+				color2 = { 255 255 255 }
+				
+				b_hofusha = {
+					province = 50
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_socowkha = {
+					province = 51 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_doubk = {
+					province = 59
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_al_hudajjah = {
+					province = 60
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_dehsadh = {
+				color = { 94 182 1 }
+				color2 = { 255 255 255 }
+				
+				b_felayuvva = {
+					province = 57
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_najandaj = {
+					province = 58 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_khohat = {
+					province = 56
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_haisa = {
+					province = 66
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+
+	k_man_jaf = {
+		color = { 1 124 1 }
+		color2 = { 255 255 23 }
+		
+		capital = c_bandae
+
+		d_al_tamad = {
+			color = { 1 110 1 }
+			color2 = { 255 255 255 }
+			
+			capital = c_bandae
+
+			c_bandae = {
+				color = { 56 97 1 }
+				color2 = { 255 255 255 }
+				
+				b_al_jarradir = {
+					province = 64
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_az_zaydidshi = {
+					province = 65 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_mhasra = {
+					province = 63
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_azhura = {
+					province = 62
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_arimiyah = {
+					province = 61
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_leond = {
+				color = { 1 95 1 }
+				color2 = { 255 255 255 }
+				
+				b_kararly = {
+					province = 68
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_badengazi = {
+					province = 70 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_firoujan = {
+					province = 73
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_araman = {
+					province = 72
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_al_bussan = {
+				color = { 11 120 36 }
+				color2 = { 255 255 255 }
+				
+				b_el_arihel = {
+					province = 74
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_halamman = {
+					province = 75 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_uqaiweeiyah = {
+					province = 76
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_sukuna = {
+			color = { 31 133 1 }
+			color2 = { 255 255 255 }
+			
+			capital = c_rumayth
+
+			c_rumayth = {
+				color = { 1 130 25 }
+				color2 = { 255 255 255 }
+				
+				b_agakisla = {
+					province = 54
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_zahesta = {
+					province = 67 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_qahuk = {
+					province = 69
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_tell_radin = {
+					province = 71
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_khashawai = {
+					province = 77
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_ihahdi = {
+				color = { 1 147 1 }
+				color2 = { 255 255 255 }
+				
+				b_medidayea = {
+					province = 78
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_sahat = {
+					province = 79 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_banah = {
+					province = 80
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_farra = {
+					province = 81
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_yasal = {
+			color = { 1 103 1 }
+			color2 = { 255 255 255 }
+			
+			capital = c_musay_al_aziz
+
+			c_musay_al_aziz = {
+				color = { 17 117 1 }
+				color2 = { 255 255 255 }
+				
+				b_lihyaq = {
+					province = 84
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_haumailah = {
+					province = 83 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_kilash = {
+					province = 85
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_el_qaseir = {
+					province = 89
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_salman = {
+				color = { 1 86 1 }
+				color2 = { 255 255 255 }
+				
+				b_bairabah = {
+					province = 88
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_khabashniyah = {
+					province = 86 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_jasseran = {
+					province = 87
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_dikitalan = {
+					province = 92
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_sulldan = {
+				color = { 29 102 1 }
+				color2 = { 255 255 255 }
+				
+				b_eritha = {
+					province = 91
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_tall_diwabil = {
+					province = 90 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_al_fayana = {
+					province = 82
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_al_artamah = {
+					province = 104
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_al_asa = {
+			color = { 1 133 1 }
+			color2 = { 255 255 255 }
+			
+			capital = c_rahbah_al_khan
+
+			c_rahbah_al_khan = {
+				color = { 1 115 1 }
+				color2 = { 255 255 255 }
+				
+				b_sufayyan = {
+					province = 105
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_misraydah = {
+					province = 106 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_dousiyah = {
+					province = 102
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_al_qusaq = {
+					province = 103
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_dasim = {
+				color = { 1 129 13 }
+				color2 = { 255 255 255 }
+				
+				b_hereyuva = {
+					province = 101
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_espisalih = {
+					province = 100 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_varachan = {
+					province = 97
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_khanaditha = {
+					province = 98
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_gammas = {
+				color = { 1 136 1 }
+				color2 = { 255 255 255 }
+				
+				b_kholoj = {
+					province = 99
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_dirirraz = {
+					province = 93 
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_qai_icha = {
+					province = 94
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_kafatina = {
+					province = 95
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_qamihum = {
+					province = 96
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+}
+
+
+e_shamuta_wahis = {
+	color = { 233 74 74 }
+	color2 = { 233 74 74 }
+	
+	capital = c_arsa
+	
+	k_alhi_khasa = {
+		color = { 186 60 107 }
+		color2 = { 68 68 233 }
+		
+		capital = c_arsa
+		
+		d_adan = {
+			color = { 180 108 127 }
+			color2 = { 255 255 255 }
+			
+			capital = c_arsa
+
+			c_arsa = {
+				color = { 175 87 114 }
+				color2 = { 255 255 255 }
+				
+				b_temp_109 = {
+					province = 109
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_107 = {
+					province = 107
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_108 = {
+					province = 108
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_110 = {
+					province = 110
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_112 = {
+					province = 112
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_eyhan = {
+				color = { 184 114 122 }
+				color2 = { 255 255 255 }
+				
+				b_temp_114 = {
+					province = 114
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_115 = {
+					province = 115
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_116 = {
+					province = 116
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_113 = {
+					province = 113
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_111 = {
+					province = 111
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_adira = {
+				color = { 193 87 105 }
+				color2 = { 255 255 255 }
+				
+				b_temp_169 = {
+					province = 169
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_temp_170 = {
+					province = 170
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_168 = {
+					province = 168
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_172 = {
+					province = 172
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_173 = {
+					province = 173
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_bukan = {
+			color = { 206 99 142 }
+			color2 = { 255 255 255 }
+			
+			capital = c_najran
+
+			c_najran = {
+				color = { 203 104 127 }
+				color2 = { 255 255 255 }
+				
+				b_temp_178 = {
+					province = 178
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_temp_175 = {
+					province = 175
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_179 = {
+					province = 179
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_180 = {
+					province = 180
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_ahran = {
+				color = { 209 113 146 }
+				color2 = { 255 255 255 }
+				
+				b_temp_183 = {
+					province = 183
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_181 = {
+					province = 181
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_176 = {
+					province = 176
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_177 = {
+					province = 177
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_182 = {
+					province = 182
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_baish = {
+				color = { 187 90 116 }
+				color2 = { 255 255 255 }
+				
+				b_temp_185 = {
+					province = 185
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_171 = {
+					province = 171
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_187 = {
+					province = 187
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_186 = {
+					province = 186
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_194 = {
+					province = 194
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_mazahar = {
+			color = { 225 1 79 }
+			color2 = { 255 255 255 }
+			
+			capital = c_bayt_al_aqih
+
+			c_bayt_al_aqih = {
+				color = { 214 78 107 }
+				color2 = { 255 255 255 }
+				
+				b_temp_192 = {
+					province = 192
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_184 = {
+					province = 184
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_121 = {
+					province = 121
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_120 = {
+					province = 120
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_udayah = {
+				color = { 222 1 51 }
+				color2 = { 255 255 255 }
+				
+				b_temp_119 = {
+					province = 119
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_118 = {
+					province = 118
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_122 = {
+					province = 122
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_123 = {
+					province = 123
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_132 = {
+					province = 132
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_tuhayth = {
+				color = { 224 46 61 }
+				color2 = { 255 255 255 }
+				
+				b_temp_125 = {
+					province = 125
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_117 = {
+					province = 117
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_124 = {
+					province = 124
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_135 = {
+					province = 135
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_fazah = {
+				color = { 254 1 53 }
+				color2 = { 255 255 255 }
+				
+				b_temp_126 = {
+					province = 126
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_134 = {
+					province = 134
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_127 = {
+					province = 127
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_133 = {
+					province = 133
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_sullam = {
+				color = { 224 1 55 }
+				color2 = { 255 255 255 }
+				
+				b_temp_129 = {
+					province = 129
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_128 = {
+					province = 128
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_131 = {
+					province = 131
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_130 = {
+					province = 130
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_fayyal = {
+			color = { 149 82 93 }
+			color2 = { 255 255 255 }
+			
+			capital = c_madgou
+
+			c_madgou = {
+				color = { 149 96 117 }
+				color2 = { 255 255 255 }
+				
+				b_temp_137 = {
+					province = 137
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_136 = {
+					province = 136
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_138 = {
+					province = 138
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_234 = {
+					province = 234
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_mandoba = {
+				color = { 161 77 100 }
+				color2 = { 255 255 255 }
+				
+				b_temp_140 = {
+					province = 140
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_139 = {
+					province = 139
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_141 = {
+					province = 141
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_145 = {
+					province = 145
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_151 = {
+					province = 151
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+
+	k_tamtadu = {
+		color = { 197 47 113 }
+		color2 = { 223 44 200 }
+		
+		capital = c_keamri
+		
+		d_hul = {
+			color = { 183 4 68 }
+			color2 = { 255 255 255 }
+			
+			capital = c_keamri
+
+			c_keamri = {
+				color = { 182 52 68 }
+				color2 = { 255 255 255 }
+				
+				b_temp_158 = {
+					province = 158
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_236 = {
+					province = 236
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_143 = {
+					province = 143
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_144 = {
+					province = 144
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_159 = {
+					province = 159
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_mouzund = {
+				color = { 217 1 78 }
+				color2 = { 255 255 255 }
+				
+				b_temp_161 = {
+					province = 161
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_157 = {
+					province = 157
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_155 = {
+					province = 155
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_156 = {
+					province = 156
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_abarak = {
+				color = { 227 1 75 }
+				color2 = { 255 255 255 }
+				
+				b_temp_154 = {
+					province = 154
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_152 = {
+					province = 152
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_153 = {
+					province = 153
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_karachi = {
+				color = { 196 1 85 }
+				color2 = { 255 255 255 }
+				
+				b_temp_146 = {
+					province = 146
+
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_147 = {
+					province = 147
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_148 = {
+					province = 148
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_149 = {
+					province = 149
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_150 = {
+					province = 150
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_shamei = {
+			color = { 195 1 66 }
+			color2 = { 255 255 255 }
+			
+			capital = c_buhara
+
+			c_buhara = {
+				color = { 195 60 87 }
+				color2 = { 255 255 255 }
+				
+				b_temp_162 = {
+					province = 162
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_163 = {
+					province = 163
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_164 = {
+					province = 164
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_165 = {
+					province = 165
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_166 = {
+					province = 166
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_uma_kalmat = {
+				color = { 197 7 84 }
+				color2 = { 255 255 255 }
+				
+				b_temp_167 = {
+					province = 167
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_160 = {
+					province = 160
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_214 = {
+					province = 214
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_guijo = {
+				color = { 182 10 41 }
+				color2 = { 255 255 255 }
+				
+				b_temp_213 = {
+					province = 213
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_215 = {
+					province = 215
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_223 = {
+					province = 223
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_222 = {
+					province = 222
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_216 = {
+					province = 216
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_awaran = {
+			color = { 227 1 72 }
+			color2 = { 255 255 255 }
+			
+			capital = c_panur
+
+			c_panur = {
+				color = { 254 1 41 }
+				color2 = { 255 255 255 }
+				
+				b_temp_191 = {
+					province = 191
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_189 = {
+					province = 189
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_188 = {
+					province = 188
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_193 = {
+					province = 193
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_190 = {
+					province = 190
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_dostinia = {
+				color = { 200 1 43 }
+				color2 = { 255 255 255 }
+				
+				b_temp_208 = {
+					province = 208
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_207 = {
+					province = 207
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_206 = {
+					province = 206
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_205 = {
+					province = 205
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_ahrak = {
+				color = { 254 1 57 }
+				color2 = { 255 255 255 }
+				
+				b_temp_195 = {
+					province = 195
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_196 = {
+					province = 196
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_202 = {
+					province = 202
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_197 = {
+					province = 197
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_saravan = {
+				color = { 254 1 91 }
+				color2 = { 255 255 255 }
+				
+				b_temp_198 = {
+					province = 198
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_201 = {
+					province = 201
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_199 = {
+					province = 199
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_200 = {
+					province = 200
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_204 = {
+					province = 204
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_203 = {
+					province = 203
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_bidahg = {
+				color = { 193 21 70 }
+				color2 = { 255 255 255 }
+				
+				b_temp_209 = {
+					province = 209
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_210 = {
+					province = 210
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_219 = {
+					province = 219
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_220 = {
+					province = 220
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_218 = {
+					province = 218
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_baftan = {
+			color = { 222 1 170 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kurumb
+
+			c_kurumb = {
+				color = { 197 48 172 }
+				color2 = { 255 255 255 }
+				
+				b_temp_211 = {
+					province = 211
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_212 = {
+					province = 212
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_217 = {
+					province = 217
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_pipal = {
+				color = { 244 1 166 }
+				color2 = { 255 255 255 }
+				
+				b_temp_221 = {
+					province = 221
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_225 = {
+					province = 225
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_224 = {
+					province = 224
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_235 = {
+					province = 235
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_231 = {
+					province = 231
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_232 = {
+					province = 232
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_kafar = {
+				color = { 220 1 164 }
+				color2 = { 255 255 255 }
+				
+				b_temp_227 = {
+					province = 227
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_226 = {
+					province = 226
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_228 = {
+					province = 228
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_229 = {
+					province = 229
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+
+				b_temp_230 = {
+					province = 230
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+}

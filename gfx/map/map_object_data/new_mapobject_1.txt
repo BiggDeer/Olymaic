@@ -1,0 +1,11 @@
+﻿object={
+	name="tower_of_the_watcher"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_mena_castle_01_mesh"
+	count=2
+	transform="218.976349 0.000000 61.578236 0.000000 -0.159749 0.000000 -0.987158 2.615738 2.615738 2.615738
+147.893417 0.000000 53.163044 0.000000 0.222192 0.000000 -0.975003 2.615738 2.615738 2.615738
+"}

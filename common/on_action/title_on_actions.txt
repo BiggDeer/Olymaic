@@ -1,0 +1,216 @@
+﻿#On actions about titles
+
+# All on-actions in this file provide scope:transfer_type unless otherwise noted
+# scope:transfer_type has the following permutations:
+# flag:conquest
+# flag:conquest_holy_war
+# flag:conquest_claim
+# flag:conquest_populist
+# flag:inheritance
+# flag:abdication
+# flag:destroyed
+# flag:created
+# flag:usurped
+# flag:granted
+# flag:revoked
+# flag:election
+# flag:independency
+# flag:returned
+# flag:leased_out
+# flag:lease_revoked
+# flag:faction_demand
+# flag:swear_fealty
+
+# A title is destroyed
+# root = the holder before destruction
+# scope:landed_title = the title that is being destroyed
+# Does *not* provide scope:transfer_type
+on_title_destroyed = {
+}
+
+# A title is transferred to a new character
+# root = the new holder
+# scope:title = the title that changes hands
+# scope:previous_holder = previous holder. Might be dead
+on_title_gain = {
+	effect = {
+		if = {
+			limit = {
+				scope:title = { is_holy_order = yes }
+				NOT = { has_trait = order_member }
+				has_government = holy_order_government
+			}
+			add_trait = order_member
+		}
+
+		#Did I receive a title from my sibling?
+		if = {
+			limit = {
+				exists = scope:previous_holder
+				scope:previous_holder = {
+					is_alive = yes
+					exists = var:sibling_waiting_for_land
+					any_sibling = {
+						this = root
+						this = scope:previous_holder.var:sibling_waiting_for_land
+					}
+				}
+			}
+			add_character_flag = {
+				flag = got_title_from_sibling
+				years = 4
+			}
+		}
+	}
+	events = {
+		coa.1						# check if title Coat of Arms should change.
+		delay = { days = 1 }
+		realm_maintenance.2001		#Big notification about inheriting emperor tier title
+	}
+}
+
+# A title is inherited by a character
+# root = the new holder
+# scope:title = the title that changes hands
+# scope:previous_holder = previous holder. Should be dead
+on_title_gain_inheritance = {
+	events = {
+
+	}
+	effect = {
+	}
+}
+
+# A title is usurped by a character
+# root = the new holder
+# scope:title = the title that changes hands
+# scope:previous_holder = previous holder. Shouldn't be dead
+on_title_gain_usurpation = {
+	events = {
+	}
+}
+
+# A title is lost by a character
+# root = the old holder
+# scope:title = the title that changes hands
+# scope:new_holder = new holder.
+on_title_lost = {
+	events = {
+
+	}
+
+	effect = {
+
+		#Apply loss of stress to the Rivals
+		if = {
+			limit = {
+				scope:title.tier >= tier_county
+				OR = {
+					scope:transfer_type = flag:conquest
+					scope:transfer_type = flag:conquest_holy_war
+					scope:transfer_type = flag:conquest_claim
+					scope:transfer_type = flag:conquest_populist
+					scope:transfer_type = flag:abdication
+					scope:transfer_type = flag:usurped
+					scope:transfer_type = flag:revoked
+					scope:transfer_type = flag:faction_demand
+				}
+			}
+			root = {
+				save_scope_as = actor
+			}
+			every_relation ={
+				type = rival
+
+				send_interface_message = {
+					type = event_generic_neutral
+					title = msg_rival_dethroned
+					left_icon = scope:actor
+					right_icon = scope:title
+
+					custom_tooltip = msg_rival_dethroned_desc
+
+					stress_impact = { 
+						base = medium_stress_loss
+						vengeful = medium_stress_loss
+					}
+				}
+			}
+		}
+	}
+}
+
+# A claim is gained by a character
+# root = the claimant
+# scope:title = the title that is claimed
+on_explicit_claim_gain = {
+	events = {
+		coa.1 # check if title Coat of Arms should change.
+	}
+}
+
+# A claim is lost by a character
+# root = the claimant
+# scope:title = the title that was claimed
+on_explicit_claim_lost = {
+	events = {
+		coa.1 # check if title Coat of Arms should change.
+	}
+}
+
+# A title change makes the character rank up in the landed tiers (eg Duke -> King)
+# root = character ranking up
+# scope:title = old primary title
+on_rank_up = { # Will not fire during history execution or for dying characters
+	events = {
+	}
+	effect = {
+		add_achievement_flag_effect = { FLAG = achievement_moving_up_in_the_world_flag }
+		update_embassies_effect = yes
+		every_ally = {
+			update_embassies_effect = yes
+		}
+	}
+}
+
+# A title change makes the character rank down in the landed tiers (eg King -> Duke)
+# root = character ranking down
+# scope:title = old primary title
+on_rank_down = { # Will not fire during history execution or for dying characters
+	events = {
+	}
+	effect = {
+		add_character_flag = {
+			flag = make_suicide_available
+			years = 5
+		}
+		update_embassies_effect = yes
+		every_ally = {
+			update_embassies_effect = yes
+		}
+	}
+}
+
+# A character gains a vassal
+# root = character gaining vassal
+# scope:vassal = vassal being gained
+# scope:old_liege = the previous liege of the vassal. Might be the null character (vassal used to be a non-ruler or independent), so make sure to use "exists" checks where relevant
+on_vassal_gained = {
+	events = {
+		realm_maintenance.1000 # Notify vassals of new liege
+	}
+}
+
+# A baron is found or created for a title, E.G., due to the player using the "Give to Low Noble" action
+# No transfer type here; it's always a grant
+# root = the baron
+# scope:liege = the person who wanted them created
+# scope:title = the barony
+on_baron_found_or_created_for_title = {
+	effect = {
+		add_opinion = {
+			target = scope:liege
+			modifier = received_title_barony
+		}
+	}
+}

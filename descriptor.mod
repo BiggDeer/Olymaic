@@ -1,0 +1,18 @@
+version="0.0"
+tags={
+	"Total Conversion"
+	"Map"
+}
+name="Olymaic: Death of a Prophet"
+replace_path="common/landed_titles"
+replace_path="common/culture/cultures"
+replace_path="common/culture/innovations"
+replace_path="common/culture/eras"
+replace_path="common/flavorization"
+replace_path="common/religion/religions"
+replace_path="common/religion/game_rules"
+replace_path="history/cultures"
+replace_path="history/characters"
+replace_path="history/provinces"
+replace_path="history/titles"
+supported_version="1.4.4"

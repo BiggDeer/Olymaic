@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "slavic_city_01_b_mesh"
+	file = "slavic_city_01_b.mesh"
+
+	meshsettings = {
+		name = "slavic_city_01_bShape"
+		index = 0
+		texture_diffuse = "slavic_buildings_diffuse.dds"
+		texture_normal = "slavic_buildings_normal.dds"
+		texture_specular = "slavic_buildings_properties.dds"
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "slavic_city_01_b_treeShape"
+		index = 0
+		texture_diffuse = "tree_birch_diffuse.dds"
+		texture_normal = "tree_birch_normal.dds"
+		texture_specular = "tree_birch_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "slavic_city_01_b_entity"
+	pdxmesh = "slavic_city_01_b_mesh"
+}

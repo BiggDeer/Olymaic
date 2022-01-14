@@ -1,0 +1,266 @@
+107 = { holding = none }
+108 = { holding = none }
+109 = {
+	culture = mattaian
+	religion = qital
+	holding = castle_holding	
+}
+110 = { holding = none }
+112 = { holding = none }
+
+114 = {
+	culture = mattaian
+	religion = qital
+	holding = castle_holding
+}
+115 = { holding = none }
+116 = { holding = none }
+113 = { holding = none }
+111 = { holding = none }
+
+170 = { holding = none }
+169 = {
+	culture = mattaian
+	religion = qital
+	holding = castle_holding
+}
+168 = { holding = none }
+172 = { holding = none }
+173 = { holding = none }
+
+175 = { holding = none }
+179 = { holding = none }
+178 = {
+	culture = mattaian
+	religion = aljisa
+	holding = castle_holding
+}
+180 = { holding = none }
+
+183 = {
+	culture = mattaian
+	religion = aljisa
+	holding = castle_holding
+}
+181 = { holding = none }
+176 = { holding = none }
+177 = { holding = none }
+182 = { holding = none }
+
+171 = { holding = none }
+185 = {
+	culture = mattaian
+	religion = steralti
+	holding = tribal_holding
+}
+187 = { holding = none }
+186 = { holding = none }
+194 = { holding = none }
+
+192 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+184 = { holding = none }
+121 = { holding = none }
+120 = { holding = none }
+
+119 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+118 = { holding = none }
+122 = { holding = none }
+123 = { holding = none }
+132 = { holding = none }
+
+117 = { holding = none }
+125 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+124 = { holding = none }
+135 = { holding = none }
+
+126 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+134 = { holding = none }
+127 = { holding = none }
+133 = { holding = none }
+
+128 = { holding = none }
+129 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+131 = { holding = none }
+130 = { holding = none }
+
+137 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+136 = { holding = none }
+138 = { holding = none }
+234 = { holding = none }
+
+139 = { holding = none }
+141 = { holding = none }
+140 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+145 = { holding = none }
+151 = { holding = none }
+
+158 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+236 = { holding = none }
+143 = { holding = none }
+144 = { holding = none }
+159 = { holding = none }
+
+161 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+157 = { holding = none }
+155 = { holding = none }
+156 = { holding = none }
+
+154 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+152 = { holding = none }
+153 = { holding = none }
+
+146 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+147 = { holding = none }
+148 = { holding = none }
+149 = { holding = none }
+150 = { holding = none }
+
+162 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+163 = { holding = none }
+164 = { holding = none }
+165 = { holding = none }
+166 = { holding = none }
+
+167 = {
+	culture = cherushai
+	religion = steralti
+	holding = tribal_holding
+}
+160 = { holding = none }
+214 = { holding = none }
+
+213 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+215 = { holding = none }
+223 = { holding = none }
+222 = { holding = none }
+216 = { holding = none }
+
+189 = { holding = none }
+188 = { holding = none }
+191 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+193 = { holding = none }
+190 = { holding = none }
+
+208 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+207 = { holding = none }
+206 = { holding = none }
+205 = { holding = none }
+
+195 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+196 = { holding = none }
+202 = { holding = none }
+197 = { holding = none }
+
+198 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+201 = { holding = none }
+199 = { holding = none }
+200 = { holding = none }
+204 = { holding = none }
+203 = { holding = none }
+
+209 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+210 = { holding = none }
+219 = { holding = none }
+220 = { holding = none }
+218 = { holding = none }
+
+211 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+212 = { holding = none }
+217 = { holding = none }
+
+221 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+225 = { holding = none }
+224 = { holding = none }
+235 = { holding = none }
+231 = { holding = none }
+232 = { holding = none }
+
+227 = {
+	culture = cherushai
+	religion = caeyelt
+	holding = tribal_holding
+}
+226 = { holding = none }
+228 = { holding = none }
+229 = { holding = none }
+230 = { holding = none } 

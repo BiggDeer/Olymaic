@@ -1,0 +1,75 @@
+﻿
+
+############
+# Al Haqia #
+############
+
+green_kahlaston = {
+	county = c_ziran
+	barony = b_curuk
+	
+	character_modifier = {
+		name = holy_site_green_kahlaston_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+yellow_kahlaston = {
+	county = c_hafkal
+	barony = b_mehmeslu
+	
+	character_modifier = {
+		name = holy_site_yellow_kahlaston_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+red_kahlaston = {
+	county = c_ihahdi
+	barony = b_medidayea
+	
+	character_modifier = {
+		name = holy_site_red_kahlaston_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+pink_kahlaston = {
+	county = c_omideyh
+	barony = b_doubk
+	
+	character_modifier = {
+		name = holy_site_green_kahlaston_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+grey_one_kahlaston = {
+	county = c_salman
+	barony = b_bairabah
+	
+	character_modifier = {
+		name = holy_site_grey_one_kahlaston_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+dostinia = {
+	county = c_dostinia
+	barony = b_temp_208
+	
+	character_modifier = {
+		name = dostinia_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+buhara = {
+	county = c_buhara
+	barony = b_temp_164
+	
+	character_modifier = {
+		name = dostinia_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}

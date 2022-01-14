@@ -1,0 +1,98 @@
+﻿300 = {
+	name = "Zofia"
+	female = yes
+	dynasty_house = house_azziza
+	religion = "aljisa"
+	culture = "watteri"
+	mother = 5
+	sexuality = bisexual
+	## Stats 
+
+	## Personality Traits
+	trait = lustful 
+	trait = ambitious
+	trait = patient
+
+	## Education Traits 
+	trait = education_diplomacy_2
+
+	## Genetic Traits
+	trait = blood_of_prophet
+
+	disallow_random_traits = yes 
+
+	101.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+301 = {
+	name = "Bakka"
+	female = yes
+	dynasty = 301
+	religion = "al_haqia"
+	culture = "watteri"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+302 = {
+	name = "Tayri"
+	female = yes
+	dynasty = 302
+	religion = "al_haqia"
+	culture = "watteri"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+303 = {
+	name = "Zwira"
+	female = yes
+	dynasty = 303
+	religion = "al_haqia"
+	culture = "watteri"
+
+	## Personality Traits
+
+	## Education Traits 
+
+	## Genetic Traits
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+

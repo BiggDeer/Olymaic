@@ -1,0 +1,14 @@
+﻿kahla_lead_found = {
+	random_events = {
+        50 = kahla_verses_event ## Verse 1 lead found
+        50 = kahla_verses_event ## Verse 2 lead found
+        50 = kahla_verses_event ## Verse 3 lead found
+        50 = kahla_verses_event ## Verse 4 lead found
+        50 = kahla_verses_event ## Verse 5 lead found
+        50 = kahla_verses_event ## Verse 6 lead found
+        50 = kahla_verses_event ## Verse 7 lead found
+        50 = kahla_verses_event ## Verse 8 lead found
+        50 = kahla_verses_event ## Verse 9 lead found
+        50 = kahla_verses_event ## Verse 10 lead found 
+	}
+}

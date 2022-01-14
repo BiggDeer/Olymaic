@@ -1,0 +1,242 @@
+8 = { holding = none }
+9 = { holding = none}
+17 = { 
+	religion = al_haqia
+	culture = hizani
+	holding = castle_holding
+	duchy_capital_building = leisure_palace_01
+
+	110.1.1 = {
+		buildings = {
+			farm_estates_01
+		}
+	}
+}
+16 = { 
+	holding = church_holding
+}
+18 = { holding = none}
+
+11 = {
+	religion = al_haqia
+	culture = hizani
+	holding = castle_holding
+}
+10 = { 
+	holding = church_holding 
+
+	110.1.1 = {
+		special_building = green_kahlaston_01
+	}
+}
+12 = { holding = none}
+14 = { holding = none}
+15 = { holding = city_holding }
+
+13 = {
+	religion = qital
+	culture = hizani
+	holding = castle_holding
+}
+23 = { holding = none}
+24 = { holding = city_holding }
+25 = { holding = none}
+
+22 = {
+	religion = al_haqia
+	culture = hizani
+	holding = castle_holding
+}
+21 = { holding = none}
+27 = { holding = none}
+20 = { holding = city_holding}
+19 = { holding = none}
+
+31 = { holding = city_holding}
+32 = { holding = church_holding}
+33 = {
+	religion = al_haqia
+	culture = hizani
+	holding = castle_holding
+}
+34 = { holding = none}
+
+26 = {
+	religion = al_haqia
+	culture = hizani
+	holding = castle_holding
+}
+28 = { holding = none}
+29 = { holding = none}
+30 = { holding = none}
+
+35 = { holding = city_holding}
+36 = {
+	religion = al_haqia
+	culture = hizani
+	holding = castle_holding
+}
+40 = { holding = none}
+42 = { holding = none}
+
+39 = {
+	religion = al_haqia
+	culture = hizani
+	holding = castle_holding
+
+	110.1.1 = {
+		special_building = yellow_kahlaston_01
+	}
+}
+37 = { holding = none}
+38 = { holding = none}
+55 = { holding = none}
+
+44 = {
+	religion = qital
+	culture = hizani
+	holding = castle_holding
+}
+43 = { holding = none}
+46 = { holding = none}
+45 = { holding = city_holding}
+
+49 = {
+	religion = al_haqia
+	culture = hizani
+	holding = castle_holding
+}
+48 = { holding = none}
+52 = { holding = none}
+47 = { holding = none}
+
+50 = {
+	religion = aljisa
+	culture = galmean
+	holding = castle_holding
+}
+51 = { holding = none}
+59 = { 
+	holding = city_holding
+	110.1.1 = {
+		special_building = pink_kahlaston_01
+	}
+}
+60 = { holding = none}
+
+57 = {
+	religion = aljisa
+	culture = galmean
+	holding = castle_holding
+}
+58 = { holding = none}
+56 = { holding = city_holding}
+66 = { holding = none}
+
+64 = {
+	religion = aljisa
+	culture = galmean
+	holding = castle_holding
+}
+65 = { holding = city_holding}
+63 = { holding = none}
+62 = { holding = none}
+61 = { holding = none}
+
+68 = {
+	religion = aljisa
+	culture = galmean
+	holding = castle_holding
+}
+70 = { holding = none}
+73 = { holding = none}
+72 = { holding = none}
+
+74 = {
+	religion = al_haqia
+	culture = galmean
+	holding = castle_holding
+}
+75 = { holding = none}
+76 = { holding = none}
+
+54 = {
+	religion = al_haqia
+	culture = watteri
+	holding = castle_holding
+}
+67 = { holding = city_holding}
+69 = { holding = none}
+71 = { holding = none}
+77 = { holding = none}
+
+78 = {
+	religion = qital
+	culture = watteri
+	holding = castle_holding
+	110.1.1 = {
+		special_building = red_kahlaston_01
+	}
+}
+79 = { holding = none}
+80 = { holding = none}
+81 = { holding = none}
+
+84 = {
+	religion = al_haqia
+	culture = watteri
+	holding = castle_holding
+}
+83 = { holding = none}
+85 = { holding = none}
+89 = { holding = none}
+
+88 = {
+	religion = al_haqia
+	culture = watteri
+	holding = castle_holding
+
+	110.1.1 = {
+		special_building = grey_one_kahlaston_01
+	}
+}
+86 = { holding = none}
+87 = { holding = none}
+92 = { holding = none}
+
+91 = {
+	religion = al_haqia
+	culture = watteri
+	holding = castle_holding
+}
+90 = { holding = none}
+82 = { holding = none}
+104 = { holding = none}
+
+105 = {
+	religion = qital
+	culture = galmean
+	holding = castle_holding
+}
+106 = { holding = city_holding}
+102 = { holding = none}
+103 = { holding = none}
+
+101 = {
+	religion = qital
+	culture = watteri
+	holding = castle_holding
+}
+100 = { holding = none}
+97 = { holding = city_holding}
+98 = { holding = none}
+
+99 = {
+	religion = al_haqia
+	culture = watteri
+	holding = castle_holding
+}
+93 = { holding = none}
+94 = { holding = none}
+95 = { holding = none}
+96 = { holding = none}

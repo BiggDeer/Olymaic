@@ -1,0 +1,11 @@
+﻿GetAppropriateGodname = {
+	type = character
+
+	text = {
+		trigger = {
+			always = no
+		}
+		localization_key = motto_custom_loc_god
+		fallback = yes
+	}
+}

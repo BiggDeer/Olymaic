@@ -1,0 +1,165 @@
+﻿100 = {
+	name = "dynn_hakal"
+	culture = "hizani"
+	motto = "dynn_hakal_motto"
+}
+
+101 = {
+	name = "dynn_jabrid"
+	culture = "hizani"
+}
+
+102 = {
+	name = "dynn_mahdiza"
+	culture = "hizani"
+}
+
+103 = {
+	name = "dynn_hafizid"
+	culture = "hizani"
+}
+
+104 = {
+	name = "dynn_nazeerid"
+	culture = "hizani"
+}
+
+105 = {
+	name = "dynn_hatimida"
+	culture = "hizani"
+}
+
+106 = {
+	name = "dynn_qutalmish"
+	culture = "hizani"
+}
+
+200 = {
+	name = "dynn_tanush"
+	culture = "galmean"
+}
+
+201 = {
+	name = "dynn_hamrid"
+	culture = "galmean"
+}
+
+202 = {
+	name = "dynn_halwasi"
+	culture = "galmean"
+}
+
+203 = {
+	name = "dynn_bistallj"
+	culture = "galmean"
+}
+
+204 = {
+	name = "dynn_husayn"
+	culture = "galmean"
+}
+
+300 = {
+	name = "dynn_nazos"
+	culture = "watteri"
+}
+
+301 = {
+	name = "dynn_hakami"
+	culture = "watteri"
+}
+
+302 = {
+	name = "dynn_zafa"
+	culture = "watteri"
+}
+
+303 = {
+	name = "dynn_tanakh"
+	culture = "watteri"
+}
+
+400 = {
+	name = "dynn_KrA_ka"
+	culture = "cherushai"
+}
+
+401 = {
+	name = "dynn_HvI_ti"
+	culture = "cherushai"
+}
+
+402 = {
+	name = "dynn_AuD_gi"
+	culture = "cherushai"
+}
+
+403 = {
+	name = "dynn_SA_lingr"
+	culture = "cherushai"
+}
+
+404 = {
+	name = "dynn_HA_vi"
+	culture = "cherushai"
+}
+
+405 = {
+	name = "dynn_GA_rdske2"
+	culture = "cherushai"
+}
+
+406 = {
+	name = "dynn_Trolli"
+	culture = "cherushai"
+}
+
+407 = {
+	name = "dynn_Lambi"
+	culture = "cherushai"
+}
+
+408 = {
+	name = "dynn_Spaki"
+	culture = "cherushai"
+}
+
+409 = {
+	name = "dynn_SkA_l"
+	culture = "cherushai"
+}
+
+410 = {
+	name = "dynn_SA_lendingr"
+	culture = "cherushai"
+}
+
+411 = {
+	name = "dynn_Bebbanburg"
+	culture = "cherushai"
+}
+
+412 = {
+	name = "dynn_Dovre"
+	culture = "cherushai"
+}
+
+413 = {
+	name = "dynn_Gunarrson"
+	culture = "cherushai"
+}
+
+500 = {
+	name = "dynn_Zurayid"
+	culture = "mattaian"
+}
+
+501 = {
+	name = "dynn_O_rn"
+	culture = "mattaian"
+}
+
+502 = {
+	name = "dynn_Viss"
+	culture = "mattaian"
+}

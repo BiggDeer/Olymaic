@@ -1,0 +1,47 @@
+﻿500 = {
+	name = "Taliba"
+	female = yes
+	dynasty = 500
+	religion = "al_haqia"
+	culture = "mattaian"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+501 = {
+	name = "Dalla"
+	female = yes
+	dynasty = 501
+	religion = "al_haqia"
+	culture = "mattaian"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
+
+502 = {
+	name = "Melek"
+	female = yes
+	dynasty = 502
+	religion = "al_haqia"
+	culture = "mattaian"
+
+    100.1.1 = {
+		birth = yes
+	}
+
+	160.1.1 = {
+		death = yes
+	}
+}
