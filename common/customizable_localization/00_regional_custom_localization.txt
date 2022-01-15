@@ -32,30 +32,7 @@ MountedWarriorAdjective = {
 
 MartialTournamentAdjective = {
 	type = character
-
-	text = {
-		trigger = {
-			has_government = feudal_government
-			capital_province = {
-				geographical_region = world_europe_west
-			}
-		}
-		localization_key = tournament_jousting
-	}
-	text = {
-		trigger = {
-			OR = {		
-				has_government = tribal_government
-				faith = {
-					has_doctrine = pagan_hostility_doctrine
-				}
-				capital_province = {
-					geographical_region = world_europe_north
-				}
-			}
-		}
-		localization_key = tournament_wrestling
-	}
+	
 	text = {
 		trigger = {
 			always = no
