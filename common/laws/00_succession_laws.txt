@@ -359,7 +359,7 @@
 }
 
 succession_gender_laws = {
-	default = male_preference_law
+	default = female_only_law
 	flag = succession_gender_laws
 	
 	male_only_law = {

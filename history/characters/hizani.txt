@@ -36,9 +36,10 @@
 	
 	120.1.1 = {
 		effect = {
+			set_relation_rival = character:104
+			set_relation_rival = character:300
+
 			add_pressed_claim = k_jrit_hajar
-			add_martial_lifestyle_perk_points = 3
-			add_perk = faithful_perk
 		}
 	}
 
@@ -134,6 +135,13 @@
 
 	91.1.1 = {
 		birth = yes
+	}
+
+	120.1.1 = {
+		effect = {
+			set_relation_rival = character:100
+			set_relation_rival = character:300
+		}
 	}
 
 	160.1.1 = {

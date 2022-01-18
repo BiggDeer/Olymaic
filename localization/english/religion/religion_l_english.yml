@@ -1,4 +1,13 @@
 ﻿l_english:
+ 
+ ## Synahisan Holy Sites
+ holy_site_green_kahlaston:0 "Moss Kahlaston"
+ holy_site_yellow_kahlaston:0 "Yellow Kahlaston"
+ holy_site_red_kahlaston:0 "Blood Kahlaston"
+ holy_site_pink_kahlaston:0 "Love Kahlaston"
+ holy_site_grey_one_kahlaston:0 "Grey Kahlaston"
+ 
+ 
  RELIGION_LOC_PLACEHOLDER:0 "#D PLACEHOLDER!#!"
 
  FAITH_HOSTILITY_EVIL:1 "[faith_evil|L]"
