@@ -1,0 +1,5 @@
+﻿l_english:
+ visit_brothel_decision:0 "Visit a Brothel"
+ visit_brothel_decision_opening_desc:0 "[ROOT.Char.Custom('AttractionWomanManIndef')|U] on my lap, and everything – and everyone – the brothel has to offer at my beck and call..."
+ visit_brothel_decision_tooltip:0 "A place to clear the mind and body with a good lay."
+ visit_brothel_decision_confirm:0 "Here I come, [ROOT.Char.Custom('AttractionGirlBoyPlural')]!"

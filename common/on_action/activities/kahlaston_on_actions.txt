@@ -1,0 +1,15 @@
+﻿# On actions for the Visit Kahlaston activity
+
+# On-action managing possible destination events
+#pilgrimage_generic_destination_events = {
+#	random_events = {
+#		100 = pilgrimage.4001
+#		100 = pilgrimage.4002
+#	}
+#}
+#
+#pilgrimage_return_events = {
+#	random_events = {
+#		100 = pilgrimage.9001
+#	}
+#}

@@ -5,7 +5,7 @@
  # Synahisan Tenents
  tenet_free_love_name:0 "Free Love"
  tenet_free_love_desc:0 "It was narrated that Galitia, blessed be her name, said '#emp Love your neighbor, your companions, your family, as you love yourself; Love is a thing to be shared with those you know, and to share love is to be faithful.#!'\n- Chapter 3, Verse 91 of the Kahla"
- doctrine_parameter_piety_from_orgies_active:1 "Hosting an Orgy earns [piety|E]"
+ doctrine_parameter_can_build_brothels_active:1 "Adherents can build [brothels|E]"
 
  tenet_hisans_image_name:0 "In Hisan's Image"
  tenet_hisans_image_desc:0 "Women were created in the divine image of Hisan as keepers of the world. Men are corruptions of women, albeit a necessary one, and so are inherently inferior to women."

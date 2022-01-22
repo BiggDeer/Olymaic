@@ -1,0 +1,28 @@
+﻿l_english:
+
+ brothel_visit.1.t:0 "Brothel: Choices"
+ brothel_visit.1.desc:0 "The brothel has many people to choose from, men, women, even the rare woman packing something extra... It's not a question of #weak if they have it,#! but #weak who #! I want."
+ brothel_visit.1.a:0 "Bring me a girl!"
+ brothel_visit.1.b.female:0 "A man for me!"
+ brothel_visit.1.b.male:0 "A woman for me!"
+ brothel_visit.1.c:0 "Bring me a man!"
+
+ ######################
+ ### THe SEX EVENTS ###
+ ######################
+ 
+ ## Female on Female Events
+ brothel_visit.200.t:0 "Placeholder"
+ brothel_visit.200.desc:0 "Placeholder"
+ brothel_visit.200.a:0 "Placeholder"
+
+
+ ## Male on Female Events
+ brothel_visit.300.t:0 "Placeholder"
+ brothel_visit.300.desc:0 "Placeholder"
+ brothel_visit.300.a:0 "Placeholder"
+
+ ## Male on Male Events
+ brothel_visit.400.t:0 "Placeholder"
+ brothel_visit.400.desc:0 "Placeholder"
+ brothel_visit.400.a:0 "Placeholder"

@@ -2,3 +2,8 @@
 	texture = "gfx/interface/icons/event_types/type_faith.dds"
 	alias = { galitia }
 }
+
+brothels = {
+	texture = "gfx/interface/icons/event_types/type_seduction.dds"
+	alias = { whorehouse bordello }
+}

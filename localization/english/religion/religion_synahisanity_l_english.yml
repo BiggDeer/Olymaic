@@ -1,4 +1,18 @@
 ﻿l_english:
+ ## Doctrine - Verses
+ doctrine_kahla_verse_one:0 "Kahla Verses"
+ kahla_verse_one_name:0 "Chapter 3\nVerse 91"
+ kahla_verse_one_desc:0 "poop"
+
+ doctrine_kahla_verse_two:0 "Kahla Verses"
+ kahla_verse_two_name:0 "Chapter 4\nVerse 12"
+ kahla_verse_two_desc:0 "poop"
+
+ doctrine_kahla_verse_three:0 "Kahla Verses"
+ kahla_verse_three_name:0 "Chapter 5\nVerse 31"
+ kahla_verse_three_desc:0 "poop"
+
+ ## Religion stuff
  synahisanity_religious_group:0 "Synahisanity"
  synahisanity_religious_group_adj:0 "Synahisan"
  synahisanity_religious_group_desc:0 "Synahisanity follows the words and teachings of the Prophet [galitia|E], a woman who was divinely inspired by Hisan. Every one of her words was a divine commandment, and was eventually written down into the Kahla a few years after her death. As her words were not written while she was alive, there are many conflicting verses and commands, which have led to dozens of different faiths claiming to be the true word of Hisan and her messenger Galitia."

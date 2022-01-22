@@ -1,0 +1,43 @@
+﻿visit_brothel_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_brothel.dds"
+	ai_check_interval = 60
+
+	cooldown = { days = standard_feast_cooldown_time  }
+
+	desc = visit_brothel_decision_opening_desc
+	selection_tooltip = visit_brothel_decision_tooltip
+
+	is_shown = {
+		any_realm_province = {
+			has_building_or_higher = whorehouse_01
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available = yes
+		short_term_gold >= minor_gold_value
+	}
+
+	effect = {
+		show_as_tooltip = {
+			if = {
+				limit = {
+					faith = { has_doctrine = tenet_free_love }
+				}
+				add_piety = minor_piety_gain
+			}
+		}
+
+		trigger_event = {
+			id = brothel_visit.1
+		}
+	}
+	
+	ai_potential = {
+
+	}
+
+	ai_will_do = {
+		base = 20
+	}
+}

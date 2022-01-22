@@ -1,0 +1,8 @@
+﻿kahlaston_holy_site_selection_event_option_effect = {
+	$HOLY_SITE$.title_province = {
+		spawn_activity = {
+			owner = root
+			type = activity_visit_kahlaston
+		}
+	}
+}

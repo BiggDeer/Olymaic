@@ -1,0 +1,29 @@
+﻿l_english:
+
+ kahla_verses_event.100.t:0 "Rumors of a New Verse"
+ kahla_verses_event.100.desc:0 "The ongoing search has borne fruit, my Spymaster has heard reports of a new verse in the town of COUNTY_NAME. The verse was, supposedly, written onto a stone tablet and buried sometime after the Prophet Galitia, blessed be her name, passed through the region many years ago."
+ kahla_verses_event.100.a:0 "We must go at once!"
+ kahla_verses_event.100.b:0 "Nothing but rumors"
+
+ kahla_verses_event.101.t:0 "An Uncooperative Peasant"
+ kahla_verses_event.101.desc:0 "Me and my entourage were met with much praise and fanfare as we made our way into the village. The town, while not prosperous, saw fit to give us a royal welcome. Unfortunately, the peasant who claimed to have the tablet refuses to give it up, claiming my rule as illegitamate under the eyes of Hisan."
+ kahla_verses_event.101.a:0 "Beat the location of the tablet out of him."
+ kahla_verses_event.101.b:0 "Perhaps some coin would suffice?"
+
+ kahla_verses_event.102.t:0 "A Feast with a Gift"
+ kahla_verses_event.102.desc:0 "Me and my entourage were met with much praise and fanfare as we made our way into the village. The town, while not prosperous, saw fit to give us a royal welcome. The small feast was quaint and at the end of it we were presented with the stone tablet. Those holy verses seemed to almost glow under the light of the sun before it was placed inside a padded chest for safe keeping."
+ kahla_verses_event.102.a:0 ""
+
+ kahla_verses_event.103.t:0 "Unfortunate News"
+ kahla_verses_event.103.desc:0 "As my entourage arrived we were met with panic. The small village was in hysterics with women and children alike scurrying like rats trying to find something. It was only when we stopped and questioned one of the elders of the village that we found out that the tablet the verse was on had been lost!"
+ kahla_verses_event.103.a:0 "Organize a search party, we must find it at any cost!"
+ kahla_verses_event.103.b:0 "This is a waste of time."
+
+ kahla_verses_event.104.t:0 "The Verse"
+ kahla_verses_event.104.desc:0 "INSERT DESCRIPTION OF VERSE HERE"
+ kahla_verses_event.104.a:0 "Another fine addition to the Kahla"
+ kahla_verses_event.104.b:0 "No, this verse is clearly fake!"
+
+ kahla_verses_event.105.t:0 "No Verse is Found"
+ kahla_verses_event.105.desc:0 "As it turns out, there was no verse at all!"
+ kahla_verses_event.105.a:0 "Our time has been wasted."

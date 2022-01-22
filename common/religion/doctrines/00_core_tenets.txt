@@ -27,7 +27,7 @@
 		parameters = {
 			naked_adherents_active = yes
 			no_unfaithfulness_penalty_active = yes
-			piety_from_orgies_active = yes
+			can_build_brothels_active = yes
 		}
 
 		character_modifier = {

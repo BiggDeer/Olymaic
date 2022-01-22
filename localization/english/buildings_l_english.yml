@@ -19,6 +19,22 @@
  building_type_grey_one_kahlaston_01:0 "Grey"
  building_grey_one_kahlaston_01:0 "Grey Kahlaston"
  building_grey_one_kahlaston_01_desc:0 "A Kahlaston, one of the massive pillars that hold up the sky and keeps the endless waters of the firmament from flooding the world.\n\nA nameless Kahlaston."
+
+ ## Whorehouses
+ building_type_whorehouse_01:0 "Whorehouses"
+ building_type_whorehouse_01_desc:0 "Whorehouses"
+ building_whorehouse_01:0 "Whorehouses"
+ building_whorehouse_01_desc:0 "Whores"
+ building_whorehouse_02:0 "Large Whorehouse"
+ building_whorehouse_02_desc:0 ""
+ building_whorehouse_03:0 "Prostitution District"
+ building_whorehouse_03_desc:0 ""
+ building_whorehouse_04:0 "Prostitution Districts"
+ building_whorehouse_04_desc:0 ""
+ building_whorehouse_05:0 "Large Prostitution Districts"
+ building_whorehouse_05_desc:0 ""
+ building_whorehouse_06:0 "Expansive Prostitution Districts"
+ building_whorehouse_06_desc:0 ""
  
  
  

@@ -13,101 +13,170 @@ kahlaston_visit_event.1 = {
 	}
 
     immediate = {
-
-        any_holy_site = {
-			count >= $COUNT$
-			county = {
-				is_holy_site_controlled_by = $CHARACTER$
-				holder.faith = $CHARACTER$.faith
-			}
+		# Stop characters from planning multiple activities at once.
+		add_character_flag = {
+			flag = planning_an_activity
+			days = 30
 		}
-		faith = {
-            every_holy_site = {
-                if = {
-					limit = {
-						NOT = { exists = scope:holy_site_1 }
-					}
-					save_scope_as = holy_site_1
-				}
-
-                if = {
-					limit = {
-						NOT = { exists = scope:holy_site_2 }
-					}
-					save_scope_as = holy_site_2
-				}
-
-                if = {
-					limit = {
-						NOT = { exists = scope:holy_site_3 }
-					}
-					save_scope_as = holy_site_3
-				}
-
-                if = {
-					limit = {
-						NOT = { exists = scope:holy_site_4 }
-					}
-					save_scope_as = holy_site_4
-				}
-
-                if = {
-					limit = {
-						NOT = { exists = scope:holy_site_5 }
-					}
-					save_scope_as = holy_site_5
-				}
-            }
-        }
+		set_up_holy_sites_for_selection_effect = yes
 	}
 
-	option = {
+	option = { ### Green Kahlaston
 		name = kahlaston_visit_event.1.a
+
         trigger = {
-            exists = scope:holy_site_1
-            scope:holy_site_1 = {
-                is_holy_site_controlled_by = root
+            OR = {
+                faith:al_haqia = {
+                    controls_holy_site = green_kahlaston
+                }
+                faith:aljisa = {
+                    controls_holy_site = green_kahlaston
+                }
+                faith:alqitite = {
+                    controls_holy_site = green_kahlaston
+                }
             }
         }
+
+        kahlaston_holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_1
+		}
 	}
 
-    option = {
+    option = { ## Yellow Kahlaston
 		name = kahlaston_visit_event.1.b
+
         trigger = {
-            exists = scope:holy_site_2
+            OR = {
+                faith:al_haqia = {
+                    controls_holy_site = yellow_kahlaston
+                }
+                faith:aljisa = {
+                    controls_holy_site = yellow_kahlaston
+                }
+                faith:alqitite = {
+                    controls_holy_site = yellow_kahlaston
+                }
+            }
         }
+
+        kahlaston_holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_2
+		}
 	}
 
-    option = {
+    option = { ## Red Kahlaston
 		name = kahlaston_visit_event.1.c
+
         trigger = {
-            exists = scope:holy_site_3
+            OR = {
+                faith:al_haqia = {
+                    controls_holy_site = red_kahlaston
+                }
+                faith:aljisa = {
+                    controls_holy_site = red_kahlaston
+                }
+                faith:alqitite = {
+                    controls_holy_site = red_kahlaston
+                }
+            }
         }
+        
+        kahlaston_holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_3
+		}
 	}
 
-    option = {
+    option = { ## Pink Kahlaston
 		name = kahlaston_visit_event.1.d
+
         trigger = {
-            exists = scope:holy_site_4
+            OR = {
+                faith:al_haqia = {
+                    controls_holy_site = pink_kahlaston
+                }
+                faith:aljisa = {
+                    controls_holy_site = pink_kahlaston
+                }
+                faith:alqitite = {
+                    controls_holy_site = pink_kahlaston
+                }
+            }
         }
+
+        kahlaston_holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_4
+		}
 	}
 
-    option = {
+    option = { ## Grey Kahlaston
 		name = kahlaston_visit_event.1.e
+
         trigger = {
-            exists = scope:holy_site_5
+            OR = {
+                faith:al_haqia = {
+                    controls_holy_site = grey_one_kahlaston
+                }
+                faith:aljisa = {
+                    controls_holy_site = grey_one_kahlaston
+                }
+                faith:alqitite = {
+                    controls_holy_site = grey_one_kahlaston
+                }
+            }
         }
+
+        kahlaston_holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_5
+		}
 	}
 }
 
 kahlaston_visit_event.2 = {
     type = character_event
 	title = kahlaston_visit_event.2.t
-	desc = kahlaston_visit_event.2.desc
 	theme = stewardship
 	left_portrait = {
 		character = root
 		animation = admiration
+	}
+
+    desc = {
+		desc = kahlaston_visit_event.2.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:county = title:c_ziran
+				}
+				desc = kahlaston_visit_event.2.desc.green
+			}
+			triggered_desc = {
+				trigger = {
+					scope:county = title:c_hafkal
+				}
+				desc = kahlaston_visit_event.2.desc.yellow
+			}
+			triggered_desc = {
+				trigger = {
+					scope:county = title:c_ihahdi
+				}
+				desc = kahlaston_visit_event.2.desc.red
+			}
+
+            triggered_desc = {
+				trigger = {
+					scope:county = title:c_omideyh
+				}
+				desc = kahlaston_visit_event.2.desc.pink
+			}
+
+            triggered_desc = {
+				trigger = {
+					scope:county = title:c_salman
+				}
+				desc = kahlaston_visit_event.2.desc.grey
+			}
+		}
 	}
 
 	option = { ### Prayer time!
@@ -122,25 +191,6 @@ kahlaston_visit_event.2 = {
             id = kahlaston_visit_event.3
         }
 	}
-
-    option = {
-        name = kahlaston_visit_event.2.b
-        trigger = {
-             NOT = {
-                has_character_flag = kahlaston_recently_prayed
-            }
-            OR = {
-                has_character_modifier = blessed_by_strength
-                has_character_modifier = blessed_by_courage
-                has_character_modifier = blessed_by_lust
-                has_character_modifier = blessed_by_wisdom
-            }
-        }
-
-        trigger_event = {
-            id = kahlaston_visit_event.4
-        }
-    }
 
     option = { ### Leave
 		name = kahlaston_visit_event.2.c
@@ -257,27 +307,12 @@ kahlaston_visit_event.3 = {
             }
         }
 	}
-}
 
-kahlaston_visit_event.4 = {
-    type = character_event
-	title = kahlaston_visit_event.4.t
-	desc = kahlaston_visit_event.4.desc
-	theme = stewardship
-	left_portrait = {
-		character = root
-		animation = admiration
-	}
-
-    immediate = {
-        add_character_flag = {
-			flag = kahlaston_recently_prayed
-			days = 365
+    after = {
+		hidden_effect = {
+			scope:activity = {
+				complete_activity = yes
+			}		
 		}
-        add_piety = minor_piety_gain
-    }
-
-    option = {
-        name = kahlaston_visit_event.4.a
-    }
+	}
 }
