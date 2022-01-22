@@ -534,49 +534,53 @@ window = {
 							}
 						}
 
-						vbox = {
-							visible = "[DataModelHasItems(FaithWindow.GetGroupingHelper( 'special' ).GetGrouping)]"
+						hbox = {
 							layoutpolicy_horizontal = expanding
-							spacing = 10
-
-							text_label_center = {
+							
+							vbox = {
+								visible = "[DataModelHasItems(FaithWindow.GetGroupingHelper( 'special' ).GetGrouping)]"
 								layoutpolicy_horizontal = expanding
-								text = "FAITH_DOCTRINES_SPECIAL"
-								default_format = "#low"
-							}
-							hbox = {
-								name = "odp_special_doctrines"
-								datamodel = "[FaithWindow.GetGroupingHelper( 'special' ).GetGrouping]"
-								spacing = 15
-								layoutpolicy_vertical = expanding
-								minimumsize = { 0 108 }
+								spacing = 10
 
-								item = {
-									vbox = {
-										layoutpolicy_vertical = expanding
-										minimumsize = { 100 0 }
-										name = "doctrine_list_item"
-										datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
-										visible = "[FaithDoctrine.IsVisible]"
-										tooltip = "FAITH_WINDOW_DOCTRINE_TOOLTIP"
-										using = tooltip_se
+								text_label_center = {
+									layoutpolicy_horizontal = expanding
+									text = "FAITH_DOCTRINES_SPECIAL"
+									default_format = "#low"
+								}
+								hbox = {
+									name = "odp_special_doctrines"
+									datamodel = "[FaithWindow.GetGroupingHelper( 'special' ).GetGrouping]"
+									spacing = 15
+									layoutpolicy_vertical = expanding
+									minimumsize = { 0 108 }
 
-										icon_doctrine = {
-											name = "doctrine_group_icon"
-											size = { 60 60 }
-											texture = "[FaithDoctrine.GetIcon]"
+									item = {
+										vbox = {
+											layoutpolicy_vertical = expanding
+											minimumsize = { 100 0 }
+											name = "doctrine_list_item"
+											datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
+											visible = "[FaithDoctrine.IsVisible]"
+											tooltip = "FAITH_WINDOW_DOCTRINE_TOOLTIP"
+											using = tooltip_se
+
+											icon_doctrine = {
+												name = "doctrine_group_icon"
+												size = { 60 60 }
+												texture = "[FaithDoctrine.GetIcon]"
+											}
+
+											text_single = {
+												name = "doctrine_name"
+												align = center
+												text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
+												default_format = "#high"
+												multiline = yes
+												max_width = 101   ##### minimum in order to look good in german
+											}
+
+											expand = {}
 										}
-
-										text_single = {
-											name = "doctrine_name"
-											align = center
-											text = "[FaithDoctrine.GetNameNoTooltip( GuiFaithDoctrineItem.GetFaith )]"
-											default_format = "#high"
-											multiline = yes
-											max_width = 101   ##### minimum in order to look good in german
-										}
-
-										expand = {}
 									}
 								}
 							}

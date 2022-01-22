@@ -48,3 +48,20 @@ doctrine_kahla_verse_three = {
 		}
 	}
 }
+
+doctrine_kahla_verse_four = {
+	group = "special"
+	is_available_on_create = {
+		always = no
+	}
+
+	kahla_verse_four = {
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = kahla_verse_four }
+				multiply = 0
+			}
+		}
+	}
+}

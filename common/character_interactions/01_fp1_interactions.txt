@@ -788,7 +788,7 @@ designate_shieldmaiden_interaction = {
 		scope:actor = {
 			has_fp1_dlc_trigger = yes
 			is_physically_able_adult = yes
-			culture = culture:northern_olymaic_group
+			culture = culture:cherushai
 			NOT = {
 				faith = { has_doctrine = doctrine_gender_equal }
 			}
