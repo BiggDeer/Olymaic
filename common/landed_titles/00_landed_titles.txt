@@ -932,7 +932,7 @@ e_shamuta_wahis = {
 					color2 = { 255 255 255 }
 				}
 
-				b_temp_115 = {
+				b_germayk = {
 					province = 115
 					
 					color = { 170 55 90 }
@@ -972,7 +972,7 @@ e_shamuta_wahis = {
 					color2 = { 255 255 255 }
 				}
 				
-				b_temp_170 = {
+				b_qasverru = {
 					province = 170
 					
 					color = { 170 55 90 }

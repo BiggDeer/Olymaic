@@ -12,7 +12,7 @@
  building_red_kahlaston_01:0 "Blood Kahlaston"
  building_red_kahlaston_01_desc:0 "A Kahlaston, one of the massive pillars that hold up the sky and keeps the endless waters of the firmament from flooding the world.\n\nThe Red Kahlaston is covered in large spatters of blood. Whether from battle or from sacrifice, no one knows."
 
- building_type_pink_kahlaston_01:0 ""
+ building_type_pink_kahlaston_01:0 "Love Kahlaston"
  building_pink_kahlaston_01:0 "Love Kahlaston"
  building_pink_kahlaston_01_desc:0 "A Kahlaston, one of the massive pillars that hold up the sky and keeps the endless waters of the firmament from flooding the world.\n\nThe Love Kahlaston gets its name from the pink color its stone, along with the frequent orgies that take place around it. Merely being around the Kahlaston is enough to get one excited."
 
@@ -20,6 +20,26 @@
  building_grey_one_kahlaston_01:0 "Grey Kahlaston"
  building_grey_one_kahlaston_01_desc:0 "A Kahlaston, one of the massive pillars that hold up the sky and keeps the endless waters of the firmament from flooding the world.\n\nA nameless Kahlaston."
 
+
+ ## Special
+ building_type_grand_walls_of_ariba_west_ruined_01:0 "Grand Walls of Ariba"
+ building_grand_walls_of_ariba_west_ruined_01:0 "Ruined Walls of Ariba"
+ building_grand_walls_of_ariba_west_ruined_01_desc:0 ""
+ building_grand_walls_of_ariba_west_restored_01:0 "Grand Walls of Ariba"
+ building_grand_walls_of_ariba_west_restored_01_desc:0 ""
+
+ building_type_grand_walls_of_ariba_east_ruined_01:0 "Grand Walls of Ariba"
+ building_grand_walls_of_ariba_east_ruined_01:0 "Ruined Walls of Ariba"
+ building_grand_walls_of_ariba_east_ruined_01_desc:0 ""
+ building_grand_walls_of_ariba_east_restored_01:0 "Grand Walls of Ariba"
+ building_grand_walls_of_ariba_east_restored_01_desc:0 ""
+
+ building_type_wall_of_bones_ruined_01:0 "Wall of Bones"
+ building_wall_of_bones_ruined_01:0 "Ruined Wall of Bones"
+ building_wall_of_bones_ruined_01_desc:0 ""
+ building_wall_of_bones_restored_01:0 "Wall of Bones"
+ building_wall_of_bones_restored_01_desc:0 ""
+ 
  ## Whorehouses
  building_type_whorehouse_01:0 "Whorehouses"
  building_type_whorehouse_01_desc:0 "Whorehouses"
@@ -35,6 +55,23 @@
  building_whorehouse_05_desc:0 ""
  building_whorehouse_06:0 "Expansive Prostitution Districts"
  building_whorehouse_06_desc:0 ""
+
+ ## Bordellos
+
+ building_type_bordello_01:0 "Bordello"
+ building_type_bordello_01_desc:0 "A center for both women and men a like to join together in the most holy of acts, sex."
+ building_bordello_01:0 "Bordello"
+ building_bordello_01_desc:0 "A small scale operation, usually run by a local priest or the lord of the castle."
+ building_bordello_02:0 "Large Bordello"
+ building_bordello_02_desc:0 "The amount of prostitutes available has grown to fit the demands of the castle's inhabitants"
+ building_bordello_03:0 "Grand Bordello"
+ building_bordello_03_desc:0 "Now the Bordello offers a small selection of exotic individuals."
+ building_bordello_04:0 "Lavish Bordello"
+ building_bordello_04_desc:0 "The halls dedicated to prostitution have been lavishly decorated, increasing peoples opinion of the owner and making their time more enjoyable."
+ building_bordello_05:0 "Large Lavish Bordello"
+ building_bordello_05_desc:0 "The Lavish Bordello has grown much larger."
+ building_bordello_06:0 "Extremely Lavish Bordello"
+ building_bordello_06_desc:0 "Gold covers the walls and hundreds of individuals are on offer here. Take your pick!"
  
  
  

@@ -13,12 +13,19 @@
 	religion = qital
 	holding = castle_holding
 }
-115 = { holding = none }
+115 = { 
+	holding = city_holding 
+	special_building = grand_walls_of_ariba_east_ruined_01
+}
 116 = { holding = none }
 113 = { holding = none }
 111 = { holding = none }
 
-170 = { holding = none }
+170 = { 
+	holding = city_holding 
+
+	special_building = grand_walls_of_ariba_west_ruined_01
+}
 169 = {
 	culture = mattaian
 	religion = qital

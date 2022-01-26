@@ -3,3 +3,12 @@
  visit_brothel_decision_opening_desc:0 "[ROOT.Char.Custom('AttractionWomanManIndef')|U] on my lap, and everything – and everyone – the brothel has to offer at my beck and call..."
  visit_brothel_decision_tooltip:0 "A place to clear the mind and body with a good lay."
  visit_brothel_decision_confirm:0 "Here I come, [ROOT.Char.Custom('AttractionGirlBoyPlural')]!"
+
+ visit_kahlaston_decision:0 "Visit a Kahlaston"
+ visit_kahlaston_decision_desc:0 "Each Kahlaston is a place of worship and prayer, a place where you can get guidance from Hisan and enrich yourself spiritually. Those who pray near a Kahlaston find themselves in greater spirits, and some even say that they have been blessed by Hisan and given new strength."
+ visit_kahlaston_decision_tooltip:0 "Seek a blessing by praying at a Kahlaston."
+ visit_kahlaston_decision_confirm:0 "Call for Prayer"
+
+ ## Activity Loc
+ activity_visit_kahlaston:0 "Kahlaston Visit"
+ activity_visit_kahlaston_name:0 "Kahlaston Visit"

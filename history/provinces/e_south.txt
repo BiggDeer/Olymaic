@@ -186,6 +186,8 @@
 	religion = al_haqia
 	culture = watteri
 	holding = castle_holding
+	
+	special_building = wall_of_bones_ruined_01
 }
 83 = { holding = none}
 85 = { holding = none}

@@ -1,5 +1,5 @@
 ﻿visit_kahlaston_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_visit_kahlaston.dds"
 	ai_check_interval = 120
 
 	desc = visit_kahlaston_decision_desc
@@ -24,6 +24,12 @@
 			faith = faith:alqitite
 		}
 	}
+
+	cost = {
+		gold = minor_gold_value
+	}
+
+	cooldown = { months = 60 }	
 
 	is_valid_showing_failures_only = {
 		is_available_adult = yes

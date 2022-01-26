@@ -1,0 +1,576 @@
+﻿##### City Buildings
+
+### Whorehouses
+whorehouse_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_1_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_1
+	}
+	county_modifier = {
+		county_opinion_add = 2
+	}
+
+	next_building = whorehouse_02
+
+	type_icon = "icon_building_whorehouse.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = republic_government
+			}
+		}
+	}
+}
+
+whorehouse_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_2_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_2
+	}
+	county_modifier = {
+		county_opinion_add = 3
+	}
+
+	next_building = whorehouse_03
+
+	type_icon = "icon_building_whorehouse.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = republic_government
+			}
+		}
+	}
+}
+
+whorehouse_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_3_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_3
+	}
+	county_modifier = {
+		county_opinion_add = 4
+	}
+
+	next_building = whorehouse_04
+
+	type_icon = "icon_building_whorehouse.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = republic_government
+			}
+		}
+	}
+}
+
+whorehouse_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_4_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_4
+	}
+	county_modifier = {
+		county_opinion_add = 5
+	}
+
+	next_building = whorehouse_05
+
+	type_icon = "icon_building_whorehouse.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = republic_government
+			}
+		}
+	}
+}
+
+whorehouse_05 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_5_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_5
+	}
+	county_modifier = {
+		county_opinion_add = 6
+	}
+
+	next_building = whorehouse_06
+
+	type_icon = "icon_building_whorehouse.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = republic_government
+			}
+		}
+	}
+}
+
+whorehouse_06 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_6_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = medium_piety_gain 
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_6
+	}
+	county_modifier = {
+		county_opinion_add = 8
+	}
+
+	type_icon = "icon_building_whorehouse.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = republic_government
+			}
+		}
+	}
+}
+
+###### Castle Buildings
+### Bordello
+bordello_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_1_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	levy = poor_building_levy_tier_1
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_1
+	}
+
+	next_building = bordello_02
+
+	type_icon = "icon_building_bordello.dds"
+	
+	ai_value = {
+		base = 500
+	}
+}
+
+bordello_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_2_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	levy = poor_building_levy_tier_2
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_2
+	}
+
+	next_building = bordello_03
+
+	type_icon = "icon_building_bordello.dds"
+	
+	ai_value = {
+		base = 500
+	}
+}
+
+bordello_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_3_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	levy = poor_building_levy_tier_3
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_3
+	}
+
+	next_building = bordello_04
+
+	type_icon = "icon_building_bordello.dds"
+	
+	ai_value = {
+		base = 500
+	}
+}
+
+bordello_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_4_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	levy = poor_building_levy_tier_4
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_4
+	}
+
+	next_building = bordello_05
+
+	type_icon = "icon_building_bordello.dds"
+	
+	ai_value = {
+		base = 500
+	}
+}
+
+bordello_05 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_5_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	levy = poor_building_levy_tier_5
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_5
+	}
+
+	next_building = bordello_06
+
+	type_icon = "icon_building_bordello.dds"
+	
+	ai_value = {
+		base = 500
+	}
+}
+
+bordello_06 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				faith = { has_doctrine = tenet_free_love }
+				has_trait = lustful
+			}
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_6_cost
+	
+	on_complete = {
+		county.holder = { 
+			if = {
+				limit = { 
+					faith = { has doctrine = tenet_free_love }
+				}
+
+				add_piety = minor_piety_gain 
+			}
+		}
+	}
+
+	levy = poor_building_levy_tier_6
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_6
+	}
+
+	type_icon = "icon_building_bordello.dds"
+	
+	ai_value = {
+		base = 500
+	}
+}

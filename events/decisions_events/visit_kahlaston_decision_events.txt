@@ -6,10 +6,10 @@ kahlaston_visit_event.1 = {
     type = character_event
 	title = kahlaston_visit_event.1.t
 	desc = kahlaston_visit_event.1.desc
-	theme = stewardship
+	theme = faith
 	left_portrait = {
 		character = root
-		animation = admiration
+		animation = idle
 	}
 
     immediate = {
@@ -35,6 +35,12 @@ kahlaston_visit_event.1 = {
                 faith:alqitite = {
                     controls_holy_site = green_kahlaston
                 }
+                faith:halaghaz = {
+                    controls_holy_site = yellow_kahlaston
+                }
+                faith:qital = {
+                    controls_holy_site = yellow_kahlaston
+                }
             }
         }
 
@@ -55,6 +61,12 @@ kahlaston_visit_event.1 = {
                     controls_holy_site = yellow_kahlaston
                 }
                 faith:alqitite = {
+                    controls_holy_site = yellow_kahlaston
+                }
+                faith:halaghaz = {
+                    controls_holy_site = yellow_kahlaston
+                }
+                faith:qital = {
                     controls_holy_site = yellow_kahlaston
                 }
             }
@@ -79,6 +91,12 @@ kahlaston_visit_event.1 = {
                 faith:alqitite = {
                     controls_holy_site = red_kahlaston
                 }
+                faith:halaghaz = {
+                    controls_holy_site = yellow_kahlaston
+                }
+                faith:qital = {
+                    controls_holy_site = yellow_kahlaston
+                }
             }
         }
         
@@ -100,6 +118,12 @@ kahlaston_visit_event.1 = {
                 }
                 faith:alqitite = {
                     controls_holy_site = pink_kahlaston
+                }
+                faith:halaghaz = {
+                    controls_holy_site = yellow_kahlaston
+                }
+                faith:qital = {
+                    controls_holy_site = yellow_kahlaston
                 }
             }
         }
@@ -123,6 +147,12 @@ kahlaston_visit_event.1 = {
                 faith:alqitite = {
                     controls_holy_site = grey_one_kahlaston
                 }
+                faith:halaghaz = {
+                    controls_holy_site = yellow_kahlaston
+                }
+                faith:qital = {
+                    controls_holy_site = yellow_kahlaston
+                }
             }
         }
 
@@ -135,10 +165,10 @@ kahlaston_visit_event.1 = {
 kahlaston_visit_event.2 = {
     type = character_event
 	title = kahlaston_visit_event.2.t
-	theme = stewardship
+	theme = faith
 	left_portrait = {
 		character = root
-		animation = admiration
+		animation = idle
 	}
 
     desc = {
@@ -187,13 +217,21 @@ kahlaston_visit_event.2 = {
             }
         }
 
+        add_piety = minor_piety_gain
+
         trigger_event = {
             id = kahlaston_visit_event.3
         }
 	}
 
     option = { ### Leave
-		name = kahlaston_visit_event.2.c
+		name = kahlaston_visit_event.2.b
+
+        hidden_effect = {
+			scope:activity = {
+				complete_activity = yes
+			}		
+		}
 	}
 }
 
@@ -202,7 +240,7 @@ kahlaston_visit_event.3 = {
     type = character_event
 	title = kahlaston_visit_event.3.t
 	desc = kahlaston_visit_event.3.desc
-	theme = stewardship
+	theme = faith
 	left_portrait = {
 		character = root
 		animation = admiration
@@ -213,7 +251,6 @@ kahlaston_visit_event.3 = {
 			flag = kahlaston_recently_prayed
 			days = 365
 		}
-        add_piety = minor_piety_gain
     }
 
 	option = { ## Prayer for Strength

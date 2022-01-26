@@ -12,7 +12,7 @@ blessed_by_courage = {
 
 blessed_by_lust = {
 	icon = love_positive
-	fertility = 10
+	fertility = 1
 	attraction_opinion = 10
 }
 
