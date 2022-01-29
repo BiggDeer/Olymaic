@@ -1,4 +1,10 @@
-﻿namespace = brothel_visit
+﻿
+## brothel_visit.200 - 299 = Female on Female events
+## brothel_visit.300 - 399 = Male on Female events
+## brothel_visit.400 - 499 = Male on Male events
+
+namespace = brothel_visit
+
 
 ### Deciding what you wanna do
 brothel_visit.1 = {
@@ -83,29 +89,86 @@ brothel_visit.1 = {
 
 }
 
-## Female/Female Placeholder
+###############################################################
+## F/F Fingering
 brothel_visit.200 = {
     type = character_event
 	title = brothel_visit.200.t
 	desc = brothel_visit.200.desc
 	theme = love
-
-    immediate = {
+    override_background = {
+		event_background = brothel_female_female
 	}
+
 
 	option = {
 		name = brothel_visit.200.a
 	}
 }
 
-## Male/Female Placeholder
+## F/F Scissor 
+brothel_visit.201 = {
+    type = character_event
+	title = brothel_visit.201.t
+	desc = brothel_visit.201.desc
+	theme = love
+    override_background = {
+		event_background = brothel_female_female
+	}
+
+	option = {
+		name = brothel_visit.201.a
+	}
+}
+
+## F/F Facesit
+brothel_visit.202 = {
+    type = character_event
+	title = brothel_visit.202.t
+	desc = brothel_visit.202.desc
+	theme = love
+    override_background = {
+		event_background = brothel_female_female
+	}
+
+	option = {
+		name = brothel_visit.202.a
+	}
+}
+
+## F/F 69 
+brothel_visit.203 = {
+    type = character_event
+	title = brothel_visit.203.t
+	desc = brothel_visit.203.desc
+	theme = love
+    override_background = {
+		event_background = brothel_female_female
+	}
+
+	option = {
+		name = brothel_visit.203.a
+	}
+}
+
+###############################################################
+## M/F Missionary
 brothel_visit.300 = {
     type = character_event
 	title = brothel_visit.300.t
-	desc = brothel_visit.300.desc
+	desc = {
+		triggered_desc = {
+			trigger = { is_female = yes }
+			desc = brothel_visit.300.female.desc
+		}
+        triggered_desc = {
+			trigger = { is_male = yes }
+			desc = brothel_visit.300.male.desc
+		}
+    }
 	theme = love
-
-    immediate = {
+    override_background = {
+		event_background = brothel_male_female
 	}
 
 	option = {
@@ -113,17 +176,202 @@ brothel_visit.300 = {
 	}
 }
 
-## Male/Male Placeholder
+## M/F Cowgirl
+brothel_visit.301 = {
+    type = character_event
+	title = brothel_visit.301.t
+	desc = {
+		triggered_desc = {
+			trigger = { is_female = yes }
+			desc = brothel_visit.301.female.desc
+		}
+        triggered_desc = {
+			trigger = { is_male = yes }
+			desc = brothel_visit.301.male.desc
+		}
+    }
+	theme = love
+    override_background = {
+		event_background = brothel_male_female
+	}
+
+
+	option = {
+		name = brothel_visit.301.a
+	}
+}
+
+## M/F Anal
+brothel_visit.302 = {
+    type = character_event
+	title = brothel_visit.302.t
+	desc = {
+		triggered_desc = {
+			trigger = { is_female = yes }
+			desc = brothel_visit.302.female.desc
+		}
+        triggered_desc = {
+			trigger = { is_male = yes }
+			desc = brothel_visit.302.male.desc
+		}
+    }
+	theme = love
+    override_background = {
+		event_background = brothel_male_female
+	}
+
+
+	option = {
+		name = brothel_visit.302.a
+	}
+}
+
+## M/F 69
+brothel_visit.303 = {
+    type = character_event
+	title = brothel_visit.303.t
+	desc = {
+		triggered_desc = {
+			trigger = { is_female = yes }
+			desc = brothel_visit.303.female.desc
+		}
+        triggered_desc = {
+			trigger = { is_male = yes }
+			desc = brothel_visit.303.male.desc
+		}
+    }
+	theme = love
+    override_background = {
+		event_background = brothel_male_female
+	}
+
+
+	option = {
+		name = brothel_visit.303.a
+	}
+}
+
+## M/F Oral
+brothel_visit.304 = {
+    type = character_event
+	title = brothel_visit.304.t
+	desc = {
+		triggered_desc = {
+			trigger = { is_female = yes }
+			desc = brothel_visit.304.female.desc
+		}
+        triggered_desc = {
+			trigger = { is_male = yes }
+			desc = brothel_visit.304.male.desc
+		}
+    }
+	theme = love
+    override_background = {
+		event_background = brothel_male_female
+	}
+
+
+	option = {
+		name = brothel_visit.304.a
+	}
+}
+
+## M/F Handjob
+brothel_visit.305 = {
+    type = character_event
+	title = brothel_visit.305.t
+	desc = {
+		triggered_desc = {
+			trigger = { is_female = yes }
+			desc = brothel_visit.305.female.desc
+		}
+        triggered_desc = {
+			trigger = { is_male = yes }
+			desc = brothel_visit.305.male.desc
+		}
+    }
+	theme = love
+    override_background = {
+		event_background = brothel_male_female
+	}
+
+
+	option = {
+		name = brothel_visit.305.a
+	}
+}
+
+
+
+###############################################################
+## M/M Missionary
 brothel_visit.400 = {
     type = character_event
 	title = brothel_visit.400.t
 	desc = brothel_visit.400.desc
 	theme = love
 
-    immediate = {
-	}
-
 	option = {
 		name = brothel_visit.400.a
+	}
+}
+
+## M/M Cowgirl
+brothel_visit.401 = {
+    type = character_event
+	title = brothel_visit.401.t
+	desc = brothel_visit.401.desc
+	theme = love
+    
+	option = {
+		name = brothel_visit.401.a
+	}
+}
+
+## M/M Anal
+brothel_visit.402 = {
+    type = character_event
+	title = brothel_visit.402.t
+	desc = brothel_visit.402.desc
+	theme = love
+    
+	option = {
+		name = brothel_visit.402.a
+	}
+}
+
+## M/M 69
+brothel_visit.403 = {
+    type = character_event
+	title = brothel_visit.403.t
+	desc = brothel_visit.403.desc
+	theme = love
+    
+	option = {
+		name = brothel_visit.403.a
+	}
+}
+
+## M/M Oral
+brothel_visit.404 = {
+    type = character_event
+	title = brothel_visit.404.t
+	desc = brothel_visit.404.desc
+	theme = love
+    
+	option = {
+		name = brothel_visit.404.a
+	}
+}
+
+## M/M Handjob
+brothel_visit.405 = {
+    type = character_event
+	title = brothel_visit.405.t
+	desc = brothel_visit.405.desc
+	theme = love
+    
+	option = {
+		name = brothel_visit.405.a
 	}
 }

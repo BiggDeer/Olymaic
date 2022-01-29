@@ -1,0 +1,26 @@
+﻿### EVENT BACKGROUNDS LIST:
+
+### BROTHEL ###
+brothel_female_female = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/brothel_female_female.dds"
+		environment = "environment_event_brothel_female_female"
+		ambience = "event:/SFX/Events/Backgrounds/castle_garden_day"
+	}
+}
+
+brothel_male_female = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/brothel_male_female.dds"
+		environment = "environment_event_brothel_male_female"
+		ambience = "event:/SFX/Events/Backgrounds/castle_garden_day"
+	}
+}
+
+brothel_male_male = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/alley.dds"
+		environment = "environment_event_brothel_male_male"
+		ambience = "event:/SFX/Events/Backgrounds/castle_garden_day"
+	}
+}

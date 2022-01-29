@@ -1,8 +1,13 @@
 ﻿l_english:
- bm_120:0 ""
- bm_120_desc:0 ""
+ bm_120:0 "A Shattered South"
+ bm_120_desc:0 "It is 120 years after the death of the Prophet Galitia, and the empire she created has splintered into a hundred pieces. She did not achieve her dream of bringing everyone together under the banner of Hisan... but perhaps her grand daughters can do what the Prophet was unable to do?"
 
  ## Characters
  bookmark_120_sadia:0 "Sadia"
+ bookmark_120_sadia_desc:0 "Eldest daughter of Yasmena and head of the Hakali Dynasty, Sadia has grand ambitions and wishes to see her people united under one ruler, Herself. As the oldest living relative of the Prophet Galitia, she holds the strongest claim to the Empire that once was. Can you bring together the faith, or will her enemies catch up to her and put her in a shallow grave?"
+
  bookmark_120_tanazila:0 "Tanazila"
+ bookmark_120_tanazila_desc:0 "Tanazila is not a woman with great ambitions. She's nothing like her relatives and has no interest in ruling a kingdom or empire. She wants to live and let live, but the expectations put upon her by her relatives and her blood has forced her into a position she does not want. Can you make something of her sorry state, or will you laze around like she is so happy to do?"
+ 
  bookmark_120_zofia:0 "Zofia"
+ bookmark_120_zofia_desc:0 "While Zofia is a proud Aljisanite, she is not the most pious of followers. She forgoes the call to peace and sought out conflict with the counts of Manjar, seeking to force them into the empire that she holds claim to. Much like her relative Sadia, Zofia is ambitious. Will you unite the empire under her name, or will she be a footnote in history?"

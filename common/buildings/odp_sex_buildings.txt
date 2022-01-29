@@ -23,7 +23,7 @@ whorehouse_01 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -75,7 +75,7 @@ whorehouse_02 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -127,7 +127,7 @@ whorehouse_03 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -179,7 +179,7 @@ whorehouse_04 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -231,7 +231,7 @@ whorehouse_05 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -283,7 +283,7 @@ whorehouse_06 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = medium_piety_gain 
@@ -335,7 +335,7 @@ bordello_01 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -379,7 +379,7 @@ bordello_02 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -423,7 +423,7 @@ bordello_03 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -467,7 +467,7 @@ bordello_04 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -511,7 +511,7 @@ bordello_05 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 
@@ -555,7 +555,7 @@ bordello_06 = {
 		county.holder = { 
 			if = {
 				limit = { 
-					faith = { has doctrine = tenet_free_love }
+					faith = { has_doctrine = tenet_free_love }
 				}
 
 				add_piety = minor_piety_gain 

@@ -9,7 +9,10 @@
 
 	is_shown = {
 		any_realm_province = {
-			has_building_or_higher = whorehouse_01
+			OR = {
+				has_building_or_higher = whorehouse_01
+				has_building_or_higher = bordello_01
+			}
 		}
 	}
 

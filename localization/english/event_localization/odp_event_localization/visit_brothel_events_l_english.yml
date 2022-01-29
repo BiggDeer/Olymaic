@@ -10,19 +10,94 @@
  ######################
  ### THe SEX EVENTS ###
  ######################
+
+ #### Female on Female Events
+ ## Fingering
+ brothel_visit.200.t:0 "A Night With a Stranger"
+ brothel_visit.200.desc:0 "Fingering\n\nREPLACE THIS"
+ brothel_visit.200.a:0 "A night well spent!"
+
+ ## Scissor
+ brothel_visit.201.t:0 "A Night With a Stranger"
+ brothel_visit.201.desc:0 "Scissoring\n\nREPLACE THIS"
+ brothel_visit.201.a:0 "A night well spent!"
+
+ ## Facesit
+ brothel_visit.202.t:0 "A Night With a Stranger"
+ brothel_visit.202.desc:0 "Facesitting\n\nREPLACE THIS"
+ brothel_visit.202.a:0 "A night well spent!"
+
+ ## 69
+ brothel_visit.203.t:0 "A Night With a Stranger"
+ brothel_visit.203.desc:0 "69\n\nREPLACE THIS"
+ brothel_visit.203.a:0 "A night well spent!"
+
+
+ #### Male on Female Events
+ ## Missionary
+ brothel_visit.300.t:0 "A Night With a Stranger"
+ brothel_visit.300.female.desc:0 "Missionary\n\nREPLACE THIS"
+ brothel_visit.300.male.desc:0 "Missionary\n\nREPLACE THIS"
+ brothel_visit.300.a:0 "A night well spent!"
+
+ ## Cowgirl
+ brothel_visit.301.t:0 "A Night With a Stranger"
+ brothel_visit.301.female.desc:0 "Cowgirl\n\nREPLACE THIS"
+ brothel_visit.301.male.desc:0 "Cowgirl\n\nREPLACE THIS"
+ brothel_visit.301.a:0 "A night well spent!"
+
+ ## Anal
+ brothel_visit.302.t:0 "A Night With a Stranger"
+ brothel_visit.302.female.desc:0 "Anal\n\nREPLACE THIS"
+ brothel_visit.302.male.desc:0 "Anal\n\nREPLACE THIS"
+ brothel_visit.302.a:0 "A night well spent!"
+
+ ## 69
+ brothel_visit.303.t:0 "A Night With a Stranger"
+ brothel_visit.303.female.desc:0 "69\n\nREPLACE THIS"
+ brothel_visit.303.male.desc:0 "69\n\nREPLACE THIS"
+ brothel_visit.303.a:0 "A night well spent!"
+
+ ## Oral
+ brothel_visit.304.t:0 "A Night With a Stranger"
+ brothel_visit.304.female.desc:0 "Oral\n\nREPLACE THIS"
+ brothel_visit.304.male.desc:0 "Oral\n\nREPLACE THIS"
+ brothel_visit.304.a:0 "A night well spent!"
  
- ## Female on Female Events
- brothel_visit.200.t:0 "Placeholder"
- brothel_visit.200.desc:0 "Placeholder"
- brothel_visit.200.a:0 "Placeholder"
+ ## Handjob
+ brothel_visit.305.t:0 "A Night With a Stranger"
+ brothel_visit.305.female.desc:0 "Handjob\n\nREPLACE THIS"
+ brothel_visit.305.male.desc:0 "Handjob\n\nREPLACE THIS"
+ brothel_visit.305.a:0 "A night well spent!"
 
 
- ## Male on Female Events
- brothel_visit.300.t:0 "Placeholder"
- brothel_visit.300.desc:0 "Placeholder"
- brothel_visit.300.a:0 "Placeholder"
+ #### Male on Male Events
+ ## Missionary
+ brothel_visit.400.t:0 "A Night With a Stranger"
+ brothel_visit.400.desc:0 "Missionary\n\nREPLACE THIS"
+ brothel_visit.400.a:0 "A night well spent!"
 
- ## Male on Male Events
- brothel_visit.400.t:0 "Placeholder"
- brothel_visit.400.desc:0 "Placeholder"
- brothel_visit.400.a:0 "Placeholder"
+ ## Cowgirl
+ brothel_visit.401.t:0 "A Night With a Stranger"
+ brothel_visit.401.desc:0 "Cowgirl\n\nREPLACE THIS"
+ brothel_visit.401.a:0 "A night well spent!"
+ 
+ ## ANal
+ brothel_visit.402.t:0 "A Night With a Stranger"
+ brothel_visit.402.desc:0 "Anal\n\nREPLACE THIS"
+ brothel_visit.402.a:0 "A night well spent!"
+
+ ## 69
+ brothel_visit.403.t:0 "A Night With a Stranger"
+ brothel_visit.403.desc:0 "69\n\nREPLACE THIS"
+ brothel_visit.403.a:0 "A night well spent!"
+
+ ## Oral
+ brothel_visit.404.t:0 "A Night With a Stranger"
+ brothel_visit.404.desc:0 "Oral\n\nREPLACE THIS"
+ brothel_visit.404.a:0 "A night well spent!"
+
+ ## Handjob
+ brothel_visit.405.t:0 "A Night With a Stranger"
+ brothel_visit.405.desc:0 "Handjob\n\nREPLACE THIS"
+ brothel_visit.405.a:0 "A night well spent!"
