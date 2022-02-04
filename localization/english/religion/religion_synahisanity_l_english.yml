@@ -1,17 +1,4 @@
 ﻿l_english:
- ## Doctrine - Verses
- doctrine_kahla_verse_one:0 "Kahla Verses"
- kahla_verse_one_name:0 "Chapter 3\nVerse 91"
- kahla_verse_one_desc:0 "poop"
-
- doctrine_kahla_verse_two:0 "Kahla Verses"
- kahla_verse_two_name:0 "Chapter 4\nVerse 12"
- kahla_verse_two_desc:0 "poop"
-
- doctrine_kahla_verse_three:0 "Kahla Verses"
- kahla_verse_three_name:0 "Chapter 5\nVerse 31"
- kahla_verse_three_desc:0 "poop"
-
  ## Religion stuff
  synahisanity_religious_group:0 "Synahisanity"
  synahisanity_religious_group_adj:0 "Synahisan"

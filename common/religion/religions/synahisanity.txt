@@ -216,10 +216,6 @@
 			doctrine = tenet_kahlaston
 			doctrine = tenet_literalism
 
-			doctrine = kahla_verse_one
-			doctrine = kahla_verse_two
-			doctrine = kahla_verse_three
-
 			holy_site = green_kahlaston
 			holy_site = yellow_kahlaston
             holy_site = red_kahlaston
