@@ -1,7 +1,7 @@
 ﻿conquest_of_jrit_hajar_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
 
-	desc = conquest_of_jrit_hajar_decision
+	desc = conquest_of_jrit_hajar_decision_desc
 	selection_tooltip = conquest_of_jrit_hajar_decision_tooltip
 	major = yes
 
@@ -24,7 +24,7 @@
 	}
 
 	effect = {
-
+		trigger_event = conquest_of_south.1
 	}
 	
 	ai_potential = {
@@ -37,9 +37,9 @@
 }
 
 conquest_of_man_jaf_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
 
-	desc = conquest_of_man_jaf_decision
+	desc = conquest_of_man_jaf_decision_desc
 	selection_tooltip = conquest_of_man_jaf_decision_tooltip
 	major = yes
 
@@ -62,7 +62,7 @@ conquest_of_man_jaf_decision = {
 	}
 
 	effect = {
-		
+		trigger_event = conquest_of_south.2
 	}
 	
 	ai_potential = {
@@ -75,9 +75,9 @@ conquest_of_man_jaf_decision = {
 }
 
 reintegrate_the_ariban_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
 
-	desc = reintegrate_the_ariban_decision
+	desc = reintegrate_the_ariban_decision_desc
 	selection_tooltip = reintegrate_the_ariban_decision_tooltip
 	major = yes
 
@@ -90,8 +90,9 @@ reintegrate_the_ariban_decision = {
 	}
 
 	is_valid = {
-		completely_controls = title:d_adan
-		completely_controls = title:d_bukan
+		any_held_title = {
+			tier = tier_empire
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -101,7 +102,11 @@ reintegrate_the_ariban_decision = {
 	}
 
 	effect = {
-		
+		title:k_ariban = {
+			holder = {
+				trigger_event = conquest_of_south.3
+			}
+		}
 	}
 	
 	ai_potential = {

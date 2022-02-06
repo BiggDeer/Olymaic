@@ -1,0 +1,26 @@
+﻿l_english:
+conquest_of_south.1.t:0 "The Formation of Jrit Hajar"
+conquest_of_south.1.desc:0 "placeholder"
+conquest_of_south.1.a:0 "A New Kingdom!"
+
+conquest_of_south.2.t:0 "The Formation of Man Jaf"
+conquest_of_south.2.desc:0 "placeholder"
+conquest_of_south.2.a:0 "A New Kingdom!"
+
+conquest_of_south.3.t:0 "Reintegrating the Ariban"
+conquest_of_south.3.desc:0 "placeholder"
+conquest_of_south.3.a:0 "Send the letter."
+conquest_of_south.3.b:0 "Actually, nevermind."
+
+conquest_of_south.4.t:0 "A Demand From [demand_sender.GetTitledFirstName]"
+conquest_of_south.4.desc:0 "placeholder"
+conquest_of_south.4.a:0 ""
+conquest_of_south.4.b:0 ""
+
+conquest_of_south.5.opening:0 "placeholder"
+conquest_of_south.5.desc:0 "placeholder"
+conquest_of_south.5.a:0 "placeholder"
+
+conquest_of_south.6.opening:0 "placeholder"
+conquest_of_south.6.desc:0 "placeholder"
+conquest_of_south.6.a:0 "placeholder"

@@ -21,6 +21,27 @@
 #############################################
 
 # Special Titles
+ariban_protectress = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 301
+	titles = { k_ariban }
+	religions = { synahisanity_religious_group }
+	top_liege = no
+}
+
+ariban_protector = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 301
+	titles = { k_ariban }
+	religions = { synahisanity_religious_group }
+	top_liege = no
+}
 
 # Religious Titles
 head_of_faith_male = {

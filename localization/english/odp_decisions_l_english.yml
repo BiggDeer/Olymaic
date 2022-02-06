@@ -9,6 +9,21 @@
  visit_kahlaston_decision_tooltip:0 "Seek a blessing by praying at a Kahlaston."
  visit_kahlaston_decision_confirm:0 "Call for Prayer"
 
+ conquest_of_jrit_hajar_decision:0 "Conquest of Jrit-Hajar"
+ conquest_of_jrit_hajar_decision_desc:0 "The lands of the east are now firmly under my control. It is time to unify it under a single title, the Kingdom of Jrit-Hajar!"
+ conquest_of_jrit_hajar_decision_tooltip:0 "Consolidate your new titles into a kingdom."
+ conquest_of_jrit_hajar_decision_confirm:0 "A New Kingdom"
+
+ conquest_of_man_jaf_decision:0 "Conquest of Man Jaf"
+ conquest_of_man_jaf_decision_desc:0 "The desert sands of the west are now under my control. It is time to unify it under a single title, the Kingdom of Man Jaf!"
+ conquest_of_man_jaf_decision_tooltip:0 "Consolidate your new titles into a kingdom."
+ conquest_of_man_jaf_decision_confirm:0 "A New Kingdom"
+
+ reintegrate_the_ariban_decision:0 "Reintegrate the Ariban"
+ reintegrate_the_ariban_decision_desc:0 "The Ariban was a title once held by one of the strongest and most loyal of followers of Galitia."
+ reintegrate_the_ariban_decision_tooltip:0 "Bring the lost kingdom back under the blood of the prophet."
+ reintegrate_the_ariban_decision_confirm:0 "It must be brought back into the fold.""
+
  ## Activity Loc
  activity_visit_kahlaston:0 "Kahlaston Visit"
  activity_visit_kahlaston_name:0 "Kahlaston Visit"

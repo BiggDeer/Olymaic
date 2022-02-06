@@ -1,0 +1,168 @@
+﻿namespace = conquest_of_south
+
+conquest_of_south.1 = {
+    type = character_event
+	title = conquest_of_south.1.t
+	desc = conquest_of_south.1.desc
+	theme = war
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	option = {
+		name = conquest_of_south.1.a
+
+		get_title = k_jrit_hajar
+		add_prestige = 500
+	}
+}
+
+conquest_of_south.2 = {
+    type = character_event
+	title = conquest_of_south.2.t
+	desc = conquest_of_south.2.desc
+	theme = war
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	option = {
+		name = conquest_of_south.2.a
+
+		get_title = k_man_jaf
+		add_prestige = 500
+	}
+}
+
+
+conquest_of_south.3 = {
+    type = character_event
+	title = conquest_of_south.3.t
+	desc = conquest_of_south.3.desc
+	theme = war
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	immediate = {
+		save_scope_as = demand_sender
+	}
+	### Send the demand
+	option = {
+		name = conquest_of_south.3.a
+		title:k_ariban = {
+			holder = {
+				trigger_event = conquest_of_south.4
+			}
+		}
+	}
+	
+	### Actually, nevermind.
+	option = {
+		name = conquest_of_south.3.a
+	}
+}
+
+conquest_of_south.4 = {
+    type = character_event
+	title = conquest_of_south.4.t
+	desc = conquest_of_south.4.desc
+	theme = war
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	immediate = {
+		save_scope_as = demand_recipient
+	}
+
+	### Accept
+	option = {
+		name = conquest_of_south.4.a
+		ai_chance = {
+			base = 80
+			modifier = {
+				add = 10
+				opinion = {
+					target = scope:demand_sender
+					value <= 40
+				}
+			}
+		}
+
+		hidden_effect = {
+			scope:demand_sender = {
+				trigger_event = conquest_of_south.5
+			}
+		}
+	}
+	
+	### Decline
+	option = {
+		name = conquest_of_south.4.a
+		ai_chance = {
+			base = 20
+
+			
+			modifier = {
+				add = 10
+				has_trait = greedy
+			}
+		}
+
+		hidden_effect = {
+			scope:demand_sender = {
+				trigger_event = conquest_of_south.6
+			}
+		}
+	}
+}
+
+conquest_of_south.5 = {
+	type = letter_event
+	opening = conquest_of_south.5.opening
+	desc = conquest_of_south.5.desc
+	sender = scope:demand_recipient
+
+	immediate = {
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		scope:demand_recipient = {
+			change_liege = {
+				liege = root
+				change = scope:title_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+	}
+
+	### Very Good!
+	option = {
+		name = conquest_of_south.5.a
+	}
+}
+
+conquest_of_south.6 = {
+	type = letter_event
+	opening = conquest_of_south.6.opening
+	desc = conquest_of_south.6.desc
+	sender = scope:demand_recipient
+
+	### How dare they?!
+	option = {
+		name = conquest_of_south.6.a
+
+		start_war = {
+			cb = invasion_war
+			target = scope:demand_recipient
+			target_title = scope:demand_recipient.capital_province.empire
+		}
+	}
+}

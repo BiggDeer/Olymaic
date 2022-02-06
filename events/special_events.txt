@@ -46,7 +46,6 @@ special_ariba.2 = {
 	}
 
 	immediate = {
-		#This is so sad: Alexios, play dungeonito.
 		play_music_cue = "mx_cue_prison"
 	}
 
