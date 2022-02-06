@@ -763,11 +763,7 @@ barony_is_valid_for_holy_order_lease_cancellation_trigger = {
 
 religion_has_angels_trigger = {
 	OR = {
-		religion = religion:christianity_religion
-		religion = religion:islam_religion
-		religion = religion:zoroastrianism_religion
-		religion = religion:dualism_religion
-		religion = religion:judaism_religion
+		religion = religion:synahisanity_religious_group
 	}
 }
 

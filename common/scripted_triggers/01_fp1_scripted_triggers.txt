@@ -5,16 +5,13 @@
 eligible_for_fp1_dynasty_legacies_trigger = {
 	has_fp1_dlc_trigger = yes
 	OR = {
-		# Technically, we could hardscript this to North Germanics/Normans/Estonians, but eh.
-		culture = { has_innovation = innovation_longboats }
-		# Converts should also get a chance to get in on the fun.
-		religion = religion:germanic_religion
+		religion = religion:living_spirits_religious_group
 	}
 }
 
 fp1_can_raise_stele_trigger = {
 	OR = {
-		culture_group = culture_group:north_germanic_group
+		culture_group = culture_group:northern_olymaic_group
 		has_character_modifier = embraced_local_traditions_modifier
 	}
 	culture = {
@@ -23,7 +20,7 @@ fp1_can_raise_stele_trigger = {
 }
 
 fp1_can_raise_stele_title_scope_trigger = {
-	culture_group = culture_group:north_germanic_group
+	culture_group = culture_group:northern_olymaic_group
 	culture = {
 		NOT = { has_cultural_era_or_later = culture_era_high_medieval }
 	}
@@ -45,8 +42,7 @@ fp1_county_has_stele_trigger = {
 
 fp1_is_norse = {
 	OR = {
-		culture_group = culture_group:north_germanic_group
-		culture = culture:norman
+		culture_group = culture_group:northern_olymaic_group
 	}
 }
 
@@ -60,26 +56,6 @@ fp1_is_coastal_norse_tribal = {
 	fp1_is_norse_tribal = yes
 	# Do you have a relevant coastal county somewhere?
 	any_sub_realm_county = { is_coastal_county = yes }
-}
-
-fp1_is_in_scandinavia = {
-	capital_county.title_province = { geographical_region = world_europe_north }
-}
-
-fp1_is_in_scandinavian_colonies = {
-	capital_county.title_province = {
-		OR = {
-			geographical_region = world_europe_west_britannia
-			geographical_region = dlc_fp1_region_colonial_eastern_europe
-		}
-	}
-}
-
-fp1_is_in_scandinavia_or_colonies = {
-	OR = {
-		fp1_is_in_scandinavia = yes
-		fp1_is_in_scandinavian_colonies = yes
-	}
 }
 
 fp1_remove_stele_new_holder_trigger = {

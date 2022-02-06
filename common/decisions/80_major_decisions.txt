@@ -219,16 +219,6 @@ declare_bloodline_holy_decision = {
 			}
 		}
 		NOR = {
-			has_trait = saoshyant
-			has_trait = saoshyant_descendant
-			has_trait = sayyid
-			has_trait = blood_of_prophet
-			has_trait = savior
-			has_trait = divine_blood
-			has_trait = paragon
-			has_trait = consecrated_blood
-			faith.religion = faith:ashari.religion #Uses Sayyid mechanics already.
-			faith.religion = faith:mazdayasna.religion #Must aim to become Saoshyant instead.
 			dynasty = {
 				exists = var:variable_made_bloodline_holy
 			}
