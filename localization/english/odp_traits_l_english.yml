@@ -1,0 +1,10 @@
+﻿l_english:
+
+ trait_aridi:0 "Aridi"
+ trait_aridja:0 "Aridja"
+ trait_aridja_desc:0 "This character is a descendent of the Prophet Galitia."
+ trait_aridi_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a descendent of the Prophet Galitia."
+
+ trait_ariba_protector:0 "Ariban Protector"
+ trait_ariba_protector_desc:0 "This character holds the Kingdom of Ariban, a special title originally granted by the Prophet Galitia to whomever held the Walls of Ariba"
+ trait_ariba_protector_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] holds the Kingdom of Ariban, a special title originally granted by the Prophet Galitia to whomever held the Walls of Ariba"

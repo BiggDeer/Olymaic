@@ -5,6 +5,8 @@
 	religion = "al_haqia"
 	culture = "mattaian"
 
+	trait = ariba_protector
+	
     100.1.1 = {
 		birth = yes
 	}

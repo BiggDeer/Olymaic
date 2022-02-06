@@ -1,4 +1,15 @@
-﻿e_ar_yafaj = {
+﻿k_ariban = {
+	color = { 40 160 40 }
+	color2 = { 40 160 40 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+}
+
+e_ar_yafaj = {
 	color = { 33 143 18 }
 	color2 = { 33 143 18 }
 	
@@ -862,7 +873,6 @@
 	}
 }
 
-
 e_shamuta_wahis = {
 	color = { 233 74 74 }
 	color2 = { 233 74 74 }
@@ -925,15 +935,15 @@ e_shamuta_wahis = {
 				color = { 184 114 122 }
 				color2 = { 255 255 255 }
 				
-				b_temp_114 = {
-					province = 114
+				b_germayk = {
+					province = 115
 					
 					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
 
-				b_germayk = {
-					province = 115
+				b_temp_114 = {
+					province = 114
 					
 					color = { 170 55 90 }
 					color2 = { 255 255 255 }
@@ -965,15 +975,15 @@ e_shamuta_wahis = {
 				color = { 193 87 105 }
 				color2 = { 255 255 255 }
 				
-				b_temp_169 = {
-					province = 169
+				b_qasverru = {
+					province = 170
 					
 					color = { 170 55 90 }
 					color2 = { 255 255 255 }
 				}
-				
-				b_qasverru = {
-					province = 170
+
+				b_temp_169 = {
+					province = 169
 					
 					color = { 170 55 90 }
 					color2 = { 255 255 255 }

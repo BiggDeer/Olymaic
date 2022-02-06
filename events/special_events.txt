@@ -1,0 +1,65 @@
+﻿namespace = special_ariba
+
+special_ariba.1 = {
+	type = character_event
+	title = special_ariba.1.t
+	desc = special_ariba.1.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = {
+		scope:title = title:k_ariban
+		NOT = { has_trait = augustus }
+	}
+
+	immediate = {
+		play_music_cue = mx_cue_positive_effect
+		if = {
+			limit = { 
+				scope:previous_holder = { 
+					is_alive = yes 
+					has_trait = ariba_protector 
+				} 
+			}
+			save_scope_as = new_holder
+			scope:previous_holder = { trigger_event = special_ariba.2 }
+		}
+	}
+
+	option = {
+		name = roman_restoration.1.a
+		add_trait = ariba_protector
+	}
+}
+
+special_ariba.2 = {
+	type = character_event
+	title = special_ariba.2.t
+	desc = special_ariba.2.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = shame
+	}
+
+	immediate = {
+		#This is so sad: Alexios, play dungeonito.
+		play_music_cue = "mx_cue_prison"
+	}
+
+	trigger = {
+		is_alive = yes
+		has_trait = ariba_protector
+	}
+
+	option = {
+		name = special_ariba.2.a
+		remove_trait = ariba_protector
+		stress_impact = {
+			base = minor_stress_impact_gain
+		}
+	}
+}

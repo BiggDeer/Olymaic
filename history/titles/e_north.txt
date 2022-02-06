@@ -8,12 +8,14 @@ d_awaran = {
 }
 
 c_bidahg = {
+	80.1.1 = { change_development_level = 5 }
 	100.1.1 = {
 		holder = 400
 	}
 }
 
 c_saravan = {
+	80.1.1 = { change_development_level = 4 }
 	100.1.1 = {
 		holder = 400
 	}
@@ -22,6 +24,7 @@ c_saravan = {
 ## Hafridr
 
 c_kafar = {
+	80.1.1 = { change_development_level = 5 }
 	100.1.1 = {
 		holder = 401
 	}
@@ -36,18 +39,21 @@ d_baftan = {
 }
 
 c_pipal = {
+	80.1.1 = { change_development_level = 4 }
 	100.1.1 = {
 		holder = 402
 	}
 }
 
 c_kurumb = {
+	80.1.1 = { change_development_level = 5 }
 	100.1.1 = {
 		holder = 402
 	}
 }
 
 c_guijo = {
+	80.1.1 = { change_development_level = 5 }
 	100.1.1 = {
 		holder = 402
 	}
@@ -56,6 +62,7 @@ c_guijo = {
 ## Ingibjorg
 
 c_dostinia = {
+	80.1.1 = { change_development_level = 6 }
 	100.1.1 = {
 		liege = d_awaran
 		holder = 403
@@ -65,6 +72,7 @@ c_dostinia = {
 ## Autr
 
 c_panur = {
+	80.1.1 = { change_development_level = 5 }
 	100.1.1 = {
 		liege = d_awaran
 		holder = 404
@@ -74,6 +82,7 @@ c_panur = {
 ## Edla 
 
 c_ahrak = {
+	80.1.1 = { change_development_level = 6 }
 	100.1.1 = {
 		liege = d_awaran
 		holder = 405
@@ -83,12 +92,14 @@ c_ahrak = {
 ##
 
 c_tuhayth = {
+		80.1.1 = { change_development_level = 4 }
 	100.1.1 = {
 		holder = 406
 	}
 }
 
 c_udayah = {
+		80.1.1 = { change_development_level = 4 }
 	100.1.1 = {
 		holder = 406
 	}
@@ -97,12 +108,14 @@ c_udayah = {
 ##
 
 c_fazah = {
+	80.1.1 = { change_development_level = 6 }
 	100.1.1 = {
 		holder = 407
 	}
 }
 
 c_sullam = {
+	80.1.1 = { change_development_level = 5 }
 	100.1.1 = {
 		holder = 407
 	}
@@ -111,12 +124,14 @@ c_sullam = {
 ##
 
 c_mandoba = {
+	80.1.1 = { change_development_level = 5 }
 	100.1.1 = {
 		holder = 408
 	}
 }
 
 c_madgou = {
+	80.1.1 = { change_development_level = 8 }
 	100.1.1 = {
 		holder = 408
 	}
@@ -125,6 +140,7 @@ c_madgou = {
 ##
 
 c_karachi = {
+	80.1.1 = { change_development_level = 2 }
 	100.1.1 = {
 		holder = 409
 	}
@@ -133,6 +149,7 @@ c_karachi = {
 ##
 
 c_abarak = {
+	80.1.1 = { change_development_level = 4 }
 	100.1.1 = {
 		holder = 410
 	}
@@ -141,6 +158,7 @@ c_abarak = {
 ##
 
 c_keamri = {
+	80.1.1 = { change_development_level = 2 }
 	100.1.1 = {
 		holder = 411
 	}
@@ -149,6 +167,7 @@ c_keamri = {
 ##
 
 c_mouzund = {
+	80.1.1 = { change_development_level = 4 }
 	100.1.1 = {
 		holder = 412
 	}
@@ -157,18 +176,26 @@ c_mouzund = {
 ##
 
 c_uma_kalmat = {
+	80.1.1 = { change_development_level = 3 }
 	100.1.1 = {
 		holder = 413
 	}
 }
 
 c_buhara = {
+	80.1.1 = { change_development_level = 2 }
 	100.1.1 = {
 		holder = 413
 	}
 }
 
 ##
+
+k_ariban = {
+	100.1.1 = {
+		holder = 500
+	}
+}
 
 d_bukan = {
 	100.1.1 = {
@@ -183,12 +210,14 @@ d_adan = {
 }
 
 c_adira = {
+	80.1.1 = { change_development_level = 12 }
 	100.1.1 = {
 		holder = 500
 	}
 }
 
 c_najran = {
+	80.1.1 = { change_development_level = 8 }
 	100.1.1 = {
 		holder = 500
 	}
@@ -197,6 +226,7 @@ c_najran = {
 ##
 
 c_ahran = {
+	80.1.1 = { change_development_level = 6 }
 	100.1.1 = {
 		liege = d_bukan
 		holder = 501
@@ -204,6 +234,7 @@ c_ahran = {
 }
 
 c_baish = {
+	80.1.1 = { change_development_level = 5 }
 	100.1.1 = {
 		liege = d_bukan
 		holder = 501
@@ -211,6 +242,7 @@ c_baish = {
 }
 
 c_bayt_al_aqih = {
+	80.1.1 = { change_development_level = 10 }
 	100.1.1 = {
 		liege = d_bukan
 		holder = 501
@@ -220,6 +252,7 @@ c_bayt_al_aqih = {
 ##
 
 c_arsa = {
+	80.1.1 = { change_development_level = 10 }
 	100.1.1 = {
 		liege = d_bukan
 		holder = 502
@@ -227,6 +260,7 @@ c_arsa = {
 }
 
 c_eyhan = {
+	80.1.1 = { change_development_level = 12 }
 	100.1.1 = {
 		liege = d_bukan
 		holder = 502

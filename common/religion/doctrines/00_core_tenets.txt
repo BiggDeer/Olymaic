@@ -48,7 +48,6 @@
 		
 		character_modifier = {
 			opinion_of_male_rulers = -10
-			opinion_of_female_rulers = 10
 			fertility = 0.05
 		}
 		can_pick = {

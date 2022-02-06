@@ -8,29 +8,25 @@
 110 = { holding = none }
 112 = { holding = none }
 
-114 = {
-	culture = mattaian
-	religion = qital
-	holding = castle_holding
-}
+114 = { holding = none }
 115 = { 
 	holding = city_holding 
 	special_building = grand_walls_of_ariba_east_ruined_01
+	culture = mattaian
+	religion = qital
+	holding = castle_holding
 }
 116 = { holding = none }
 113 = { holding = none }
 111 = { holding = none }
 
 170 = { 
-	holding = city_holding 
-
-	special_building = grand_walls_of_ariba_west_ruined_01
-}
-169 = {
 	culture = mattaian
 	religion = qital
 	holding = castle_holding
+	special_building = grand_walls_of_ariba_west_ruined_01
 }
+169 = { holding = none }
 168 = { holding = none }
 172 = { holding = none }
 173 = { holding = none }

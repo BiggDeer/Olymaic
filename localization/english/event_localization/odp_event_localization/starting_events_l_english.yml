@@ -4,3 +4,13 @@
  starting_story_event.1.t:0 "The Granddaughter of the Prophet, Sadia"
  starting_story_event.1.desc:0 "The land of the Synahisanites is in a sorry state, divided into unending petty countesses. Hundreds lay claim to the land that my grandmother once united and only a few swear fealty to me. It angers me to even think about it, how they disrespect Hisan and the Prophet Galitia with their blasphemy.\n\nMy sister Tanazila sits about, content to play with herself and her court. She has no ambition, no drive. My cousin Zofia is perhaps the only one I can respect, although she flouts the word of Galitia by being one of the Aljisani.\n\nThe word of Hisan has been corrupted and it is my duty to cleanse this corruption and unite the faith like my grandmother before me."
  starting_story_event.1.a:0 "In the name of Hisan, most beautiful and most merciful."
+
+ starting_story_event.2.t:0 "A Lack of Ambition"
+ starting_story_event.2.desc:0 "As one of the grand daughters of the great Prophet, I have had many expectations put upon me by my family. Unfortunately, I never lived up to them. Why bother with their expectations when it is much simpler to do as I want? If that just so happens to enrage my family, then so be it. They do not control me.\n\nThe distaste my family has for me, however, is soon to be a problem. My sister Sadia is eyeing the lands I was given by our mother with hungry eyes, and I fear I may not be able to stop it. My somewhat loyal army of peasants are ready to aid me whenever I need, but I fear that may not be enough."
+ starting_story_event.2.a:0 "No matter what, I will survive."
+ tanazilla_religious_zealots:0 "Religious Zealots"
+ 
+ starting_story_event.3.t:0 "In the Name of Love"
+ starting_story_event.3.desc:0 "Through the grace of Hisan alone have I been given this wonderful opportunity. The lands south of my birthplace, where the great Wall of Bone stands before the unending sands, is open to me and my host. Soon we will spread the #EMPtrue message #! of Hisan, not this false corrupted version that has gripped the hearts and minds of the faithful since my grand mothers death."
+ starting_story_event.3.a:0 "Onwards, in the name of love!"
+ zofia_love_host:0 "Love Host"

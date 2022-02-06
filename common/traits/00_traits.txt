@@ -8625,3 +8625,63 @@ education_martial_prowess_4 = {
 		}
 	}
 }
+
+#### MOD TRAITS 
+
+aridja = { ## female descendants of the Prophet Galitia
+	index = 300
+	fame = yes
+	shown_in_ruler_designer = no
+	
+	general_opinion = 10
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_aridi
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_aridja
+			}
+			desc = trait_aridi
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_aridi_desc
+			}
+			desc = trait_aridi_character_desc
+		}
+	}
+
+	inherit_chance = 100
+	parent_inheritance_sex = female
+	inherit_from_real_father = no
+}
+
+ariba_protector = {
+	index = 301
+	fame = yes
+	shown_in_ruler_designer = no
+
+	martial = 2
+	martial_per_prestige_level = 1
+	men_at_arms_maintenance = -0.5
+	levy_size = 0.2
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ariba_protector_desc
+			}
+			desc = trait_ariba_protector_character_desc
+		}
+	}
+}

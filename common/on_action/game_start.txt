@@ -1,19 +1,43 @@
 ﻿# Called from code after history generation
 # Empty scope
 
-on_opening_events = {
-	effect = {
-        every_player = {
-			trigger_event = {
-				id = starting_story_event.1 # Sadia
-			}
-		}
-	}
-}
-
-
 on_game_start = {
 	effect = {
+
+		### character starting stuff
+		## Sadia
+		character:100 = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = starting_story_event.1
+			}
+		}
+
+		## Tanazilla
+		character:104 = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = starting_story_event.2
+			}
+		}
+
+		## Zofia
+		character:300 = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = starting_story_event.3
+			}
+		}
+
 		### RELIGIOUS THINGS ###
 		religion:synahisanity_religious_group = { # Set up Holy Site Buildings to be buildable in Holy Sites
 			every_faith = {

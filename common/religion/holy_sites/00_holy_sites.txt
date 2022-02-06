@@ -10,7 +10,8 @@ green_kahlaston = {
 	
 	character_modifier = {
 		name = holy_site_green_kahlaston_effect_name
-		monthly_piety_gain_mult = 0.2
+		monthly_piety_gain_mult = 0.05
+		learning_per_piety_level = 1
 	}
 }
 
@@ -20,7 +21,8 @@ yellow_kahlaston = {
 	
 	character_modifier = {
 		name = holy_site_yellow_kahlaston_effect_name
-		monthly_piety_gain_mult = 0.2
+		vassal_levy_contribution_mult = 0.05
+		supply_limit_mult = 0.05
 	}
 }
 
@@ -30,7 +32,8 @@ red_kahlaston = {
 	
 	character_modifier = {
 		name = holy_site_red_kahlaston_effect_name
-		monthly_piety_gain_mult = 0.2
+		men_at_arms_maintenance = -0.05
+		men_at_arms_cap = 1
 	}
 }
 
@@ -40,7 +43,8 @@ pink_kahlaston = {
 	
 	character_modifier = {
 		name = holy_site_green_kahlaston_effect_name
-		monthly_piety_gain_mult = 0.2
+		max_personal_schemes_add = 1
+		personal_scheme_power_add = 0.05
 	}
 }
 
@@ -50,7 +54,8 @@ grey_one_kahlaston = {
 	
 	character_modifier = {
 		name = holy_site_grey_one_kahlaston_effect_name
-		monthly_piety_gain_mult = 0.2
+		monthly_prestige_gain_mult = 0.05
+		stewardship_per_prestige_level = 1
 	}
 }
 

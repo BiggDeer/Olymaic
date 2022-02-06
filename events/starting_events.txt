@@ -10,12 +10,72 @@ starting_story_event.1 = { ## Opener for Sadia
 		animation = personality_bold
 	}
 
-	trigger = {
-		is_ai = no
-		has_title = title:d_samrana
+	option = {
+		name = starting_story_event.1.a
+	}
+}
+
+starting_story_event.2 = { ## Opener for Tanazilla
+	title = starting_story_event.2.t
+	desc = starting_story_event.2.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+
+	right_portrait = {
+		character = character:100
+		animation = personality_bold
 	}
 
 	option = {
-		name = starting_story_event.1.a
+		name = starting_story_event.2.a
+
+		spawn_army = {
+			levies = { add = 2000 }
+			inheritable = no
+			uses_supply = yes
+			location = capital_province
+			name = tanazilla_religious_zealots
+		}
+	}
+}
+
+starting_story_event.3 = { ## Opener for Zofia
+	title = starting_story_event.3.t
+	desc = starting_story_event.3.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {
+		name = starting_story_event.3.a
+
+		spawn_army = {
+			inheritable = yes
+			uses_supply = yes
+			location = capital_province
+			name = zofia_love_host
+
+			men_at_arms = {
+				type = light_horsemen
+				stacks = 4
+			}
+
+			men_at_arms = {
+				type = bowmen
+				stacks = 2
+			}
+
+			men_at_arms = {
+				type = armored_footmen
+				stacks = 2
+			}
+		}
 	}
 }

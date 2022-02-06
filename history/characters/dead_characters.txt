@@ -15,7 +15,7 @@
 	trait = education_martial_4
 
 	## Genetic Traits
-	trait = blood_of_prophet
+	trait = aridja
 	trait = fecund
 
 	## Commander Traits 
@@ -38,7 +38,7 @@
 	culture = "hizani"
 	mother = 1
 
-	trait = blood_of_prophet
+	trait = aridja
 
 	23.1.1 = {
 		birth = yes
@@ -57,7 +57,7 @@
 	culture = "hizani"
 	mother = 1
 
-	trait = blood_of_prophet
+	trait = aridja
 	
 	24.1.1 = {
 		birth = yes
@@ -76,7 +76,7 @@
 	culture = "hizani"
 	mother = 1
 
-	trait = blood_of_prophet
+	trait = aridja
 	
 	24.1.1 = {
 		birth = yes
@@ -95,7 +95,7 @@
 	culture = "hizani"
 	mother = 1
 
-	trait = blood_of_prophet
+	trait = aridja
 	
 	24.1.1 = {
 		birth = yes
@@ -114,7 +114,7 @@
 	culture = "hizani"
 	mother = 1
 
-	trait = blood_of_prophet
+	trait = aridja
 	
 	24.1.1 = {
 		birth = yes

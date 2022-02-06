@@ -17,7 +17,7 @@
 	trait = education_diplomacy_2
 
 	## Genetic Traits
-	trait = blood_of_prophet
+	trait = aridja
 
 	disallow_random_traits = yes 
 

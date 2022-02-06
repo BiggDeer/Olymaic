@@ -25,7 +25,7 @@
 
 	## Genetic Traits
 	trait = beauty_good_3
-	trait = blood_of_prophet
+	trait = aridja
 
 
 	disallow_random_traits = yes 
@@ -38,6 +38,12 @@
 		effect = {
 			set_relation_rival = character:104
 			set_relation_rival = character:300
+
+			add_opinion = {
+				target = character:104
+				modifier = hate_opinion
+				opinion = -200
+			}
 
 			add_pressed_claim = k_jrit_hajar
 		}
@@ -129,7 +135,7 @@
 	trait = education_learning_1
 
 	## Genetic Traits
-	trait = blood_of_prophet
+	trait = aridja
 
 	disallow_random_traits = yes 
 
@@ -141,6 +147,12 @@
 		effect = {
 			set_relation_rival = character:100
 			set_relation_rival = character:300
+
+			add_opinion = {
+				target = character:100
+				modifier = hate_opinion
+				opinion = -200
+			}
 		}
 	}
 

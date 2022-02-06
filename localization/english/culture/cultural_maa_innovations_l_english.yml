@@ -1,4 +1,10 @@
 ﻿l_english:
+ 
+ ## Mod culture MAA
+ innovation_bukkaran_riders:0 "Bukkaran Riders"
+ innovation_bukkaran_riders_desc:0 "The plains of Ariba have always been under the protection of the riding archers of Bukkara. With the formation of the Kingdom of Ariba, this type of unit has been centralized and put under the control of the Protectress of Ariba."
+
+ bukkaran_riders:0 "Bukkaran Riders"
 
  #Military
  innovation_hird:0 "Hirds"
