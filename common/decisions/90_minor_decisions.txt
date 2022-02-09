@@ -460,12 +460,6 @@ secede_from_empire_decision = { #by Sean Hughes
 			multiplier = -0.15
 		}
 
-		# Faith and Culture Factors
-		modifier = {
-			factor = 1.2
-			NOT = { culture_group = liege.culture_group }
-		}
-
 		modifier = {
 			factor = 1.1
 			faith = {		

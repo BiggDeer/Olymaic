@@ -13,7 +13,12 @@ defiant_high_monarch_conversion_boost_value = {
 
 hold_gruesome_festival_decision_value = {
 	value = 0
-	add = 10
+	if = {
+		limit = { religion = religion:germanic_religion }
+		# This actually probably *isn't* Biblical numerology creeping into accounts of pagan worship, since we have records of fighting in Sweden that was probably about this around every nine years or so between Christians and pagans.
+		add = 9
+	}
+	else = { add = 10 }
 }
 
 gruesome_festival_prestige_cost_value = 200
@@ -49,6 +54,34 @@ gruesome_festival_key_sacrifice_piety_value = {
 					faith_hostility_level = {
 						target = scope:sacrifice.faith
 						value = faith_hostile_level
+					}
+					# Exempt faiths/families you syncretise with.
+					NOR = {
+						# Eastern Family syncretism.
+						AND = {
+							has_doctrine = tenet_eastern_syncretism
+							scope:sacrifice.religion = { is_in_family = rf_eastern }
+						}
+						# Unreformed pagans syncretism.
+						AND = {
+							has_doctrine = tenet_unreformed_syncretism
+							scope:sacrifice.faith = { has_doctrine = unreformed_faith_doctrine }
+						}
+						# Christian syncretism.
+						AND = {
+							has_doctrine = tenet_christian_syncretism
+							scope:sacrifice.religion = religion:christianity_religion
+						}
+						# Islamic syncretism.
+						AND = {
+							has_doctrine = tenet_islamic_syncretism
+							scope:sacrifice.religion = religion:islam_religion
+						}
+						# Jewish syncretism.
+						AND = {
+							has_doctrine = tenet_jewish_syncretism
+							scope:sacrifice.religion = religion:judaism_religion
+						}
 					}
 				}
 			}
@@ -608,7 +641,7 @@ scandinavian_adventurer_target_title_priority_value = {
 	}
 	#Mark up Northern Germanic culture group counties.
 	if = {
-		limit = { culture_group = culture_group:north_germanic_group }
+		limit = { culture = { has_cultural_pillar = heritage_north_germanic } }
 		add = 20
 	}
 	#Mark up farmland, as it's good terrain.
@@ -756,6 +789,7 @@ varangian_adventurers_bonus_levies_value = {
 	# Add troops for each appropriate county.
 	every_sub_realm_county = {
 		limit = {
+			title_province = { geographical_region = dlc_fp1_region_core_mainland_scandinavia }
 			culture = scope:attacker.culture
 			faith = scope:attacker.faith
 		}

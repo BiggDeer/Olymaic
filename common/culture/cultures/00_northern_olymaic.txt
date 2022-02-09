@@ -6,9 +6,6 @@
 	language = language_arabic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_philosopher_culture
-		tradition_medicinal_plants
-		tradition_mubarizuns
 		tradition_dryland_dwellers
 	}
 	
@@ -33,9 +30,6 @@ mattaian = {
 	language = language_arabic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_philosopher_culture
-		tradition_medicinal_plants
-		tradition_mubarizuns
 		tradition_dryland_dwellers
 	}
 	

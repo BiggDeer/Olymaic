@@ -1,8 +1,8 @@
 ﻿heightmap_file="map_data/packed_heightmap.png"
 indirection_file="map_data/indirection_heightmap.png"
-original_heightmap_size={ 500 500 }
+original_heightmap_size={ 800 1280 }
 tile_size=33
 should_wrap_x=no
-level_offsets={ { 0 0 }{ 0 412 }{ 0 420 }{ 0 424 }{ 0 426 }}
+level_offsets={ { 0 0 }{ 0 2986 }{ 0 3691 }{ 0 3821 }{ 0 3838 }}
 max_compress_level=4
-empty_tile_offset={ 143 0 }
+empty_tile_offset={ 32 67 }

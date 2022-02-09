@@ -44,8 +44,6 @@
 				modifier = hate_opinion
 				opinion = -200
 			}
-
-			add_pressed_claim = k_jrit_hajar
 		}
 	}
 

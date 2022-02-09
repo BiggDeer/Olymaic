@@ -33,13 +33,6 @@
 	## Genetic Traits
 	100.1.1 = {
 		birth = yes
-
-		effect = {
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_taxes
-				level = 0
-			}
-		}
 	}
 
 	160.1.1 = {
@@ -61,13 +54,6 @@
 	## Genetic Traits
 	100.1.1 = {
 		birth = yes
-
-		effect = {
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_taxes
-				level = 0
-			}
-		}
 	}
 
 	160.1.1 = {
@@ -89,13 +75,6 @@
 	## Genetic Traits
 	100.1.1 = {
 		birth = yes
-		
-		effect = {
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_taxes
-				level = 0
-			}
-		}
 	}
 
 	160.1.1 = {

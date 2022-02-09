@@ -4,6 +4,7 @@ tags={
 	"Map"
 }
 name="Olymaic: Death of a Prophet"
+replace_path="common/bookmark_portraits"
 replace_path="common/landed_titles"
 replace_path="common/coat_of_arms/coat_of_arms"
 replace_path="common/culture/cultures"
