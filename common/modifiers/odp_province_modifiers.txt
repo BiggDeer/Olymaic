@@ -1,0 +1,4 @@
+﻿golden_fields_modifier = {
+	supply_limit_mult = 0.05
+	development_growth_factor = 0.05
+}

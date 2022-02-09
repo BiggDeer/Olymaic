@@ -28,6 +28,7 @@
 		special_greenhouse_01
 
 		bordello_01
+		golden_fields_01
 	}
 }
 

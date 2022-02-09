@@ -53,6 +53,20 @@ on_game_start = {
 				}
 			}
 		}
+
+		### Custom Terrain
+		title:d_adan = {
+			every_in_de_jure_hierarchy = {
+				limit = { tier = tier_county }
+				add_county_modifier = golden_fields_modifier
+			}
+		}
+		title:c_izeh = {
+			add_county_modifier = golden_fields_modifier
+		}
+		title:c_omideyh = {
+			add_county_modifier = golden_fields_modifier
+		}
 	}
 }
 

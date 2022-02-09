@@ -1,0 +1,143 @@
+﻿## Code copied (kinda?) from the Random Sex Scene Generator mod on Loverslab
+# scenes will have a start, middle, and end. 
+# other qualifiers will be added as written
+# happy = good, consesual sex!!!!
+# noncon = nonconsensual, ie rape. 
+#
+
+########################################
+## Male/Female Female/Male random loc ##
+########################################
+
+straight_sex_beginning = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = straight_sex_beginning_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = straight_sex_beginning_happy_2
+	}
+}
+
+straight_sex_middle = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = straight_sex_middle_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = straight_sex_middle_happy_2
+	}
+}
+
+straight_sex_end = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = straight_sex_end_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = straight_sex_end_happy_2
+	}
+}
+
+##########################
+## Male/Male random loc ##
+##########################
+homo_sex_beginning = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = homo_sex_beginning_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = homo_sex_beginning_happy_2
+	}
+}
+
+homo_sex_middle = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = homo_sex_middle_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = straight_sex_middle_happy_2
+	}
+}
+
+homo_sex_end = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = homo_sex_end_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = homo_sex_end_happy_2
+	}
+}
+
+##############################
+## Female/Female random loc ##
+##############################
+
+lesbian_sex_beginning = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = lesbian_sex_beginning_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = lesbian_sex_beginning_happy_2
+	}
+}
+
+lesbian_sex_middle = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = lesbian_sex_middle_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = lesbian_sex_middle_happy_2
+	}
+}
+
+lesbian_sex_end = {
+	type = character
+	random_valid = yes
+
+	text = {
+		weight_multiplier = { base = 2 }
+		localization_key = lesbian_sex_end_happy_1
+	}
+	text = {
+		weight_multiplier = { base = 3 }
+		localization_key = lesbian_sex_end_happy_2
+	}
+}

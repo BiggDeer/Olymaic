@@ -1,30 +1,17 @@
 ﻿female_homosexual_brothel_visit = {
 	random_events = {
 		100 = brothel_visit.200
-		100 = brothel_visit.201
-		100 = brothel_visit.202
-		100 = brothel_visit.203
 	}
 }
 
 heterosexual_brothel_visit = {
 	random_events = {
 		100 = brothel_visit.300
-		100 = brothel_visit.301
-		100 = brothel_visit.302
-		100 = brothel_visit.303
-		100 = brothel_visit.304
-		100 = brothel_visit.305
 	}
 }
 
 male_homosexual_brothel_visit = {
 	random_events = {
 		100 = brothel_visit.400
-		100 = brothel_visit.401
-		100 = brothel_visit.402
-		100 = brothel_visit.403
-		100 = brothel_visit.404
-		100 = brothel_visit.405
 	}
 }

@@ -145,8 +145,6 @@
 
 	120.1.1 = {
 		effect = {
-			set_relation_rival = character:100
-			set_relation_rival = character:300
 
 			add_opinion = {
 				target = character:100

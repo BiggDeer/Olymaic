@@ -165,7 +165,12 @@
 	culture = watteri
 	holding = castle_holding
 }
-67 = { holding = city_holding}
+67 = { 
+	holding = city_holding
+	110.1.1 = {
+		special_building = zahesta_gold_mines_01
+	}
+}
 69 = { holding = none}
 71 = { holding = none}
 77 = { holding = none}

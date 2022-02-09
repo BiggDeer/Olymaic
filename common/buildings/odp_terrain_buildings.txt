@@ -1,0 +1,33 @@
+﻿############################
+## Golden Fields Building ##
+############################
+
+golden_fields_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		scope:county = {
+			has_county_modifier = golden_fields_modifier
+		}
+		
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_1
+	}
+	
+	#next_building = cereal_fields_02
+	
+	type_icon = "icon_building_cereal_fields.dds"
+	
+	ai_value = {
+		base = 10
+	}
+}
