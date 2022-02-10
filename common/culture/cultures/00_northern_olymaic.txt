@@ -6,19 +6,22 @@
 	language = language_northern
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_dryland_dwellers
+		tradition_forest_fighters
+		tradition_storytellers
 	}
 	
 	name_list = name_list_cherushai
 
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
 
 	ethnicities = {
-		10 = arab
-		4 = east_african
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
 	}
 }
 
@@ -38,8 +41,8 @@ mattaian = {
 	
 	name_list = name_list_hizani
 
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	coa_gfx = { turkic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx steppe_building_gfx } 
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 
 
