@@ -1,0 +1,7 @@
+﻿heritage_yaaj = {
+	type = heritage
+}
+
+heritage_northern = {
+	type = heritage
+}

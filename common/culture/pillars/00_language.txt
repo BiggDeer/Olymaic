@@ -1,0 +1,36 @@
+﻿language_yaajani = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_yaajani
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_yaajani }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+
+language_northern = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_northern
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_northern }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
