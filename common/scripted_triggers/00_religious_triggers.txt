@@ -1056,3 +1056,64 @@ can_take_religious_vows_trigger = {
 		}
 	}
 }
+
+faith_dominant_gender_male_or_equal = {
+	faith = {
+		OR = {
+			has_doctrine_parameter = male_dominated_law
+			has_doctrine_parameter = gender_equal_law
+		}
+	}
+}
+
+faith_dominant_gender_female_or_equal = {
+	faith = {
+		OR = {
+			has_doctrine_parameter = female_dominated_law
+			has_doctrine_parameter = gender_equal_law
+		}
+	}
+}
+
+is_theological_character_trigger = {
+	OR = {
+		has_trait = theologian
+		has_trait = devoted
+		has_trait = order_member
+		AND = {
+			is_landed = yes
+			has_government = theocracy_government
+		}
+
+	}	
+}
+
+would_be_sinful_adulterer_trigger = {
+	is_married = yes
+	trigger_if = {
+		limit = { is_male = yes }
+		NOT = {
+			faith = { has_doctrine = doctrine_adultery_men_accepted }
+		}
+	}
+	trigger_else = {
+		NOT = {
+			faith = { has_doctrine = doctrine_adultery_women_accepted }
+		}
+	}
+}
+
+has_tolerant_faith_or_culture_trigger = {
+	OR = {
+		faith = { has_doctrine = doctrine_pluralism_pluralistic }
+		culture = { has_cultural_parameter = less_likely_to_force_conversion }
+	}
+}
+
+faith_is_aniconic_trigger = {
+	faith = {
+		OR = {	
+			has_doctrine = tenet_aniconism
+		}
+	}
+}
