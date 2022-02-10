@@ -30,7 +30,7 @@ sea_zones = LIST { 41 53 142 237 174 }
 #####################
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
-impassable_mountains = RANGE { 2 6 }
+impassable_mountains = RANGE { 2 5 }
 
 ############
 # WASTELAND
@@ -42,7 +42,7 @@ impassable_mountains = LIST { 1 7 }
 
 # IMPASSABLE SEA ZONES
 # These sea provinces cannot be crossed/sailed
-impassable_seas = LIST { 233 }
+impassable_seas = LIST { 233 6 }
 
 # UNUSED PROVINCES
 # These provinces cause issues because they are passable land, but not part of any title.
