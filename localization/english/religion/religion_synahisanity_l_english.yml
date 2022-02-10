@@ -1,12 +1,4 @@
 ﻿l_english:
-
- ## Synahisan Holy Sites
- holy_site_green_kahlaston_name:0 "Moss Kahlaston"
- holy_site_yellow_kahlaston_name:0 "Yellow Kahlaston"
- holy_site_red_kahlaston_name:0 "Blood Kahlaston"
- holy_site_pink_kahlaston_name:0 "Love Kahlaston"
- holy_site_grey_one_kahlaston_name:0 "Grey Kahlaston"
- 
  ## Religion stuff
  synahisanity_religious_group:0 "Synahisanity"
  synahisanity_religious_group_adj:0 "Synahisan"
