@@ -6,7 +6,7 @@
 	holding = castle_holding
 	duchy_capital_building = leisure_palace_01
 
-	110.1.1 = {
+	810.1.1 = {
 		buildings = {
 			farm_estates_01
 		}
@@ -25,7 +25,7 @@
 10 = { 
 	holding = church_holding 
 
-	110.1.1 = {
+	810.1.1 = {
 		special_building = green_kahlaston_01
 	}
 }
@@ -84,7 +84,7 @@
 	culture = hizani
 	holding = castle_holding
 
-	110.1.1 = {
+	810.1.1 = {
 		special_building = yellow_kahlaston_01
 	}
 }
@@ -118,7 +118,7 @@
 51 = { holding = none}
 59 = { 
 	holding = city_holding
-	110.1.1 = {
+	810.1.1 = {
 		special_building = pink_kahlaston_01
 	}
 }
@@ -167,7 +167,7 @@
 }
 67 = { 
 	holding = city_holding
-	110.1.1 = {
+	810.1.1 = {
 		special_building = zahesta_gold_mines_01
 	}
 }
@@ -179,7 +179,7 @@
 	religion = qital
 	culture = watteri
 	holding = castle_holding
-	110.1.1 = {
+	810.1.1 = {
 		special_building = red_kahlaston_01
 	}
 }
@@ -203,7 +203,7 @@
 	culture = watteri
 	holding = castle_holding
 
-	110.1.1 = {
+	810.1.1 = {
 		special_building = grey_one_kahlaston_01
 	}
 }

@@ -1,5 +1,5 @@
 ﻿bm_120 = {
-	start_date = 120.1.1
+	start_date = 820.1.1
 	is_playable = yes
 
 	character = {
@@ -7,7 +7,7 @@
 		dynasty = 100
 		dynasty_splendor_level = 1
 		type = female
-		birth = 88.5.15
+		birth = 788.5.15
 		title = d_samrana
 		government = feudal_government
 		culture = hizani
@@ -24,7 +24,7 @@
 		dynasty = 100
 		dynasty_splendor_level = 1
 		type = female
-		birth = 91.1.1
+		birth = 791.1.1
 		title = c_hafkal
 		government = feudal_government
 		culture = hizani
@@ -41,7 +41,7 @@
 		dynasty = 100
 		dynasty_splendor_level = 1
 		type = female
-		birth = 101.1.1
+		birth = 801.1.1
 		title = c_musay_al_aziz
 		government = feudal_government
 		culture = watteri

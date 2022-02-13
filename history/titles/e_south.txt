@@ -1,37 +1,37 @@
 ### Hizani Rulers
 ## Sadia
 d_samrana = {
-	101.1.1 = {
+	801.1.1 = {
 		
 		holder = 100
 	}
 }
 
 c_sizar = {
-	80.1.1 = { change_development_level = 15 }
-	101.1.1 = {
+	780.1.1 = { change_development_level = 15 }
+	801.1.1 = {
 		holder = 100
 	}
 }
 
 c_ziran = {
-	80.1.1 = { change_development_level = 14 }
-	101.1.1 = {
+	780.1.1 = { change_development_level = 14 }
+	801.1.1 = {
 		holder = 100
 	}
 }
 
 c_diram = {
-	80.1.1 = { change_development_level = 11 }
-	101.1.1 = {
+	780.1.1 = { change_development_level = 11 }
+	801.1.1 = {
 		holder = 100
 	}
 }
 
 ## Hanfasi
 c_gharel = {
-	80.1.1 = { change_development_level = 12 }
-	118.1.1 = {
+	780.1.1 = { change_development_level = 12 }
+	818.1.1 = {
 		liege = d_samrana
 		holder = 101
 	}
@@ -39,16 +39,16 @@ c_gharel = {
 
 ## Ashia
 c_farallah = {
-	80.1.1 = { change_development_level = 11 }
-	118.1.1 = {
+	780.1.1 = { change_development_level = 11 }
+	818.1.1 = {
 		liege = d_samrana
 		holder = 102
 	}
 }
 
 c_bosteyezh = {
-	80.1.1 = { change_development_level = 14 }
-	118.1.1 = {
+	780.1.1 = { change_development_level = 14 }
+	818.1.1 = {
 		liege = d_samrana
 		holder = 102
 	}
@@ -56,44 +56,44 @@ c_bosteyezh = {
 
 ## Qamra
 c_ahviz = {
-	80.1.1 = { change_development_level = 10 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 10 }
+	800.1.1 = {
 		holder = 103
 	}
 }
 
 ## Tanazila
 d_sukuna = {
-	100.1.1 = {
+	800.1.1 = {
 		holder = 104
 	}
 }
 c_hafkal = {
-	80.1.1 = { change_development_level = 16 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 16 }
+	800.1.1 = {
 		holder = 104
 	}
 }
 
 c_rumayth = {
-	80.1.1 = { change_development_level = 13 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 13 }
+	800.1.1 = {
 		holder = 104
 	}
 }
 
 ## Abu-Sharida
 c_izeh = {
-	80.1.1 = { change_development_level = 12 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 12 }
+	800.1.1 = {
 		holder = 105
 	}
 }
 
 ## Ghedduda
 c_saran = {
-	80.1.1 = { change_development_level = 11 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 11 }
+	800.1.1 = {
 		holder = 106
 	}
 }
@@ -102,16 +102,16 @@ c_saran = {
 ### Galmean Rulers
 ## Fadia
 c_bandae = {
-	80.1.1 = { change_development_level = 10 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 10 }
+	800.1.1 = {
 		holder = 200
 	}
 }
 
 ## Kharidea 
 c_omideyh = {
-	80.1.1 = { change_development_level = 9 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 9 }
+	800.1.1 = {
 		holder = 201
 		liege = d_sukuna
 	}
@@ -119,8 +119,8 @@ c_omideyh = {
 
 ## Simma 
 c_dehsadh = {
-	80.1.1 = { change_development_level = 10 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 10 }
+	800.1.1 = {
 		holder = 202
 		liege = d_sukuna
 	}
@@ -128,8 +128,8 @@ c_dehsadh = {
 
 ## Sa-Asyan 
 c_leond = {
-	80.1.1 = { change_development_level = 12 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 12 }
+	800.1.1 = {
 		holder = 203
 		liege = d_sukuna
 	}
@@ -137,15 +137,15 @@ c_leond = {
 
 ## Nevea
 c_al_bussan = {
-	80.1.1 = { change_development_level = 10 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 10 }
+	800.1.1 = {
 		holder = 204
 	}
 }
 
 c_rahbah_al_khan = {
-	80.1.1 = { change_development_level = 10 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 10 }
+	800.1.1 = {
 		holder = 204
 	}
 }
@@ -153,46 +153,46 @@ c_rahbah_al_khan = {
 ## Watteri
 ## Zofia
 c_musay_al_aziz = {
-	80.1.1 = { change_development_level = 13 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 13 }
+	800.1.1 = {
 		holder = 300
 	}
 }
 
 ## Bakka
 c_salman = {
-	80.1.1 = { change_development_level = 8 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 8 }
+	800.1.1 = {
 		holder = 301
 	}
 } 
 
 ## Tayri
 c_gammas = {
-	80.1.1 = { change_development_level = 6 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 6 }
+	800.1.1 = {
 		holder = 302
 	}
 }
 
 c_dasim = {
-	80.1.1 = { change_development_level = 8 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 8 }
+	800.1.1 = {
 		holder = 302
 	}
 }
 
 ## Zwira
 c_sulldan = {
-	80.1.1 = { change_development_level = 9 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 9 }
+	800.1.1 = {
 		holder = 303
 	}
 }
 
 c_ihahdi = {
-	80.1.1 = { change_development_level = 9 }
-	100.1.1 = {
+	780.1.1 = { change_development_level = 9 }
+	800.1.1 = {
 		holder = 303
 	}
 }

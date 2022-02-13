@@ -9251,83 +9251,6 @@ hold_court.5020 = {
 
 	weight_multiplier = {
 		base = 0.25
-		modifier = {
-			add = {
-				if = { #Since a big outbreak occurred in Aachen 1374
-					limit = {
-						any_sub_realm_county = { 
-							this = title:c_aachen
-							any_county_province = {
-								hold_court_5020_province_trigger = yes
-							}
-						}
-					}
-					add = {
-						if = {
-							limit = {
-								current_date >= 1374.1.1
-								current_date <= 1375.1.1
-							}
-							add = 1
-						}
-						else = {
-							add = 0.5
-						}
-					}
-				}
-				else_if = { #Since an outbreak occurred in Erfurt 1247
-					limit = {
-						any_sub_realm_county = { 
-							duchy = title:d_thuringia
-							any_county_province = {
-								hold_court_5020_province_trigger = yes
-							}
-						}
-					}
-					add = {
-						if = {
-							limit = {
-								current_date >= 1247.1.1
-								current_date <= 1248.1.1
-							}
-							add = 1
-						}
-						else = {
-							add = 0.5
-						}
-					}
-				}
-				else_if = { #Since an outbreak occurred in Kolbigk 1021
-					limit = {
-						capital_province = {
-							geographical_region = ghw_region_saxony
-							hold_court_5020_province_trigger = yes
-						}
-					}
-					add = {
-						if = {
-							limit = {
-								current_date >= 1021.1.1
-								current_date <= 1022.1.1
-							}
-							add = 1
-						}
-						else = {
-							add = 0.5
-						}
-					}
-				}
-				else = { #Since it historically occurred in Europe
-					add = 0.25
-				}
-			}
-			capital_province = {
-				geographical_region = world_europe
-				hold_court_5020_province_trigger = yes
-			}
-		}
-
-		# No court weighting, since no court would make this more likely.
 	}
 
 	immediate = {
@@ -9337,54 +9260,6 @@ hold_court.5020 = {
 		}
 		# Trigger next event in chain.
 		hold_court_queue_next_event_effect = yes
-		random_realm_province = {
-			limit = {
-				hold_court_5020_province_trigger = yes
-				OR = {
-					AND = {
-						county = { this = title:c_aachen }
-						current_date >= 1374.1.1
-						current_date <= 1375.1.1
-					}
-					AND = {
-						duchy = { this = title:d_thuringia }
-						current_date >= 1247.1.1
-						current_date <= 1248.1.1
-					}
-					AND = {
-						county.title_province = {
-							geographical_region = ghw_region_saxony
-						}
-						current_date >= 1021.1.1
-						current_date <= 1022.1.1
-					}
-				}
-			}
-			alternative_limit = {
-				hold_court_5020_province_trigger = yes
-				county = { this = title:c_aachen }
-			}
-			alternative_limit = {
-				hold_court_5020_province_trigger = yes
-				duchy = { this = title:d_thuringia }
-			}
-			alternative_limit = {
-				hold_court_5020_province_trigger = yes
-				county.title_province = {
-					geographical_region = ghw_region_saxony
-				}
-			}
-			alternative_limit = {
-				hold_court_5020_province_trigger = yes
-				county.title_province = {
-					geographical_region = world_europe
-				}
-			}
-			alternative_limit = {
-				hold_court_5020_province_trigger = yes
-			}
-			save_scope_as = province
-		}
 		create_character = {
 			template = servant_character
 			dynasty = none
@@ -9428,39 +9303,6 @@ hold_court.5020 = {
 				}
 				else = {
 					save_scope_as = portrait_3
-				}
-			}
-			hidden_effect = { #What do they think caused the mania?
-				random_list = {
-					10 = {
-						trigger = {
-							faith = { religion_tag = christianity_religion }
-				    		scope:court_chaplain = { faith = { religion_tag = christianity_religion } }
-						}
-						save_scope_value_as = {
-							name = john
-							value = yes
-						}
-					}
-					10 = {
-						trigger = {
-							faith = { religion_tag = christianity_religion }
-				    		scope:court_chaplain = { faith = { religion_tag = christianity_religion } }
-						}
-						save_scope_value_as = {
-							name = vitus
-							value = yes
-						}
-					}
-					10 = {
-						trigger = {
-							NOT = {
-								faith = { religion_tag = christianity_religion }
-				    			scope:court_chaplain = { faith = { religion_tag = christianity_religion } }
-							}
-						}
-						#If you're not Christian they will just mention HighGod
-					}
 				}
 			}
 		}
