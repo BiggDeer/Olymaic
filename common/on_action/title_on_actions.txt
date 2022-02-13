@@ -26,6 +26,9 @@
 # scope:landed_title = the title that is being destroyed
 # Does *not* provide scope:transfer_type
 on_title_destroyed = {
+	events = {
+		british_isles.1031	# Danelaw-England partition calc.
+	}
 }
 
 # A title is transferred to a new character
@@ -34,6 +37,8 @@ on_title_destroyed = {
 # scope:previous_holder = previous holder. Might be dead
 on_title_gain = {
 	effect = {
+		scope:title = { update_dynamic_coa = yes }
+		
 		if = {
 			limit = {
 				scope:title = { is_holy_order = yes }
@@ -61,10 +66,84 @@ on_title_gain = {
 				years = 4
 			}
 		}
+		
+		# Grandeur in elective realms
+		if = {
+			limit = {
+				exists = var:previous_holder_grandeur_value
+				has_royal_court = yes
+			}
+			hidden_effect = {
+				change_current_court_grandeur = -100 # Reset to 0
+				change_current_court_grandeur = var:previous_holder_grandeur_value
+				remove_variable = previous_holder_grandeur_value
+			}
+		}
+
+		# Petition allowed again
+		if = {
+			limit = { has_variable = petition_title_cooldown }
+			remove_variable = petition_title_cooldown
+		}
+
+		if = {
+			limit = {
+				exists = scope:previous_holder
+				scope:previous_holder = {
+					any_character_artifact = {
+						has_variable = artifact_succession_title #Is this an artifact that should follow a title?
+						var:artifact_succession_title = { is_title_created = yes } #Does the title the artifact should follow exist?
+						var:artifact_succession_title = scope:title #Scope title is the artifact title
+					}
+				}
+			}
+			scope:previous_holder = {
+				every_character_artifact = {
+					limit = {
+						has_variable = artifact_succession_title #Is this an artifact that should follow a title?
+						var:artifact_succession_title = { is_title_created = yes } #Does the title the artifact should follow exist?
+						var:artifact_succession_title = scope:title #Scope title is the artifact title
+					}
+					if = {
+						limit = {
+							OR = {
+								scope:transfer_type = flag:conquest
+								scope:transfer_type = flag:conquest_holy_war
+								scope:transfer_type = flag:conquest_claim
+								scope:transfer_type = flag:conquest_populist
+								scope:transfer_type = flag:abdication
+								scope:transfer_type = flag:usurped
+								scope:transfer_type = flag:revoked
+								scope:transfer_type = flag:faction_demand
+							}
+						}
+						set_owner = {
+							target = root
+							history = {
+								type = conquest
+								actor = scope:previous_holder
+								recipient = root
+								location = scope:previous_holder.location
+							}
+						}
+					}
+					else = {
+						set_owner = {
+							target = root
+							history = {
+								type = inherited
+								recipient = root
+							}
+						}
+					}
+				}
+			}
+		}
+
 	}
 	events = {
-		special_ariba.1
-		coa.1						# check if title Coat of Arms should change.
+		religious_decision.0312		# Base game: new holder of a county with a runestone
+		fp1_other_decisions.0113	# FP1: new holder of a county with a runestone
 		delay = { days = 1 }
 		realm_maintenance.2001		#Big notification about inheriting emperor tier title
 	}
@@ -76,9 +155,15 @@ on_title_gain = {
 # scope:previous_holder = previous holder. Should be dead
 on_title_gain_inheritance = {
 	events = {
-
 	}
 	effect = {
+		if = {
+			limit = {
+				scope:title = title:e_mongol_empire
+				has_character_flag = gain_mongol_succession_dread
+			}
+			add_dread = 50
+		}
 	}
 }
 
@@ -96,11 +181,35 @@ on_title_gain_usurpation = {
 # scope:title = the title that changes hands
 # scope:new_holder = new holder.
 on_title_lost = {
-	events = {
-
-	}
-
 	effect = {
+		#Make sure nobody ever has only the Kingdom of Fashion
+		if = {
+			limit = {
+				scope:title = { tier = tier_kingdom }
+				has_title = title:k_fashion
+				NOT = {
+					any_held_title = { # Only trigger if you don't have any kingdom titles other than Fashion and the kingdom you just lost. Double negative is confusing but it's the only way I could think to script it
+						tier = tier_kingdom
+						NOT = { this = title:k_fashion }
+						NOT = { this = scope:title }
+					}
+				}
+			}
+			destroy_title = title:k_fashion
+		}
+
+		#To remove concubines if a character becomes unlanded
+		if = {
+			limit = {
+				is_landed = no
+				any_concubine = { count >= 1 }
+			}
+			every_concubine = {
+				root = {
+					remove_concubine = prev
+				}
+			}
+		}
 
 		#Apply loss of stress to the Rivals
 		if = {
@@ -145,18 +254,12 @@ on_title_lost = {
 # root = the claimant
 # scope:title = the title that is claimed
 on_explicit_claim_gain = {
-	events = {
-		coa.1 # check if title Coat of Arms should change.
-	}
 }
 
 # A claim is lost by a character
 # root = the claimant
 # scope:title = the title that was claimed
 on_explicit_claim_lost = {
-	events = {
-		coa.1 # check if title Coat of Arms should change.
-	}
 }
 
 # A title change makes the character rank up in the landed tiers (eg Duke -> King)
@@ -171,6 +274,22 @@ on_rank_up = { # Will not fire during history execution or for dying characters
 		every_ally = {
 			update_embassies_effect = yes
 		}
+		# Make a note of ranking up for stele purposes.
+		if = {
+			limit = {
+				# DLC check.
+				has_fp1_dlc_trigger = yes
+				# Is the culture eligible?
+				fp1_can_raise_stele_trigger = yes
+				# Aaaaand, for balance reasons, were they landed already?
+				exists = scope:title
+			}
+			set_variable = {
+				name = recent_rank_increase
+				value = root.primary_title
+				years = 5
+			}
+		}
 	}
 }
 
@@ -181,9 +300,22 @@ on_rank_down = { # Will not fire during history execution or for dying character
 	events = {
 	}
 	effect = {
-		add_character_flag = {
-			flag = make_suicide_available
-			years = 5
+		if = {
+			limit = {
+				NOR = {
+					has_trait = humble
+					has_trait = content
+					has_trait = generous
+				}
+			}
+			add_character_flag = {
+				flag = make_suicide_available
+				years = 5
+			}
+			set_variable = {
+				name = rank_demoted
+				value = yes
+			}
 		}
 		update_embassies_effect = yes
 		every_ally = {

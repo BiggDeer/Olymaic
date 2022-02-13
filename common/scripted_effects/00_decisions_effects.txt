@@ -1,5 +1,4 @@
-﻿
-create_holy_order_effect = {
+﻿create_holy_order_effect = {
 	if = {
 		limit = {
 			exists = faith.religious_head
@@ -21,11 +20,12 @@ create_holy_order_effect = {
 		}
 	}
 	faith = {
-		change_fervor = 10
+		change_fervor = {
+			value = 10
+			desc = fervor_gain_holy_order_founded
+		}
 	}
 }
-	
-
 
 build_grand_church_decision_effect = {
 	faith = { activate_holy_site = segrada_familia }
@@ -187,7 +187,9 @@ convert_whole_realm_to_feudalism_effect = {
 	if = {
 		limit = {
 			is_independent_ruler = no
-			liege = { has_government = clan_government }
+			OR = {
+				liege = { has_government = clan_government }
+			}
 		}
 		change_government = clan_government
 	}
@@ -195,7 +197,9 @@ convert_whole_realm_to_feudalism_effect = {
 	else_if = {
 		limit = {
 			is_independent_ruler = no
-			liege = { has_government = feudal_government }
+			OR = {
+				liege = { has_government = feudal_government }
+			}
 		}
 		change_government = feudal_government
 	}
@@ -219,7 +223,6 @@ convert_whole_realm_to_feudalism_effect = {
 		}
 		custom_tooltip = feudal_liege_vassals_will_convert
 	}
-	
 	if = {
 		limit = { is_independent_ruler = yes }
 		custom_tooltip = other_vassals_will_convert
@@ -523,154 +526,81 @@ convert_whole_realm_to_feudalism_effect = {
 	}
 }
 
-##################################################
-# Add Special Succession Effects
-
-special_succession_witengamot_effect = {
-	if = {
-		limit = { highest_held_title_tier = tier_empire }
-		every_held_title = {
-			limit = {
-				tier = tier_empire
-				NOR = {
-					has_title_law_flag = advanced_succession_law
-					has_title_law_flag = elective_succession_law
-				}
-			}
-			add_title_law = saxon_elective_succession_law
+tribal_transfer_liege_title_effect = {
+	create_title_and_vassal_change = {
+		type = usurped
+		save_scope_as = change
+		add_claim_on_loss = no
+	}
+	scope:title_being_fought_over = {
+		change_title_holder = {
+			holder = scope:challenger
+			change = scope:change
 		}
-		every_vassal = {
-			limit = { special_succession_witengamot_trigger = yes }
+	}
+	resolve_title_and_vassal_change = scope:change
+	if = {
+		limit = {
+			root = scope:challenger
+		}
+		scope:liege_to_challenge = {
 			add_opinion = {
-				modifier = implemented_traditional_succession_law_opinion
-				years = 20
-				target = root
+				target = scope:challenger
+				modifier = usurped_title
 			}
-			custom = major_decisions.3100.tt_opinion_witengamot
 		}
 	}
 	else = {
-		every_held_title = {
-			limit = {
-				tier = tier_kingdom
-				NOR = {
-					has_title_law_flag = advanced_succession_law
-					has_title_law_flag = elective_succession_law
+		hidden_effect = {
+			scope:liege_to_challenge = {
+				add_opinion = {
+					target = scope:challenger
+					modifier = usurped_title
 				}
 			}
-			add_title_law = saxon_elective_succession_law
-		}
-		every_vassal = {
-			limit = { special_succession_witengamot_trigger = yes }
-			add_opinion = {
-				modifier = implemented_traditional_succession_law_opinion
-				years = 20
-				target = root
-			}
-			custom = major_decisions.3100.tt_opinion_witengamot
 		}
 	}
 }
 
-special_succession_thing_effect = {
+tribal_challenger_lost_effect = {
 	if = {
-		limit = { highest_held_title_tier = tier_empire }
-		every_held_title = {
-			limit = {
-				tier = tier_empire
-				NOR = {
-					has_title_law_flag = advanced_succession_law
-					has_title_law_flag = elective_succession_law
-				}
-			}
-			add_title_law = scandinavian_elective_succession_law
+		limit = {
+			root = scope:liege_to_challenge
 		}
-		every_vassal = {
-			limit = { special_succession_thing_trigger = yes }
-			add_opinion = {
-				modifier = implemented_traditional_succession_law_opinion
-				years = 20
-				target = root
-			}
-			custom = major_decisions.3100.tt_opinion_thing
+		scope:liege_to_challenge = {
+			add_prestige = medium_prestige_gain
 		}
 	}
 	else = {
-		every_held_title = {
-			limit = {
-				tier = tier_kingdom
-				NOR = {
-					has_title_law_flag = advanced_succession_law
-					has_title_law_flag = elective_succession_law
-				}
+		hidden_effect = {
+			scope:liege_to_challenge = {
+				add_prestige = medium_prestige_gain
 			}
-			add_title_law = scandinavian_elective_succession_law
-		}
-		every_vassal = {
-			limit = { special_succession_thing_trigger = yes }
-			add_opinion = {
-				modifier = implemented_traditional_succession_law_opinion
-				years = 20
-				target = root
-			}
-			custom = major_decisions.3100.tt_opinion_thing
 		}
 	}
-}
-
-special_succession_tanistry_effect = {
+	add_prestige_level = -1
 	if = {
-		limit = { highest_held_title_tier = tier_empire }
-		every_held_title = {
-			limit = {
-				tier = tier_empire
-				NOR = {
-					has_title_law_flag = advanced_succession_law
-					has_title_law_flag = elective_succession_law
-				}
-			}
-			add_title_law = gaelic_elective_succession_law
+		limit = {
+			root = scope:challenger
 		}
-		every_vassal = {
-			limit = { special_succession_tanistry_trigger = yes }
+		scope:liege_to_challenge = {
 			add_opinion = {
-				modifier = implemented_traditional_succession_law_opinion
-				years = 20
-				target = root
+				target = scope:challenger
+				modifier = tried_to_usurped_title
 			}
-			custom = major_decisions.3100.tt_opinion_tanistry
 		}
 	}
 	else = {
-		every_held_title = {
-			limit = {
-				tier = tier_kingdom
-				NOR = {
-					has_title_law_flag = advanced_succession_law
-					has_title_law_flag = elective_succession_law
+		hidden_effect = {
+			scope:liege_to_challenge = {
+				add_opinion = {
+					target = scope:challenger
+					modifier = tried_to_usurped_title
 				}
 			}
-			add_title_law = gaelic_elective_succession_law
-		}
-		every_vassal = {
-			limit = { special_succession_tanistry_trigger = yes }
-			add_opinion = {
-				modifier = implemented_traditional_succession_law_opinion
-				years = 20
-				target = root
-			}
-			custom = major_decisions.3100.tt_opinion_tanistry
 		}
 	}
 }
-
-##################################################
-
-
-##################################################
-
-
-
 
 ##################################################
 # Found Cadet House Effects
@@ -711,5 +641,170 @@ found_cadet_house_decision_effect = {
 			right_icon = scope:former_house_head
 			desc = created_cadet_branch_toast_new_house_other_tt
 		}
+	}
+}
+
+learn_language_linguist_effect = {
+	hidden_effect = { recruit_courtier = $LINGUIST$ }
+	$LINGUIST$ = { save_scope_as = selected_linguist }
+	send_interface_toast = {
+		title = learn_court_language_toast_title
+		left_icon = root
+		right_icon = $LINGUIST$
+		if = {
+			limit = {
+				can_employ_court_position_type = court_tutor_court_position
+				NOT = { employs_court_position = court_tutor_court_position }
+			}
+			appoint_court_position = {
+				recipient = $LINGUIST$
+				court_position = court_tutor_court_position
+			}
+		}
+		else_if = {
+			limit = {
+				can_employ_court_position_type = court_tutor_court_position
+			}
+			court_position:court_tutor_court_position = {
+				add_opinion = {
+					target = root
+					modifier = disappointed_opinion
+					opinion = -5
+				}
+			}
+			replace_court_position = {
+				recipient = $LINGUIST$
+				holder = court_position:court_tutor_court_position
+				court_position = court_tutor_court_position
+			}
+		}
+		if = {
+			limit = {
+				NOT = { knows_language_of_culture = $LINGUIST$.culture }
+			}
+	    	start_scheme = {
+				type = learn_language
+				target = $LINGUIST$
+			}
+	    }
+	}
+}
+
+linguist_bonus_culture_effect = {
+	if = {
+		limit = { exists = scope:$CULTURE$ }
+		if = {
+			limit = {
+				any_culture_global = {
+					exists = culture_head
+					has_same_culture_heritage = scope:$CULTURE$
+					NOR = {
+						has_same_culture_language = scope:$CULTURE$
+						has_same_culture_language = root.culture
+						AND = {
+							exists = scope:target_court_language.culture
+							has_same_culture_language = scope:target_court_language.culture
+						}
+						AND = {
+							exists = scope:ling_cul_1_bonus
+							THIS = scope:ling_cul_1_bonus
+						}
+						AND = {
+							exists = scope:ling_cul_2_bonus
+							THIS = scope:ling_cul_2_bonus
+						}
+						AND = {
+							exists = scope:ling_cul_3_bonus
+							THIS = scope:ling_cul_3_bonus
+						}
+					}
+				}
+			}
+			random_culture_global = { # Find a culture that speaks this language natively
+				limit = {
+					exists = culture_head
+					has_same_culture_heritage = scope:$CULTURE$
+					NOR = {
+						has_same_culture_language = scope:$CULTURE$
+						has_same_culture_language = root.culture
+						AND = {
+							exists = scope:target_court_language.culture
+							has_same_culture_language = scope:target_court_language.culture
+						}
+						AND = {
+							exists = scope:ling_cul_1_bonus
+							THIS = scope:ling_cul_1_bonus
+						}
+						AND = {
+							exists = scope:ling_cul_2_bonus
+							THIS = scope:ling_cul_2_bonus
+						}
+						AND = {
+							exists = scope:ling_cul_3_bonus
+							THIS = scope:ling_cul_3_bonus
+						}
+					}
+				}
+				save_scope_as = $CULTURE$_bonus
+			}
+		}
+		else = {
+			random_kingdom = {
+				limit = {
+					exists = holder
+					NOR = {
+						holder = root
+						AND = {
+							exists = scope:target_court_language
+							holder = scope:target_court_language
+						}
+					}
+					holder = {
+						in_diplomatic_range = root
+						culture = {
+							NOR = {
+								has_same_culture_language = scope:$CULTURE$
+								has_same_culture_language = root.culture
+								AND = {
+									exists = scope:target_court_language
+									has_same_culture_language = scope:target_court_language.culture
+								}
+								AND = {
+									exists = scope:ling_cul_1_bonus
+									this = scope:ling_cul_1_bonus
+								}
+								AND = {
+									exists = scope:ling_cul_2_bonus
+									this = scope:ling_cul_2_bonus
+								}
+								AND = {
+									exists = scope:ling_cul_3_bonus
+									this = scope:ling_cul_3_bonus
+								}
+							}
+						}
+					}
+				}
+				holder.culture = { save_scope_as = $CULTURE$_bonus }
+			}
+		}
+	}
+}
+
+linguist_random_realm_effect = {
+	# Save random culture realm to fetch faith
+	if = {
+		limit = {
+			any_independent_ruler = { culture = scope:$CULTURE$ }
+		}
+		ordered_independent_ruler = {
+			limit = { culture = scope:$CULTURE$ }
+			order_by = primary_title.tier
+			save_scope_as = $CULTURE$_ruler
+		}
+	}
+	# Save fallback to fetch faith
+	else = {
+		scope:target_court_language = { save_scope_as = $CULTURE$_ruler }
 	}
 }

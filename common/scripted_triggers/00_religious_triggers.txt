@@ -1117,3 +1117,11 @@ faith_is_aniconic_trigger = {
 		}
 	}
 }
+
+can_take_religious_vows_disregard_marriage_trigger = {
+	is_available_ai = yes
+	faith = scope:actor.faith
+	is_ruler = no
+	NOT = { has_trait = excommunicated }
+	NOT = { has_character_flag = holy_order_member_requested_return_home }
+}
