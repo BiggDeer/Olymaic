@@ -1,0 +1,29 @@
+﻿l_english:
+ 
+ tradition_siyya_contract_name:0 "Siyya Contract"
+ tradition_siyya_contract_desc:0 ""
+ culture_parameter_unlock_siyya_contract:0 "Grants access to the Siyya Feudal Contract."
+ 
+
+ tradition_purest_form_name:0 "Purest Form"
+ tradition_purest_form_desc:0 ""
+ culture_parameter_nudist_culture:0 "Characters of this culture do not wear clothes."
+ culture_parameter_more_likely_deviants_culture:0 "The [GetTrait('deviant').GetName( GetPlayer )] [trait|E] is more likely to appear."
+ culture_parameter_no_deviant_opinion_culture:0 "Characters with the [GetTrait('deviant').GetName( GetPlayer )] [trait|E] do not receive opinion debuffs from characters of this culture."
+
+ tradition_milk_of_life_name:0 "Milk of Life"
+ tradition_milk_of_life_desc:0 ""
+
+ tradition_hisa_breeding_name:0 "Hisa Breeding"
+ tradition_hisa_breeding_desc:0 ""
+ culture_parameter_unlock_bukkaran_riders_maa:0 "Can recruit [GetMaA('bukkaran_riders').GetName] as [men_at_arms|E]"
+ culture_parameter_horse_breeders_active:0 "Characters of this culture have a very special relationship with their mounts."
+
+
+ ###################################
+ ## Special Culture Related Stuff ##
+ ###################################
+ relation_rights:0 "Relation Rights"
+ relation_rights_siyya:0 "Siyya Arrangement"
+ relation_rights_siyya_desc:2 "While in a Siyya Arrangement, the vassal is placed within a sexual-slavery contract where their liege can freely use them. This grants the liege a large amount of prestige and the vassal some piety, but the overall opinion of the vassal is reduced."
+ relation_rights_siyya_short:0 "Siyya"

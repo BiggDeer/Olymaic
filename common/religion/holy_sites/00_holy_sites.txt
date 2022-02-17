@@ -6,7 +6,7 @@
 
 green_kahlaston = {
 	county = c_ziran
-	barony = b_curuk
+	barony = b_azzazi
 	
 	character_modifier = {
 		name = holy_site_green_kahlaston_effect_name
@@ -39,7 +39,7 @@ red_kahlaston = {
 
 pink_kahlaston = {
 	county = c_omideyh
-	barony = b_doubk
+	barony = b_hofusha
 	
 	character_modifier = {
 		name = holy_site_green_kahlaston_effect_name

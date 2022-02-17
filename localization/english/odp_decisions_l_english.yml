@@ -23,6 +23,8 @@
  reintegrate_the_ariban_decision_desc:0 "The Ariban was a title once held by one of the strongest and most loyal of followers of Galitia."
  reintegrate_the_ariban_decision_tooltip:0 "Bring the lost kingdom back under the blood of the prophet."
  reintegrate_the_ariban_decision_confirm:0 "It must be brought back into the fold.""
+ reintegrate_the_ariban_decision_effect_tooltip_positive:0 "If the ruler of Ariban accepts, they will be vassalized."
+ reintegrate_the_ariban_decision_effect_tooltip_negative:0 "If the ruler of Ariban refuses, war will be declared."
 
  ## Activity Loc
  activity_visit_kahlaston:0 "Kahlaston Visit"

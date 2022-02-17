@@ -1,0 +1,129 @@
+﻿tradition_siyya_contract = {
+	category = regional
+
+	layers = {
+		0 = steward
+        1 = mena
+        4 = female_submission.dds
+	}
+	
+	is_shown = {
+        always = yes
+	}
+	can_pick = {
+		always = yes
+	}
+	
+	parameters = {
+        unlock_siyya_contract = yes
+	}
+	
+	cost = {
+	}
+	
+	ai_will_do = {
+		value = 0
+	}
+}
+
+tradition_purest_form = {
+	category = regional
+
+	layers = {
+		0 = learning
+        1 = mena
+        4 = breasts_front.dds
+	}
+	
+	is_shown = {
+        always = yes
+	}
+	can_pick = {
+		always = yes
+	}
+	
+	parameters = {
+        nudist_culture = yes
+        more_likely_deviants_culture = yes
+        no_deviant_opinion_culture = yes
+	}
+	
+	cost = {
+
+	}
+	
+	ai_will_do = {
+		value = 0
+	}
+}
+
+tradition_milk_of_life = {
+	category = regional
+
+	layers = {
+		0 = learning
+        1 = mena
+        4 = breasts.dds
+	}
+	
+	is_shown = {
+        always = yes
+	}
+	can_pick = {
+		always = yes
+	}
+
+	county_modifier = {
+		desert_development_growth_factor = 0.25
+		drylands_development_growth_factor = 0.25
+	}
+
+	province_modifier = {
+		desert_construction_gold_cost = -0.15
+		drylands_construction_gold_cost = -0.15
+		desert_holding_construction_gold_cost = -0.15
+		drylands_holding_construction_gold_cost = -0.15
+	}
+
+	cost = {
+	}
+	
+	ai_will_do = {
+		value = 0
+	}
+}
+
+tradition_hisa_breeding = {
+	category = regional
+
+	layers = {
+		0 = steward
+        1 = mena
+        4 = horse_cock.dds
+	}
+	
+	is_shown = {
+        always = yes
+	}
+	can_pick = {
+		always = yes
+	}
+
+	parameters = {
+        unlock_bukkaran_riders_maa = yes
+        horse_breeders_active = yes
+	}
+
+	character_modifier = {
+        light_cavalry_pursuit_mult = 0.1
+        light_cavalry_damage_mult = 0.1
+		light_cavalry_screen_mult = 0.1
+	}
+	
+	cost = {
+	}
+	
+	ai_will_do = {
+		value = 0
+	}
+}

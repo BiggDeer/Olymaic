@@ -32,7 +32,7 @@ mattaian = {
 	language = language_yaajani
 	martial_custom = martial_custom_equal
 	traditions = {
-	    tradition_horse_breeder
+	    tradition_hisa_breeding
 	    tradition_stalwart_defenders
 	    tradition_faith_bound
 	    tradition_loyal_soldiers

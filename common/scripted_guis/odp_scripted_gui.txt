@@ -1,0 +1,9 @@
+﻿show_siyya_if_has_tradition = {
+	scope = character 
+
+	is_shown = {
+		culture = {
+			has_cultural_parameter = unlock_siyya_contract
+		}
+	}
+}

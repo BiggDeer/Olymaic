@@ -6,7 +6,7 @@
 	language = language_yaajani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_city_keepers
+		tradition_siyya_contract
 		tradition_seafaring
 		tradition_staunch_traditionalists
 	}
@@ -33,6 +33,7 @@ galmean = {
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_welcoming
+		tradition_purest_form
 		tradition_zealous_people
 	}
 	
@@ -57,7 +58,7 @@ watteri = {
 	language = language_yaajani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_dryland_dwellers
+		tradition_milk_of_life
 		tradition_castle_keepers
 	}
 	

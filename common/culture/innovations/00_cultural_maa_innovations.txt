@@ -30,19 +30,3 @@
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
-
-@bukkaran_riders = "gfx/interface/icons/culture_innovations/innovation_bukkaran_riders.dds"
-
-innovation_bukkaran_riders = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @bukkaran_riders
-
-	potential = {
-		this = culture:mattaian
-	}
-
-	unlock_maa = bukkaran_riders
-
-	flag = global_maa
-}

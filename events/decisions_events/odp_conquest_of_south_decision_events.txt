@@ -12,9 +12,6 @@ conquest_of_south.1 = {
 
 	option = {
 		name = conquest_of_south.1.a
-
-		get_title = k_jrit_hajar
-		add_prestige = 500
 	}
 }
 

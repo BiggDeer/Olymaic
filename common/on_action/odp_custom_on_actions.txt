@@ -1,0 +1,9 @@
+﻿on_obligation_change = {
+    effect = {
+        if = {
+            limit = { vassal_contract_has_flag = has_siyya_contract }
+
+            set_relation_siyyadan = prev.liege
+        }
+    }
+}

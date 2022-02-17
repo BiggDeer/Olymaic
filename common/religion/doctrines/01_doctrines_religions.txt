@@ -2,8 +2,8 @@
 	group = "not_creatable"
 	synahisanity_hostility_doctrine = {
 		parameters = {
-			hostility_same_religion = 2
-			hostility_same_family = 3
+			hostility_same_religion = 1
+			hostility_same_family = 2
 			hostility_others = 3
 		}
 	}
