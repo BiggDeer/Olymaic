@@ -1,0 +1,17 @@
+﻿female_homosexual = {
+	random_events = {
+		100 = general_sex.200
+	}
+}
+
+heterosexual = {
+	random_events = {
+		100 = general_sex.300
+	}
+}
+
+male_homosexual = {
+	random_events = {
+		100 = general_sex.400
+	}
+}

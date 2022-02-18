@@ -1,0 +1,71 @@
+﻿namespace = use_siyyadi
+
+### Pick which Siyyadi to have your way with.
+use_siyyadi.1 = {
+    type = character_event
+	title = use_siyyadi.1.t
+	desc = use_siyyadi.1.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+    lower_left_portrait = {
+		character = scope:siyyadi_1
+	}
+	lower_center_portrait = {
+		character = scope:siyyadi_2
+	}
+	lower_right_portrait = {
+		character = scope:siyyadi_3
+	}
+
+    immediate = {
+        every_vassal = {
+            limit = { vassal_contract_has_flag = has_siyya_contract }
+
+            if = {
+              	limit = {
+					NOT = { exists = scope:siyyadi_1 }
+				}
+				save_scope_as = siyyadi_1
+            }
+
+            else_if = {
+                limit = {
+					NOT = { exists = scope:siyyadi_2 }
+				}
+				save_scope_as = siyyadi_2
+            }
+
+            else = {
+                limit = {
+					NOT = { exists = scope:siyyadi_3 }
+				}
+				save_scope_as = siyyadi_3
+            }
+        }
+	}
+
+	option = {
+		name = use_siyyadi.1.a
+        trigger = {
+            exists = scope:siyyadi_1
+        }
+	}
+
+    option = {
+		name = use_siyyadi.1.b
+        trigger = {
+            exists = scope:siyyadi_2
+        }
+	}
+
+    option = {
+		name = use_siyyadi.1.c
+        trigger = {
+            exists = scope:siyyadi_3
+        }
+	}
+}

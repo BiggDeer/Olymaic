@@ -41,7 +41,7 @@ brothel_visit.1 = {
         }
 
         trigger_event = {
-            on_action = female_homosexual_brothel_visit
+            on_action = female_homosexual
         }
 	}
 
@@ -67,7 +67,7 @@ brothel_visit.1 = {
         }
 
         trigger_event = {
-            on_action = heterosexual_brothel_visit
+            on_action = heterosexual
         }
 	}
 
@@ -83,48 +83,8 @@ brothel_visit.1 = {
         }
 
         trigger_event = {
-            on_action = male_homosexual_brothel_visit
+            on_action = male_homosexual
         }
 	}
 
-}
-
-brothel_visit.200 = {
-    type = character_event
-	title = brothel_visit.200.t
-	desc = brothel_visit.200.desc
-	theme = love
-    override_background = {
-		event_background = brothel_female_female
-	}
-
-
-	option = {
-		name = brothel_visit.200.a
-	}
-}
-
-brothel_visit.300 = {
-    type = character_event
-	title = brothel_visit.300.t
-	desc = brothel_visit.300.desc
-	theme = love
-    override_background = {
-		event_background = brothel_male_female
-	}
-
-	option = {
-		name = brothel_visit.300.a
-	}
-}
-
-brothel_visit.400 = {
-    type = character_event
-	title = brothel_visit.400.t
-	desc = brothel_visit.400.desc
-	theme = love
-
-	option = {
-		name = brothel_visit.400.a
-	}
 }

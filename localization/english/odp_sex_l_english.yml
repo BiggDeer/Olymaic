@@ -21,3 +21,25 @@
  lesb_sex_middle_happy_2:0 "Placeholder!!! Middle"
  lesb_sex_end_happy_1:0 "Placeholder!!! End"
  lesb_sex_end_happy_2:0 "Placeholder!!! End"
+
+ ######################
+ ### The SEX EVENTS ###
+ ######################
+
+ #### Female on Female Events
+ general_sex.200.t:0 "A Good Night"
+ general_sex.200.desc:0 "[ROOT.Char.Custom('straight_sex_beginning')] [ROOT.Char.Custom('straight_sex_middle')] [ROOT.Char.Custom('straight_sex_end')]"
+ general_sex.200.a:0 "A night well spent!"
+
+
+ #### Male on Female Events
+ general_sex.300.t:0 "A Good Night"
+ general_sex.300.female.desc:0 "Missionary\n\nREPLACE THIS"
+ general_sex.300.male.desc:0 "Missionary\n\nREPLACE THIS"
+ general_sex.300.a:0 "A night well spent!"
+
+
+ #### Male on Male Events
+ general_sex.400.t:0 "A Good Night"
+ general_sex.400.desc:0 "Missionary\n\nREPLACE THIS"
+ general_sex.400.a:0 "A night well spent!"

@@ -1,0 +1,6 @@
+﻿l_english:
+ use_siyyadi.1.t:0 "Using a Siyyadi"
+ use_siyyadi.1.desc:0 ""
+ use_siyyadi.1.a:0 "[SCOPE.sC('siyyadi_1').GetTitledFirstName]"
+ use_siyyadi.1.b:0 "[SCOPE.sC('siyyadi_2').GetTitledFirstName]"
+ use_siyyadi.1.c:0 "[SCOPE.sC('siyyadi_3').GetTitledFirstName]"

@@ -1,0 +1,41 @@
+﻿namespace = general_sex
+
+general_sex.200 = {
+    type = character_event
+	title = general_sex.200.t
+	desc = general_sex.200.desc
+	theme = love
+    override_background = {
+		event_background = brothel_female_female
+	}
+
+
+	option = {
+		name = general_sex.200.a
+	}
+}
+
+general_sex.300 = {
+    type = character_event
+	title = general_sex.300.t
+	desc = general_sex.300.desc
+	theme = love
+    override_background = {
+		event_background = brothel_male_female
+	}
+
+	option = {
+		name = general_sex.300.a
+	}
+}
+
+general_sex.400 = {
+    type = character_event
+	title = general_sex.400.t
+	desc = general_sex.400.desc
+	theme = love
+
+	option = {
+		name = general_sex.400.a
+	}
+}

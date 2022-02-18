@@ -6,25 +6,3 @@
  brothel_visit.1.b.female:0 "A man for me!"
  brothel_visit.1.b.male:0 "A woman for me!"
  brothel_visit.1.c:0 "Bring me a man!"
-
- ######################
- ### THe SEX EVENTS ###
- ######################
-
- #### Female on Female Events
- brothel_visit.200.t:0 "A Night With a Stranger"
- brothel_visit.200.desc:0 "[ROOT.Char.Custom('straight_sex_beginning')] [ROOT.Char.Custom('straight_sex_middle')] [ROOT.Char.Custom('straight_sex_end')]"
- brothel_visit.200.a:0 "A night well spent!"
-
-
- #### Male on Female Events
- brothel_visit.300.t:0 "A Night With a Stranger"
- brothel_visit.300.female.desc:0 "Missionary\n\nREPLACE THIS"
- brothel_visit.300.male.desc:0 "Missionary\n\nREPLACE THIS"
- brothel_visit.300.a:0 "A night well spent!"
-
-
- #### Male on Male Events
- brothel_visit.400.t:0 "A Night With a Stranger"
- brothel_visit.400.desc:0 "Missionary\n\nREPLACE THIS"
- brothel_visit.400.a:0 "A night well spent!"
