@@ -25,7 +25,6 @@
 		}
 
 		parameters = {
-			naked_adherents_active = yes
 			no_unfaithfulness_penalty_active = yes
 			can_build_brothels_active = yes
 		}
@@ -47,8 +46,10 @@
 		}
 		
 		character_modifier = {
-			opinion_of_male_rulers = -10
-			fertility = 0.05
+			opinion_of_male_rulers = -20
+			fertility = 0.10
+			years_of_fertility = 10
+			county_opinion_add = 10
 		}
 		can_pick = {
 			always = yes

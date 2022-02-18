@@ -542,7 +542,6 @@ relation_rights = {
 			vassal_modifier = {
 				monthly_piety_gain_mult = 0.15
 				monthly_prestige_gain_mult = -0.05
-				general_opinion = -5
 			}
 			
 			flag = has_siyya_contract

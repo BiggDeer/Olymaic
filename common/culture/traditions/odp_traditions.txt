@@ -17,6 +17,11 @@
 	parameters = {
         unlock_siyya_contract = yes
 	}
+
+	character_modifier = {
+		domain_limit = 1
+		vassal_limit = 1
+	}
 	
 	cost = {
 	}
@@ -44,10 +49,12 @@ tradition_purest_form = {
 	
 	parameters = {
         nudist_culture = yes
-        more_likely_deviants_culture = yes
-        no_deviant_opinion_culture = yes
 	}
 	
+	character_modifier = {
+		stress_loss_mult = 0.15
+		attraction_opinion = 15
+	}
 	cost = {
 
 	}

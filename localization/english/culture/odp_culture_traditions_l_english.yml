@@ -1,21 +1,19 @@
 ﻿l_english:
  
  tradition_siyya_contract_name:0 "Siyya Contract"
- tradition_siyya_contract_desc:0 ""
+ tradition_siyya_contract_desc:0 "The Siyya Contract, or Siyya Arrangement, is a tradition started by the Prophet Galitia during her time as ruler of Ar-Yafaj. Offering lower taxation to the vassal, in return for satisfying the phsyical desires of the liege."
  culture_parameter_unlock_siyya_contract:0 "Grants access to the Siyya Feudal Contract."
  
 
  tradition_purest_form_name:0 "Purest Form"
- tradition_purest_form_desc:0 ""
+ tradition_purest_form_desc:0 "The human body is a beautiful thing, and covering it and hiding it from view is something that should be avoided, not encouraged."
  culture_parameter_nudist_culture:0 "Characters of this culture do not wear clothes."
- culture_parameter_more_likely_deviants_culture:0 "The [GetTrait('deviant').GetName( GetPlayer )] [trait|E] is more likely to appear."
- culture_parameter_no_deviant_opinion_culture:0 "Characters with the [GetTrait('deviant').GetName( GetPlayer )] [trait|E] do not receive opinion debuffs from characters of this culture."
 
  tradition_milk_of_life_name:0 "Milk of Life"
- tradition_milk_of_life_desc:0 ""
+ tradition_milk_of_life_desc:0 "Water is what some believe to be the key to survival in the harsh heat and deserts of the south, but this culture has, in fact, figured out a different way to survive... Breastmilk!"
 
  tradition_hisa_breeding_name:0 "Hisa Breeding"
- tradition_hisa_breeding_desc:0 ""
+ tradition_hisa_breeding_desc:0 "Horses have been a special part of this culture for centuries, it's only natural for that relationship to have strengthened over time to be a much more... personal thing."
  culture_parameter_unlock_bukkaran_riders_maa:0 "Can recruit [GetMaA('bukkaran_riders').GetName] as [men_at_arms|E]"
  culture_parameter_horse_breeders_active:0 "Characters of this culture have a very special relationship with their mounts."
 
