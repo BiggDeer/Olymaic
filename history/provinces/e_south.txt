@@ -7,6 +7,7 @@
 	duchy_capital_building = leisure_palace_01
 
 	810.1.1 = {
+		special_building = warriors_field
 		buildings = {
 			farm_estates_01
 		}
@@ -21,6 +22,10 @@
 	religion = al_haqia
 	culture = hizani
 	holding = castle_holding
+
+	810.1.1 = {
+		special_building = tomb_of_the_prophet
+	}
 }
 10 = { 
 	holding = church_holding 
@@ -39,7 +44,13 @@
 	holding = castle_holding
 }
 23 = { holding = none}
-24 = { holding = city_holding }
+24 = { 
+	holding = city_holding 
+
+	810.1.1 = {
+		special_building = kangazd_canal
+	}
+}
 25 = { holding = none}
 
 22 = {
@@ -58,6 +69,10 @@
 	religion = al_haqia
 	culture = hizani
 	holding = castle_holding
+
+	810.1.1 = {
+		special_building = akpan_silver_mines_01
+	}
 }
 34 = { holding = none}
 
@@ -138,7 +153,12 @@
 	culture = galmean
 	holding = castle_holding
 }
-65 = { holding = city_holding}
+65 = { 
+	holding = city_holding
+	810.1.1 = {
+		special_building = zaydshi_gold_mines_01
+	}
+}
 63 = { holding = none}
 62 = { holding = none}
 61 = { holding = none}
@@ -224,6 +244,10 @@
 	religion = qital
 	culture = galmean
 	holding = castle_holding
+
+	810.1.1 = {
+		special_building = grand_fishery_of_suffayan
+	}
 }
 106 = { holding = city_holding}
 102 = { holding = none}

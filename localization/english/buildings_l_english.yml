@@ -39,7 +39,54 @@
  building_wall_of_bones_ruined_01_desc:0 ""
  building_wall_of_bones_restored_01:0 "Wall of Bones"
  building_wall_of_bones_restored_01_desc:0 ""
+
+ building_type_kangazd_canal:0 "Kangazd Canal"
+ building_kangazd_canal:0 "Kangazd Canal"
+ building_kangazd_canal_desc:0 ""
+
+ building_type_grand_fishery_of_suffayan:0 "Grand Fishery of Suffayn"
+ building_grand_fishery_of_suffayan:0 "Grand Fishery of Suffayn"
+ building_grand_fishery_of_suffayan_desc:0 ""
  
+ building_type_warriors_field:0 "Warriors Field"
+ building_warriors_field:0 "Warriors Field"
+ building_warriors_field_desc:0 ""
+
+ building_type_tomb_of_the_prophet:0 "Tomb of the Prophet"
+ building_tomb_of_the_prophet:0 "Tomb of the Prophet"
+ building_tomb_of_the_prophet_desc:0 ""
+
+ ## Mines
+ building_type_zahesta_gold_mines_01:0 "Zahesta Gold Mines"
+ building_zahesta_gold_mines_01:0 "Zahesta Gold Mines"
+ building_zahesta_gold_mines_01_desc:0 ""
+ building_zahesta_gold_mines_02:0 "Zahesta Gold Mines"
+ building_zahesta_gold_mines_02_desc:0 ""
+ building_zahesta_gold_mines_03:0 "Zahesta Gold Mines"
+ building_zahesta_gold_mines_03_desc:0 ""
+ building_zahesta_gold_mines_04:0 "Zahesta Gold Mines"
+ building_zahesta_gold_mines_04_desc:0 ""
+
+ building_type_zaydshi_gold_mines_01:0 "Zaydshi Gold Mines"
+ building_zaydshi_gold_mines_01:0 "Zaydshi Gold Mines"
+ building_zaydshi_gold_mines_01_desc:0 ""
+ building_zaydshi_gold_mines_02:0 "Zaydshi Gold Mines"
+ building_zaydshi_gold_mines_02_desc:0 ""
+ building_zaydshi_gold_mines_03:0 "Zaydshi Gold Mines"
+ building_zaydshi_gold_mines_03_desc:0 ""
+ building_zaydshi_gold_mines_04:0 "Zaydshi Gold Mines"
+ building_zaydshi_gold_mines_04_desc:0 ""
+
+ building_type_akpan_silver_mines_01:0 "Akpan Silver Mines"
+ building_akpan_silver_mines_01:0 "Akpan Silver Mines"
+ building_akpan_silver_mines_01_desc:0 ""
+ building_akpan_silver_mines_02:0 "Akpan Silver Mines"
+ building_akpan_silver_mines_02_desc:0 ""
+ building_akpan_silver_mines_03:0 "Akpan Silver Mines"
+ building_akpan_silver_mines_03_desc:0 ""
+ building_akpan_silver_mines_04:0 "Akpan Silver Mines"
+ building_akpan_silver_mines_04_desc:0 ""
+
  ## Whorehouses
  building_type_whorehouse_01:0 "Whorehouses"
  building_type_whorehouse_01_desc:0 "Whorehouses"
