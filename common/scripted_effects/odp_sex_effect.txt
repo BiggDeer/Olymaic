@@ -1,0 +1,44 @@
+fire_any_sex_event = {
+	random_list = {
+		30 = {
+			trigger = {
+				OR = {
+					has_sexuality = bisexual
+					has_sexuality = heterosexual
+				}
+			}
+
+			trigger_event = {
+				on_action = fire_heterosexual_events
+			}
+		}
+
+		30 = {
+			trigger = {
+				OR = {
+					has_sexuality = bisexual
+					has_sexuality = homosexual
+				}
+				is_male = yes
+			}
+		
+			trigger_event = {
+				on_action = fire_male_homosexual_events
+			}
+		}
+
+		30 = {
+			trigger = {
+				OR = {
+					has_sexuality = bisexual
+					has_sexuality = homosexual
+				}
+				is_female = yes
+			}
+		
+			trigger_event = {
+				on_action = fire_female_homosexual_events
+			}
+		}
+	}
+}

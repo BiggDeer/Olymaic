@@ -1,0 +1,104 @@
+## generic make love interaction
+## use siyyadi interaction
+
+
+## scope:actor 
+## scope:recipient
+
+make_love_interaction = {
+	category = interaction_category_friendly
+	use_diplomatic_range = yes
+	common_interaction = yes
+	icon = icon_personal
+
+	desc = make_love_interaction_desc
+
+	is_shown = {
+        ## should only show for characters that are your lover
+		scope:recipient = {
+			OR = {
+				has_relation_lover = scope:actor
+				has_relation_soulmate = scope:actor
+				is_spouse_of = scope:actor
+				is_concubine_of = scope:actor
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:recipient = { is_diplomatically_available = yes }
+		scope:actor = {
+			NOT = { has_character_modifier = had_some_loving }
+		}
+	}
+
+	on_accept = {
+		scope:actor = { 
+			fire_any_sex_event = yes
+		}
+	}
+
+	on_decline = {
+		scope:actor = {
+			send_interface_message = {
+				type = event_generic_bad
+				title = make_love_interaction_decline_notification
+				right_icon = scope:recipient
+			}
+		}
+	}
+
+	ai_accept = {
+		base = 100
+	}
+
+	ai_min_reply_days = 1
+	ai_max_reply_days = 5
+}
+
+use_siyyadi_interaction = {
+	category = interaction_category_friendly
+	use_diplomatic_range = yes
+	common_interaction = yes
+
+	desc = use_siyyadi_interaction_desc
+
+	is_shown = {
+        scope:recipient = {
+			vassal_contract_has_flag = has_siyya_contract
+		}
+		scope:actor = {
+			is_liege_or_above_of = scope:recipient
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:recipient = { is_diplomatically_available = yes }
+		scope:actor = {
+			NOT = { has_character_modifier = had_some_loving }
+		}
+	}
+
+	on_accept = {
+		scope:actor = { 
+			fire_any_sex_event = yes
+		}
+	}
+
+	on_decline = {
+		scope:actor = {
+			send_interface_message = {
+				type = event_generic_bad
+				title = make_love_interaction_decline_notification
+				right_icon = scope:recipient
+			}
+		}
+	}
+
+	ai_accept = {
+		base = 100
+	}
+
+	ai_min_reply_days = 1
+	ai_max_reply_days = 5
+}

@@ -21,6 +21,12 @@ e_ar_yafaj = {
 		
 		capital = c_sizar
 		
+		can_create = {
+			NOR = {
+				has_trait = aridja
+			}
+		}
+
 		d_samrana = {
 			color = { 151 158 38 }
 			color2 = { 255 255 255 }
@@ -465,6 +471,12 @@ e_ar_yafaj = {
 		color2 = { 255 255 23 }
 		
 		capital = c_bandae
+
+		can_create = {
+			NOR = {
+				has_trait = aridja
+			}
+		}
 
 		d_al_tamad = {
 			color = { 1 110 1 }

@@ -12,6 +12,11 @@ general_sex.200 = {
 
 	option = {
 		name = general_sex.200.a
+
+		add_character_modifier = {
+			modifier = had_some_loving
+			years = 5
+		}
 	}
 }
 
@@ -26,6 +31,10 @@ general_sex.300 = {
 
 	option = {
 		name = general_sex.300.a
+		add_character_modifier = {
+			modifier = had_some_loving
+			years = 5
+		}
 	}
 }
 
@@ -37,5 +46,9 @@ general_sex.400 = {
 
 	option = {
 		name = general_sex.400.a
+		add_character_modifier = {
+			modifier = had_some_loving
+			years = 5
+		}
 	}
 }

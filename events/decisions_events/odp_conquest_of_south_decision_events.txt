@@ -27,13 +27,10 @@ conquest_of_south.2 = {
 
 	option = {
 		name = conquest_of_south.2.a
-
-		get_title = k_man_jaf
-		add_prestige = 500
 	}
 }
 
-
+### Reintegrate the Ariban
 conquest_of_south.3 = {
     type = character_event
 	title = conquest_of_south.3.t

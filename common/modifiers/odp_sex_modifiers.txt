@@ -1,0 +1,4 @@
+had_some_loving = {
+	icon = love_positive
+	stress_loss_mult = 0.05
+}

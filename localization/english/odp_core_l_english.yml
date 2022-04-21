@@ -1,0 +1,14 @@
+﻿l_english:
+
+ ## Character interaction stuff
+ make_love_interaction:0 "Make Love"
+ make_love_interaction_desc:0 "Spend some alone time with [recipient.GetShortUINameNoTooltip]."
+
+ use_siyyadi_interaction:0 "Use as Siyya"
+ use_siyyadi_interaction_desc:0 "Use [recipient.GetShortUINameNoTooltip]. as you please, as is your right as their Siyyadi."
+
+ ## Casus Belli stuff
+ REUNIFICATION_OF_SOUTH_CB_NAME:0 "Reunification of the South"
+
+ ## Character Modifiers Stuff
+ had_some_loving:0 "Had Some Loving"

@@ -41,7 +41,7 @@ brothel_visit.1 = {
         }
 
         trigger_event = {
-            on_action = female_homosexual
+            on_action = fire_female_homosexual_events
         }
 	}
 
@@ -67,7 +67,7 @@ brothel_visit.1 = {
         }
 
         trigger_event = {
-            on_action = heterosexual
+            on_action = fire_heterosexual_events
         }
 	}
 
@@ -83,7 +83,7 @@ brothel_visit.1 = {
         }
 
         trigger_event = {
-            on_action = male_homosexual
+            on_action = fire_male_homosexual_events
         }
 	}
 
