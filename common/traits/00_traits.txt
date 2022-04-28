@@ -10291,6 +10291,7 @@ ariba_protector = {
 	martial_per_prestige_level = 1
 	men_at_arms_maintenance = -0.5
 	levy_size = 0.2
+
 	desc = {
 		first_valid = {
 			triggered_desc = {
@@ -10302,4 +10303,30 @@ ariba_protector = {
 			desc = trait_ariba_protector_character_desc
 		}
 	}
+}
+
+skonr_maiden = {
+	
+	fame = yes
+	martial = 3
+	prowess = 5
+	
+	same_opinion = 10
+
+	ruler_designer_cost = 40
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_skonr_maiden_desc
+			}
+			desc = trait_skonr_maiden_character_desc
+		}
+	}
+
+	ai_boldness = high_positive_ai_value
+	ai_energy = high_positive_ai_value
 }

@@ -8,3 +8,7 @@
  trait_ariba_protector:0 "Ariban Protector"
  trait_ariba_protector_desc:0 "This character holds the Kingdom of Ariban, a special title originally granted by the Prophet Galitia to whomever held the Walls of Ariba"
  trait_ariba_protector_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] holds the Kingdom of Ariban, a special title originally granted by the Prophet Galitia to whomever held the Walls of Ariba"
+
+ trait_skonr_maiden:0 "Skonr Maiden"
+ trait_skonr_maiden_desc:0 "This character is a Skonr Maiden, a fierce and naked warrior woman who fights for the old gods."
+ trait_skonr_maiden_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Skonr Maiden, a fierce and naked warrior woman who fights for the old gods."

@@ -1,6 +1,7 @@
 ## generic make love interaction
 ## use siyyadi interaction
-
+## enslave prisoner interaction
+## designate_skonr_maiden_interaction
 
 ## scope:actor 
 ## scope:recipient
@@ -101,4 +102,321 @@ use_siyyadi_interaction = {
 
 	ai_min_reply_days = 1
 	ai_max_reply_days = 5
+}
+
+enslave_prisoner_interaction = {
+	interface_priority = 120
+	common_interaction = yes
+	category = interaction_category_prison
+	special_interaction = enslave_prisoner_interaction
+
+	desc = enslave_prisoner_interaction_desc
+	
+	ai_targets = {
+		ai_recipients = prisoners
+	}
+	
+	ai_frequency = 12
+	
+	ai_potential = {
+		is_at_war = no
+	}
+	
+	ai_will_do = {
+		base = 0
+	}
+	
+	is_shown = {
+		scope:recipient = {
+			is_imprisoned_by = scope:actor
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:recipient = { is_diplomatically_available = yes } #Prisoner
+		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
+		scope:recipient = {
+			custom_description = {
+				text = "currently_being_tortured"
+				NOT = { has_character_flag = is_being_tortured }
+			}
+		}
+	}
+	
+	### what needs done
+	## characters with no titles vanish
+	## characters with titles, or claims, remain
+	## receive prestige when enslaving characters
+	## receive piety if your religion encourages it.
+
+	on_accept = {
+		if = {
+			limit = { scope:recipient = { is_imprisoned_by = scope:actor } }
+
+			### For the player if they get enslaved
+			## for now it should be a game over
+			if = {
+				limit = {
+					scope:recipient = { is_ai = no }
+					scope:actor = { is_ai = yes }
+				}
+				scope:recipient = { trigger_event = char_interaction.0170 } # Give players a chance to see what's about to happen
+				show_as_tooltip = {
+					enslave_prisoner_effect = {
+						VICTIM = scope:recipient
+						ENSLAVER = scope:actor
+					}
+				}
+			}
+			### For the AI, doesn't show anything and just enslaves 'em
+			else = {
+				scope:recipient = { trigger_event = char_interaction.0171 }
+				enslave_prisoner_effect = {
+					VICTIM = scope:recipient
+					ENSLAVER = scope:actor
+				}
+			}
+
+			## the actual interface message that pops up for the person who did the enslaving
+			scope:actor = {
+				hidden_effect = {
+					send_interface_message = {
+						type = event_generic_neutral
+						title = msg_enslave_prisoner
+						right_icon = scope:recipient
+						custom_tooltip = msg_enslave_prisoner_desc
+					}
+				}
+			}
+		}
+	}
+
+	options_heading = enslave_options_heading
+
+	### generic enslavement
+	send_option = {
+		is_shown = {
+			NOT = {
+				scope:actor.faith = { has_doctrine_parameter = sexual_slavery_active }
+			}
+		}
+		flag = enslavement_generic
+		localization = "ENSLAVEMENT_GENERIC"
+	}
+	
+	### sexual enslavement
+	send_option = {
+		is_shown = {
+			scope:actor.faith = { has_doctrine_parameter = sexual_slavery_active }
+		}
+		flag = enslavement_sexual
+		localization = "ENSLAVEMENT_SEXUAL"
+	}
+	
+	
+	send_options_exclusive = yes
+	auto_accept = yes
+}
+
+designate_skonr_maiden_interaction = {
+	category = interaction_category_friendly
+	common_interaction = yes
+
+	send_name = SEND_PROPOSAL
+
+	interface_priority = 120
+
+	ai_targets = {
+		ai_recipients = courtiers
+	}
+	ai_frequency = 180
+
+	is_shown = {
+		scope:actor = {
+			is_physically_able_adult = yes
+			#Has access to the appropriate cultural parameter.
+			faith = { has_doctrine_parameter = skonr_maidens_active }
+		}
+		scope:recipient = {
+			NOT = { has_trait = incapable }
+			is_courtier_of = scope:actor
+			is_knight_of = scope:actor
+			NOT = { has_trait = skonr_maiden }
+			is_female = yes
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			prowess >= decent_skill_rating
+			is_adult = yes
+			is_imprisoned = no
+		}
+	}
+
+	desc = designate_skonr_maiden_interaction_desc
+
+	on_accept = {
+		scope:actor = {
+			stress_impact = {
+				arrogant = medium_stress_impact_gain
+				paranoid = minor_stress_impact_gain
+			}
+		}
+		scope:recipient = {
+			add_trait = skonr_maiden
+			
+			add_opinion = {
+				target = scope:actor
+				modifier = fp1_accepted_my_sword_opinion
+			}
+		}
+		hidden_effect = {
+			scope:actor = {
+				send_interface_toast = {
+					title = designate_skonr_maiden_interaction_notification
+
+					left_icon = scope:actor					
+					right_icon = scope:recipient
+
+
+					show_as_tooltip = {
+						scope:recipient = {
+							add_trait_force_tooltip = skonr_maiden
+						}
+						stress_impact = {
+							arrogant = medium_stress_impact_gain
+							paranoid = minor_stress_impact_gain
+						}
+					}
+				}
+			}
+		}
+	}
+
+	auto_accept = {
+		custom_description = {
+			text = "spending_hook"
+			subject = scope:actor
+			object = scope:recipient
+			AND = {
+				always = scope:hook
+				scope:actor = { has_strong_hook = scope:recipient }
+			}
+		}
+	}
+
+	send_option = {
+		is_valid = {
+			scope:actor = {
+				has_usable_hook = scope:recipient
+			}
+		}
+		flag = hook
+		localization = SCHEME_HOOK
+	}
+	should_use_extra_icon = {
+		scope:actor = { has_usable_hook = scope:recipient }
+	}
+	extra_icon = "gfx/interface/icons/character_interactions/hook_icon.dds"
+	
+	send_options_exclusive = no
+	
+	cost = {
+		prestige = scope:actor.major_prestige_value
+	}
+	
+	ai_potential = {
+		#Has access to the appropriate cultural parameter.
+		faith = { has_doctrine_parameter = skonr_maidens_active }
+		prestige > major_prestige_value
+		is_physically_able_adult = yes
+	}
+	
+	auto_accept = no
+
+	ai_accept = {
+		base = 0
+
+		modifier = {
+			trigger = {
+				always = scope:hook
+			}
+			add = 100
+			desc = SCHEME_WEAK_HOOK_USED
+		}
+
+		modifier = {
+			trigger = {
+				has_education_martial_trigger = yes
+			}
+			add = 20
+			desc = INTERACTION_MARTIAL_EDUCATION
+		}
+		
+		# Weight up for personality values.
+		ai_value_modifier = {
+			who = scope:recipient
+			ai_boldness = {
+				if = {
+					limit = {
+						scope:recipient = {
+							NOT = { ai_boldness = 0 }
+						}
+					}
+					value = 0.5
+				}
+			}
+			ai_compassion = {
+				if = {
+					limit = {
+						scope:recipient = {
+							NOT = { ai_compassion = 0 }
+						}
+					}
+					value = -0.5
+				}
+			}
+		}
+		
+		modifier = {
+			add = -1000
+			has_trait = craven
+			desc = INTERACTION_CRAVEN
+		}
+		
+		modifier = {
+			add = -50
+			has_trait = content
+			desc = INTERACTION_CONTENT
+		}
+		
+		modifier = {
+			add = -50
+			has_trait = humble
+			desc = INTERACTION_HUMBLE
+		}
+		
+		modifier = {
+			add = -50
+			has_trait = lazy
+			desc = INTERACTION_LAZY
+		}
+		
+		modifier = {
+			add = 100
+			has_trait = brave
+			desc = INTERACTION_BRAVE
+		}
+		
+		modifier = {
+			add = 25
+			has_trait = ambitious
+			desc = INTERACTION_AMBITIOUS
+		}
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
 }

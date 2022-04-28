@@ -1,0 +1,402 @@
+﻿enslave_prisoner_effect = {
+	$VICTIM$ = {
+		save_scope_as = victim
+	}
+
+	$ENSLAVER$ = {
+		save_scope_as = enslaver
+		save_scope_as = imprisoner #Save this scope to show correct tyranny tooltip
+	}
+
+	scope:enslaver = {
+		# dread gain for enslaving
+		# same as imprisoning for now, no reason to change
+		if = {
+			limit = {
+				scope:victim = {
+					time_in_prison = { years > 15 } # No one even remembers who they are anymore
+				}
+			}
+		}
+		else_if = { # Executing Emperors/HoF is quite dreadful
+			limit = {
+				scope:victim = {
+					OR = {
+						highest_held_title_tier >= tier_empire
+						scope:enslaver.faith.religious_head = scope:victim # Your head of faith
+					}
+				}
+			}
+			add_dread = execute_interaction_massive_dread_gain
+		}
+		else_if = {
+			limit = {
+				scope:victim = {
+					OR = {
+						highest_held_title_tier >= tier_kingdom
+						tier_or_related_liege_tier_greater_or_equal_trigger = { TIER = tier_empire }
+						is_powerful_vassal_of = scope:enslaver # Is your powerful vassal
+						target_is_vassal_or_below = scope:enslaver # Your liege/s
+						is_close_family_of = scope:enslaver
+					}
+				}
+			}
+			add_dread = execute_interaction_major_dread_gain
+		}
+		else_if = {
+			limit = {
+				scope:victim = {
+					OR = {
+						highest_held_title_tier >= tier_duchy
+						tier_or_related_liege_tier_greater_or_equal_trigger = { TIER = tier_kingdom }
+						AND = { # Is your vassal, and higher than Baron
+							is_vassal_of = scope:enslaver
+							primary_title.tier > tier_barony
+						}
+						AND = { # Peer Vassals
+							exists = primary_title
+							primary_title.tier > tier_barony
+							exists = liege
+							liege = scope:enslaver.liege
+						}
+						has_trait = peasant_leader
+					}
+				}
+			}
+			add_dread = execute_interaction_medium_dread_gain
+		}
+		else_if = {
+			limit = {
+				scope:victim = {
+					OR = {
+						highest_held_title_tier >= tier_county
+						tier_or_related_liege_tier_greater_or_equal_trigger = { TIER = tier_duchy }
+						is_vassal_of = scope:enslaver # Is your Baron vassal
+						is_close_or_extended_family_of = scope:enslaver
+						
+						scope:enslaver = { # Executing close family of your vassals is dreadful...
+							any_vassal = {
+								is_close_family_of = scope:victim
+							}
+						}
+						scope:enslaver = { # Executing close family of your liege/s is the same...
+							any_liege_or_above = {
+								is_close_family_of = scope:victim
+							}
+						}
+					}
+				}
+			}
+			add_dread = execute_interaction_minor_dread_gain
+		}
+
+		### piety gain from enslaving if your faith has the right doctrine
+		## same as executions for now, might change later
+		if = {
+			limit = {
+				faith = {
+					has_doctrine_parameter = piety_from_enslaving_active
+				}
+			}
+			scope:victim = {
+				if = {
+					limit = {
+						OR = {
+							highest_held_title_tier >= tier_empire
+							any_close_family_member = {
+								highest_held_title_tier >= tier_empire
+							}
+						}
+					}
+					scope:enslaver = { add_piety = massive_piety_gain }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							highest_held_title_tier >= tier_kingdom
+							any_close_family_member = {
+								highest_held_title_tier >= tier_kingdom
+							}
+						}
+					}
+					scope:enslaver = { add_piety = major_piety_gain }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							highest_held_title_tier >= tier_duchy
+							any_close_family_member = {
+								highest_held_title_tier >= tier_duchy
+							}
+						}
+					}
+					scope:enslaver = { add_piety = medium_piety_gain }
+				}
+				else_if = {
+					limit = {
+						OR = {
+							is_ruler = yes
+							is_lowborn = no
+							any_close_family_member = {
+								is_ruler = yes
+							}
+						}
+					}
+					scope:enslaver = { add_piety = minor_piety_gain }
+				}
+				else = {
+					scope:enslaver = { add_piety = miniscule_piety_gain }
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				faith = scope:victim.faith
+				NOT = { has_perk = divine_retribution_perk }
+				scope:victim = {
+					has_no_particular_noble_roots_trigger = yes
+				}
+			}
+			add_piety = miniscule_piety_loss
+		}
+		else_if = {
+			limit = {
+				faith = scope:victim.faith
+				NOT = { has_perk = divine_retribution_perk }
+			}
+			add_piety = medium_piety_loss
+		}
+
+		# Stress loss
+		if = {
+			limit = { has_relation_rival = scope:victim }
+
+			if = {
+				limit = {
+					NOR = {
+						has_trait = sadistic
+						has_trait = vengeful
+						has_trait = compassionate
+						has_trait = forgiving
+					}
+				}
+				add_stress = medium_stress_loss
+			}
+			else = {
+				stress_impact = {
+					sadistic = major_stress_impact_loss
+					vengeful = massive_stress_impact_loss
+					compassionate = minor_stress_impact_gain
+					forgiving = minor_stress_impact_gain
+				}
+			}
+		}
+		else_if = { #Killing infidels is relaxing
+			limit = {
+				has_trait = zealous
+				NOT = { scope:enslaver.faith = scope:victim.faith }
+			}
+
+			if = {
+				limit = {
+					NOR = {
+						has_trait = sadistic
+						has_trait = compassionate
+						has_trait = forgiving
+					}
+				}
+				add_stress = medium_stress_loss
+			}
+			else = {
+				stress_impact = {
+					sadistic = major_stress_impact_loss
+					compassionate = minor_stress_impact_gain
+					forgiving = minor_stress_impact_gain
+				}
+			}
+		}
+		# Stress Gain
+		else_if = {
+			limit = {
+				exists = scope:victim
+				has_execute_reason = scope:victim
+				NOT = {
+					has_trait = sadistic
+				}
+				scope:victim = {
+					OR = {
+						is_child_of = scope:enslaver
+						is_grandchild_of = scope:enslaver
+						is_great_grandchild_of = scope:enslaver
+					}
+				}
+			}
+			stress_impact = {
+				base = minor_stress_impact_gain
+				compassionate = massive_stress_impact_gain
+				forgiving = major_stress_impact_gain
+				generous = minor_stress_impact_gain
+				family_first = minor_stress_impact_gain
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_trait = sadistic
+				}
+				scope:victim = {
+					OR = {
+						is_child_of = scope:enslaver
+						is_grandchild_of = scope:enslaver
+						is_great_grandchild_of = scope:enslaver
+					}
+				}
+			}
+			stress_impact = {
+				base = medium_stress_impact_gain
+				compassionate = massive_stress_impact_gain
+				forgiving = major_stress_impact_gain
+				generous = medium_stress_impact_gain
+				trusting = minor_stress_impact_gain
+				content = minor_stress_impact_gain
+				family_first = minor_stress_impact_gain
+			}
+			if = {
+				limit = {
+					exists = scope:execution_sacrifice
+					NOT = { always = scope:execution_sacrifice }
+				}
+				stress_impact = {
+					just = medium_stress_impact_gain
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:victim
+				has_execute_reason = scope:victim
+			}
+			stress_impact = {
+				sadistic = medium_stress_impact_loss
+				compassionate = medium_stress_impact_gain
+				forgiving = minor_stress_impact_gain
+				generous = minor_stress_impact_gain
+			}
+		}
+		else = {
+			stress_impact = {
+				sadistic = medium_stress_impact_loss
+				compassionate = major_stress_impact_gain
+				forgiving = medium_stress_impact_gain
+				generous = medium_stress_impact_gain
+				trusting = minor_stress_impact_gain
+				content = minor_stress_impact_gain
+			}
+			if = {
+				limit = {
+					exists = scope:execution_sacrifice
+					NOT = { always = scope:execution_sacrifice }
+				}
+				stress_impact = {
+					just = medium_stress_impact_gain
+				}
+			}
+		}
+
+		#Tyranny
+		if = {
+			limit = {
+				exists = scope:recipient
+				has_execute_reason = scope:victim
+			}
+			custom_tooltip = IS_ALLOWED_TO_EXECUTE_DESC
+		}
+		else_if = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = { exists = scope:recipient }
+						has_execute_reason = scope:victim
+					}
+					is_at_war_with = scope:victim
+				}
+			}
+			custom_tooltip = IS_ALLOWED_TO_EXECUTE_NO_RECIPIENT_DESC
+		}
+		else_if = {
+			limit = {
+				scope:victim = {
+					OR = {
+						is_landed = no
+						NOT = { is_of_major_or_minor_interest_trigger = { CHARACTER = scope:enslaver } }
+					}
+				}
+				   scope:enslaver.faith = {
+					  faith_hostility_level = {
+						 target = scope:victim.faith
+						value > faith_astray_level
+					 }
+				}
+			}
+			custom_tooltip = IS_ALLOWED_TO_EXECUTE_HOSTILE_RELIGION_DESC
+		}
+		else_if = {
+			limit = {
+				scope:victim = { target_is_liege_or_above = prev }
+			}
+			add_tyranny = execution_tyranny_gain
+		}
+		else_if = {
+			limit = {
+				scope:victim = {
+					NOT = { exists = liege }
+					exists = host
+				}
+				any_pool_guest = { count > 0 }
+			}
+			every_pool_guest = {
+				limit = {
+					NOR = {
+						this = scope:victim
+						is_in_list = guest_list
+					}
+				}
+				add_to_temporary_list = guest_list
+			}
+			every_in_list = {
+				list = guest_list
+				custom = all_your_guests
+				add_opinion = {
+					target = prev
+					modifier = executed_guest_modifier
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					exists = scope:victim.liege
+					NOT = { scope:victim.liege = scope:victim }
+				}
+				scope:victim.liege = {
+					add_opinion = {
+						target = prev
+						modifier = executed_my_countryman_modifier
+					}
+				}
+			}
+		}
+	}
+
+	### What actually does the enslaving for u
+	hidden_effect = {
+		$VICTIM$ = {
+			change_prison_type = enslaved
+		}
+	}
+}
+
+### makes people hate you for enslaving peeps!
+enslave_opinion_effect = {
+
+}

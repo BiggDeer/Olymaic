@@ -1,0 +1,36 @@
+﻿# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 60 # Equivalent to having 6 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+skonr_maidens = {
+	type = skirmishers
+	
+	damage = 14
+	toughness = 20
+	pursuit = 14
+	screen = 20
+	
+	terrain_bonus = {
+		forest = { damage = 6 toughness = 8 }
+		taiga = { damage = 6 toughness = 8 }
+		jungle = { damage = 4 toughness = 6 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	can_recruit = {
+		faith = { has_doctrine_parameter = skonr_maidens_active }
+	}
+
+	buy_cost = { gold = caballero_recruitment_cost }
+	low_maintenance_cost = { gold = caballero_low_maint_cost }
+	high_maintenance_cost = { gold = caballero_high_maint_cost }
+	
+	stack = 50
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = skonr_maidens
+}

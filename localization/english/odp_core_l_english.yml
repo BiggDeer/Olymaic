@@ -7,6 +7,11 @@
  use_siyyadi_interaction:0 "Use as Siyya"
  use_siyyadi_interaction_desc:0 "Use [recipient.GetShortUINameNoTooltip]. as you please, as is your right as their Siyyadi."
 
+ designate_skonr_maiden_interaction:0 "Designate Skonr Maiden"
+ designate_skonr_maiden_interaction_desc:0 "[recipient.GetShortUINameNoTooltip] has proven themselves as a great warrior, reward them by granting them the title of your Skonr Maiden."
+ 
+ designate_skonr_maiden_interaction_notification:0 "Skonr Maiden"
+
  ## Casus Belli stuff
  REUNIFICATION_OF_SOUTH_CB_NAME:0 "Reunification of the South"
 

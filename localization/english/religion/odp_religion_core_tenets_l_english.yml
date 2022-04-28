@@ -11,8 +11,14 @@
  tenet_kahlaston_desc:0 "The Kahlastons are one of the most important things in the world, they must be guarded with our lives and our faith."
 
  # Caeyelt Tenets
- tenet_unearthing_gods_name:0 "Unearthing Gods"
- tenet_unearthing_gods_desc:0 ""
+ tenet_konrja_name:0 "Konrja"
+ tenet_konrja_desc:0 ""
+ doctrine_parameter_sexual_slavery_active:0 "Sexual Slavereyyy"
+ doctrine_parameter_piety_from_enslaving_active:0 "Adherents gain piety from enslaving other characters."
+
+ tenet_naked_warrior_women_name:0 "Naked Warrior Women"
+ tenet_naked_warrior_women_desc:0 ""
+ doctrine_parameter_skonr_maidens_active:0 "Adherents gain access to a special MAA, the Skonr Maidens. They can also turn their knights into Skonr Maidens, giving them powerful bonuses."
 
  # Steralt Tenets
  tenet_embrace_wild_name:0 "Embrace the Wild"

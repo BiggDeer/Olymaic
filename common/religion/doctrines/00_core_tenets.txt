@@ -78,10 +78,35 @@
 	# Caeyelt Tenents     #
 	############################
 
-	tenet_unearthing_gods = {
-		icon = core_tenet_unearthing_gods
+	tenet_konrja = {
+		icon = core_tenet_konrja
 		piety_cost = {
 			value = faith_tenet_cost_low
+		}
+
+		parameters = {
+			sexual_slavery_active = yes
+			piety_from_enslaving_active =  yes
+		}
+
+		can_pick = {
+			always = yes
+		}
+	}
+
+	tenet_naked_warrior_women = {
+		icon = core_tenet_naked_warrior_women
+		piety_cost = {
+			value = faith_tenet_cost_low
+		}
+
+		character_modifier = {
+			knight_limit = 2
+			knight_effectiveness_mult = 0.15
+		}
+
+		parameters = {
+			skonr_maidens_active = yes
 		}
 
 		can_pick = {
