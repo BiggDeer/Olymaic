@@ -10312,9 +10312,10 @@ skonr_maiden = {
 	prowess = 5
 	
 	same_opinion = 10
+	attraction_opinion = 5
 
 	ruler_designer_cost = 40
-
+	
 	desc = {
 		first_valid = {
 			triggered_desc = {

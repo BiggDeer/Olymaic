@@ -27,24 +27,23 @@
 	doctrine = doctrine_witchcraft_crime
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_alms_and_pacification
-	doctrine = doctrine_clerical_gender_female_only
+	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
-	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+	doctrine = doctrine_clerical_succession_spiritual_appointment
 
 	traits = {
-		virtues = { forgiving compassionate lustful }
-		sins = { vengeful sadistic chaste }
+		virtues = { callous zealous sadistic }
+		sins = { craven impatient lazy }
 	}
 
 	reserved_male_names = {
-		Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory
-		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip
-		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Jesus Job Joshua Cyrus Luke Zachariah
+		Anund AsbjO_rn Aslak Audun Bagge Balder Brage Egil Emund Frej Gnupa Gorm Gudmund GudrO_d Hardeknud Helge Odd Orm
+		Orvar Ottar Rikulfr Rurik SigbjO_rn StyrbjO_rn Starkad Styrkar SA_mund SO_lve SO_rkver Thorolf Tjudmund Toke Tolir
+		TorbjO_rn Torbrand Torfinn Torgeir Toste Tyke
 	}
 	reserved_female_names = {
-		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen
-		Magdalena Margaret Maria Marine Patricia Philippa Rachel Sarah Sophia Stephania
+		Aslaug Bothild BjO_rg Freja Grima Gytha KrA_ka Malmfrid Thora Thordis Thyra Ragnfrid Ragnhild Svanhild Ulvhilde
 	}
 
 	custom_faith_icons = {
@@ -52,13 +51,7 @@
 	}
 
 	holy_order_names = {
-		{ name = "holy_order_knights_of_the_chalice" }
-		{ name = "holy_order_order_of_the_holy_communion" }
-		{ name = "holy_order_knights_of_the_first_gospel" }
-		{ name = "holy_order_guardians_of_the_shroud" }
-		{ name = "holy_order_knights_of_the_reliquary" }
-		{ name = "holy_order_warriors_of_the_cross" }
-		{ name = "holy_order_christian" coat_of_arms = "ho_christian" }
+		{ name = "holy_order_aernosyllixs_maidens" }
 	}
 
 	holy_order_maa = { teutonic_knights }
@@ -150,20 +143,21 @@
 		WaterGodHerHis = CHARACTER_HERHIS_HIS
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 
-		PantheonTerm = old_gods_high_god_name
+		PantheonTerm = old_gods_pantheon_name
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
 			old_gods_high_god_name
 			old_gods_high_god_name_alternate
 		}
-		DevilName = old_gods_devil_name
-		DevilNamePossessive = old_gods_devil_name_possessive
+		DevilName = old_gods_trickster_god_name
+		DevilNamePossessive = old_gods_trickster_god_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
 		EvilGodNames = {
-			old_gods_devil_name
+			old_gods_trickster_god_name
+			old_gods_water_god_name
 		}
 		HouseOfWorship = old_gods_house_of_worship
 		HouseOfWorshipPlural = old_gods_house_of_worship_plural
@@ -173,10 +167,10 @@
 		ReligiousHeadTitleName = old_gods_religious_head_title_name
 		DevoteeMale = old_gods_devotee_male
 		DevoteeMalePlural = old_gods_devotee_male_plural
-		DevoteeFemale = old_gods_devotee_female
-		DevoteeFemalePlural = old_gods_devotee_female_plural
-		DevoteeNeuter = old_gods_devotee_neuter
-		DevoteeNeuterPlural = old_gods_devotee_neuter_plural
+		DevoteeFemale = old_gods_devotee_male
+		DevoteeFemalePlural = old_gods_devotee_male_plural
+		DevoteeNeuter = old_gods_devotee_male
+		DevoteeNeuterPlural = old_gods_devotee_male_plural
 		PriestMale = old_gods_priest_male
 		PriestMalePlural = old_gods_priest_male_plural
 		PriestFemale = old_gods_priest_male
@@ -197,7 +191,7 @@
 		DeathDeityNamePossessive = old_gods_death_deity_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
-		WitchGodName = old_gods_witchgodname_the_horned_god
+		WitchGodName = old_gods_death_deity_name
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHim = CHARACTER_HERHIM_HIM
@@ -217,7 +211,7 @@
 
 			doctrine = tenet_konrja
 			doctrine = tenet_naked_warrior_women
-			doctrine = tenet_reincarnation
+			doctrine = tenet_ancient_knowledge
 
 			holy_site = dostinia
 			holy_site = buhara

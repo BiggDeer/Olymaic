@@ -5,8 +5,8 @@
 
 	# Character must have a valid reasion to be naked.
 	OR = {
+		has_trait = skonr_maiden
 		culture = { has_cultural_parameter = nudist_culture }
-		
 		faith = {
 			has_doctrine_parameter = naked_adherents_active
 		}

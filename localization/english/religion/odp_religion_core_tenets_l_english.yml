@@ -20,6 +20,9 @@
  tenet_naked_warrior_women_desc:0 ""
  doctrine_parameter_skonr_maidens_active:0 "Adherents gain access to a special MAA, the Skonr Maidens. They can also turn their knights into Skonr Maidens, giving them powerful bonuses."
 
+ tenet_ancient_knowledge_name:0 "Ancient Knowledge"
+ tenet_ancient_knowledge_desc:0 "Adherents of this faith have access to ancient knowledge, sometimes forbidden in other faiths and cultures. This knowledge lets them do things that others may find... disturbing."
+
  # Steralt Tenets
  tenet_embrace_wild_name:0 "Embrace the Wild"
  tenet_embrace_wild_desc:0 ""

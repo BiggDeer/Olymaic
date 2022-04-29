@@ -114,6 +114,30 @@
 		}
 	}
 
+	tenet_ancient_knowledge = {
+		icon = core_tenet_ancient_knowledge
+		piety_cost = {
+			value = faith_tenet_cost_low
+		}
+		
+		character_modifier = {
+			learning_per_piety_level = 1
+			monthly_learning_lifestyle_xp_gain_mult = 0.05
+		}
+
+		traits = {
+			virtues = {
+				education_learning_3
+				education_learning_4
+				scholar
+			}
+		}
+
+		can_pick = {
+			always = yes
+		}
+	}
+
 	############################
 	# steralti Tenents     #
 	############################

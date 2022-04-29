@@ -34,6 +34,9 @@ make_love_interaction = {
 	}
 
 	on_accept = {
+		scope:recipient = {
+			fire_any_sex_event = yes
+		}
 		scope:actor = { 
 			fire_any_sex_event = yes
 		}
