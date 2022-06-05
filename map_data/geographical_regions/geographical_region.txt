@@ -22,3 +22,201 @@ world_north_olymaic = {
         d_adan d_bukan d_mazahar d_fayyal d_hul d_shamei d_awaran d_baftan
     }
 }
+
+###########################################################################
+# Material Regions
+###########################################################################
+
+ # Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece)
+ material_wood_elm = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+ # Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia)
+material_wood_walnut = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+ # Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia)
+material_wood_maple = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+# Widespread Regional - Pines and Firs (found all over continental Europe excluding northern France/Germany and the Balkans, but exists in Scotland and spreads East through Anatolia, Scandinavia, Russia, China, and Tibet)
+material_woods_pine_and_fir = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+# Widespread Regional - Subsaharan Africa
+material_woods_subsaharan = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+
+
+}
+
+material_woods_padauk = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+# Widespread Regional - India
+material_woods_india = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_woods_india_burma = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_woods_ebony = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+# Regional - France, England, Wales, Ireland
+material_wood_yew = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+# Regional - Mediterranean
+material_woods_mediterranean = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+# Regional - Sri Lanka
+material_woods_sri_lanka = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+
+material_cloth_no_silk = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_cloth_linen = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_cloth_cotton = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_metal_wootz = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_metal_damascus = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_metal_bulat = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_hsb_camel_bone = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_hsb_deer_antler = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_hsb_boar_tusk = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_hsb_ivory_imported = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_hsb_ivory_native = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_hsb_mother_of_pearl = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_hsb_tortoiseshell = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}
+
+material_hsb_seashell = {
+	regions = {
+		world_north_olymaic
+        world_south_olymaic
+	}
+}

@@ -54,9 +54,7 @@ has_strong_religious_conviction_trigger = {
 }
 
 is_christian_trigger = {
-	OR = {
-		faith = { religion_tag = christianity_religion }
-	}
+	always = no
 }
 
 is_weak_claimant_due_to_gender_trigger = {

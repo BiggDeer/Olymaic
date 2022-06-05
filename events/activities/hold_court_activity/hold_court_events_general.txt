@@ -11578,10 +11578,8 @@ hold_court.6040 = {
 
 scripted_trigger hold_court_6050_religion_trigger = {
 	OR = {
-		religion = religion:christianity_religion
-		religion = religion:islam_religion
-		religion = religion:buddhism_religion
-		religion = religion:hinduism_religion
+		religion = religion:synahisanity_religious_group
+		religion = religion:old_gods_religious_group
 	}
 }
 
@@ -15711,12 +15709,10 @@ scripted_trigger hold_court_6140_valid_vassal_trigger = {
 
 scripted_trigger hold_court_6140_europe_trigger = {
 	terrain = forest
-	geographical_region = world_europe
 }
 
 scripted_trigger hold_court_6140_india_trigger = {
 	terrain = jungle
-	geographical_region = world_india
 }
 
 scripted_trigger hold_court_6140_africa_trigger = {
@@ -15726,7 +15722,6 @@ scripted_trigger hold_court_6140_africa_trigger = {
 		terrain = oasis
 		terrain = drylands
 	}
-	geographical_region = world_africa
 }
 
 hold_court.6140 = {
@@ -15812,32 +15807,9 @@ hold_court.6140 = {
 				save_scope_as = jester
 			}
 		}
-		if = {
-			limit = {
-				scope:6140_province = { geographical_region = world_europe }
-			}
-			add_character_flag = {
-				flag = has_bear
-				years = 10
-			}
-		}
-		else_if = {
-			limit = {
-				scope:6140_province = { geographical_region = world_india }
-			}
-			add_character_flag = {
-				flag = has_tiger
-				years = 10
-			}
-		}
-		else_if = {
-			limit = {
-				scope:6140_province = { geographical_region = world_africa }
-			}
-			add_character_flag = {
-				flag = has_lion
-				years = 10
-			}
+		add_character_flag = {
+			flag = has_bear
+			years = 10
 		}
 	}
 
@@ -16287,48 +16259,6 @@ hold_court.6150 = {
 			desc = hold_court.6150.desc_fallback
 		}
 		first_valid = {
-			triggered_desc = {
-				trigger = {
-					faith.religion = religion:christianity_religion
-				}
-				desc = hold_court.6150.desc_christianism
-			}
-			triggered_desc = {
-				trigger = {
-					faith.religion = religion:buddhism_religion
-				}
-				desc = hold_court.6150.desc_buddhism
-			}
-			triggered_desc = {
-				trigger = {
-					faith.religion = religion:islam_religion
-				}
-				desc = hold_court.6150.desc_islam
-			}
-			triggered_desc = {
-				trigger = {
-					faith.religion = religion:judaism_religion
-				}
-				desc = hold_court.6150.desc_judaism
-			}
-			triggered_desc = {
-				trigger = {
-					faith.religion = religion:germanic_religion
-				}
-				desc = hold_court.6150.desc_germanic
-			}
-			triggered_desc = {
-				trigger = {
-					faith.religion = religion:hinduism_religion
-				}
-				desc = hold_court.6150.desc_hinduism
-			}
-			triggered_desc = {
-				trigger = {
-					faith.religion = religion:zoroastrianism_religion
-				}
-				desc = hold_court.6150.desc_zoroastrianism
-			}
 			desc = hold_court.6150.desc_religion_fallback
 		}
 		desc = hold_court.6150.desc_solution
@@ -16424,12 +16354,6 @@ hold_court.6150 = {
 		modifier = {
 			factor = 1.5
 			culture = { has_cultural_tradition = tradition_mendicant_mystics}
-		}
-		modifier = {
-			factor = 2
-			faith.religion = religion:christianity_religion
-			current_year < 1001
-			current_year >= 990
 		}
 
 		# Court weightings.
@@ -18460,34 +18384,16 @@ hold_court.6190 = {
 
 scripted_trigger hold_court_6200_valid_province_trigger = {
 	OR = {
-		AND = {
-			geographical_region = world_india
-			terrain = jungle
-		}
-		AND = {
-			geographical_region = world_africa
-			OR = {
-				terrain = jungle
-				terrain = forest
-				terrain = oasis
-				terrain = desert_mountains
-				terrain = drylands
-			}
-		}
-		AND = {
-			OR = {
-				geographical_region = world_europe
-				geographical_region = world_steppe
-				geographical_region = world_middle_east_persia
-			}
-			OR = {
-				terrain = forest
-				terrain = mountains
-				terrain = steppe
-				terrain = desert_mountains
-				terrain = taiga
-			}
-		}
+		terrain = jungle
+		terrain = forest
+		terrain = oasis
+		terrain = desert_mountains
+		terrain = drylands
+		terrain = forest
+		terrain = mountains
+		terrain = steppe
+		terrain = desert_mountains
+		terrain = taiga
 	}
 }
 
@@ -20131,34 +20037,6 @@ hold_court.6230 = {
 	#Option F: kill the elephants
 	option = {
 		name = hold_court.6230.f
-		trigger = {
-			NOT = { faith.religion = religion:hinduism_religion }
-		}
-		if = {
-			limit = {
-				scope:6230_vassal = {
-					faith.religion = religion:hinduism_religion
-				}
-			}
-			reverse_add_opinion = {
-				target = scope:6230_vassal
-				modifier = impious_opinion
-				opinion = -20
-			}
-		}
-		if = {
-			limit = {
-				scope:6230_province.county = {
-					faith.religion = religion:hinduism_religion
-				}
-			}
-			scope:6230_province.county = {
-				add_county_modifier = {
-					modifier = 6230_elephant_slayer_county_modifier
-					years = 5
-				}
-			}
-		}
 		change_current_court_grandeur = medium_court_grandeur_gain
 		stress_impact = {
 			compassionate = medium_stress_impact_gain
@@ -20175,29 +20053,6 @@ hold_court.6230 = {
 			modifier = {
 				has_trait = sadistic
 				add = 50
-			}
-		}
-	}
-
-	#Option D: Ganesh leads them
-	option = {
-		name = hold_court.6230.d
-		trigger = {
-			faith.religion = religion:hinduism_religion
-		}
-		add_piety = major_piety_gain
-		reverse_add_opinion = {
-			target = scope:6230_vassal
-			modifier = disappointed_opinion
-			opinion = -10
-		}
-		stress_impact = {
-			cynical = major_stress_impact_gain
-		}
-		ai_chance = {
-			base = 100
-			ai_value_modifier = {
-				ai_zeal = 1
 			}
 		}
 	}
@@ -20871,25 +20726,6 @@ hold_court.7000 = {
 					}
 				}
 			}
-			else_if = { # Force my spouse to undergo penance
-				limit = { 
-					faith = { religion_tag = christianity_religion } # Only Christians can do penance
-					OR = {
-						has_character_flag = hold_court_7000_criminal_spouse
-						has_character_flag = hold_court_7000_lustful_spouse
-					}
-				}
-				add_piety = medium_piety_value
-				scope:controversial_spouse = {
-					hold_court_7000_penance_effect = yes
-					add_opinion = {
-						modifier = hold_court_7000_forced_penance
-						target = root
-						opinion = -30
-					}
-				}
-
-			}
 			else_if = { # I can't do anything about this!
 				limit = { has_character_flag = hold_court_7000_lowborn_spouse }
 				dynasty = { add_dynasty_prestige = minor_dynasty_prestige_loss }
@@ -20930,24 +20766,6 @@ hold_court.7010 = {
 	title = hold_court.7010.title
 	desc = {
 		first_valid = {
-			triggered_desc = { # Desc.a, Arab-Byzantine wars flavour
-				trigger = {
-					scope:frontier_hero = { has_character_flag = frontier_hero_byzantine }
-				}
-				desc = hold_court.7010.byzantine_desc
-			}
-			triggered_desc = { # Desc.b, Reconquista flavour
-				trigger = {
-					scope:frontier_hero = { has_character_flag = frontier_hero_reconquista }
-				}
-				desc = hold_court.7010.reconquista_desc
-			}
-			triggered_desc = { # Desc.c, England-France flavour
-				trigger = {
-					scope:frontier_hero = { has_character_flag = frontier_hero_anglofranco }
-				}
-				desc = hold_court.7010.anglofranco_desc
-			}
 			triggered_desc = { # Desc.d, non-specific flavour
 				trigger = {
 					scope:frontier_hero = { has_character_flag = frontier_hero }
@@ -20988,10 +20806,6 @@ hold_court.7010 = {
 		NOT = { has_character_flag = had_7010_hold_court_event }
 		any_neighboring_top_liege_realm_owner = {
 			NOR = { 
-				AND = {
-					has_title = title:k_papal_state # Not the Pope if catholic
-					faith = faith:catholic
-				}
 				has_truce = root
 				any_ally = { this = root }
 			}
@@ -21032,71 +20846,6 @@ hold_court.7010 = {
 		}
 
 		# Flavour for the various conflicts
-		if = { 
-			limit = { # Arab-Byzantine Wars
-				root = title:e_byzantium.holder
-				scope:frontier_ruler = {
-					capital_province = {
-						OR = {
-							geographical_region = world_middle_east
-							geographical_region = world_asia_minor
-						}
-					}
-					OR = {
-						culture = { has_cultural_pillar = heritage_arabic }
-						faith = { religion_tag = islam_religion }
-					}
-				}
-			}
-			create_character = {
-				template = frontier_hero_template
-				name = digenis
-				gender_female_chance = 0 # Digenis Akritis is a male name
-				location = root.capital_province
-				trait = rough_terrain_expert
-				save_scope_as = frontier_hero
-			}
-			scope:frontier_hero = {
-				add_character_flag = frontier_hero_byzantine
-			}
-		}
-		else_if = {
-			limit = { # Reconquista, either side
-				AND = {
-					root = { capital_province = { geographical_region = world_europe_west_iberia }}
-					scope:frontier_ruler = { capital_province = { geographical_region = world_europe_west_iberia }}
-					NOT = { root.faith = scope:frontier_ruler.faith }
-				}
-			}
-			create_character = {
-				template = frontier_hero_template
-				gender_female_chance = root_soldier_female_chance
-				location = root.capital_province
-				trait = holy_warrior
-				save_scope_as = frontier_hero
-			}
-			scope:frontier_hero = {
-				add_character_flag = frontier_hero_reconquista
-			}
-		}
-		else_if = {
-			limit = { # England-France
-				AND = {
-					root = title:k_england.holder
-					scope:frontier_ruler = title:k_france.holder
-				}
-			}
-			create_character = {
-				template = frontier_hero_template
-				gender_female_chance = root_soldier_female_chance
-				location = root.capital_province
-				trait = aggressive_attacker #It should be raider, but since non-tribal governments can't raid, what's the point?
-				save_scope_as = frontier_hero
-			}
-			scope:frontier_hero = {
-				add_character_flag = frontier_hero_anglofranco
-			}
-		}
 		else = { # Generic flavour
 			create_character = {
 				template = frontier_hero_template
@@ -21325,36 +21074,6 @@ hold_court.7010 = {
 		scope:frontier_hero = {
 			add_prestige = medium_prestige_gain
 			if = {
-				limit = { has_character_flag = frontier_hero_byzantine }
-				give_nickname = nick_akritis
-			}
-			else_if = {
-				limit = { 
-					has_character_flag = frontier_hero_reconquista
-				}
-				if = {
-					limit = {
-						culture = { has_cultural_pillar = heritage_iberian }
-					}
-					give_nickname = nick_the_conquistador
-				}
-				else_if = {
-					limit = { has_culture = culture:andalusian }
-					give_nickname = nick_al_mansur
-				}
-			}
-			else_if = {
-				limit = { has_character_flag = frontier_hero_anglofranco }
-				if = {
-					limit = { has_cultural_pillar = heritage_west_germanic }
-					give_nickname = nick_the_chevalier
-				}
-				else_if = {
-					limit = { has_cultural_pillar = heritage_frankish }
-					give_nickname = nick_the_irreproachable
-				}
-			}
-			else = {
 				if = {
 					limit = {
 						var:nickname = flag:nick_the_bold
@@ -23648,7 +23367,6 @@ hold_court.7070 = {
 		NOT = { has_character_flag = had_hold_court_7070 }
 		hold_court_7070_modifiers_trigger = no
 		# Must be have clerical taxation doctrine
-		faith = { religion_tag = christianity_religion }
 		faith = { has_doctrine = doctrine_clerical_function_taxation }
 		# A valid bishop exists
 		any_theocratic_vassal = {
@@ -24957,25 +24675,7 @@ hold_court.8020 = {
 			court_event_character_flag_effect = yes
 		}
 		hidden_effect = {
-			if = {
-				limit = { religion = religion:christianity_religion }
-				create_artifact_pedestal_reliquary_christian_effect = { OWNER = scope:bishop }
-			}
-			else_if = {
-				limit = { religion = religion:islam_religion }
-				create_artifact_pedestal_reliquary_islam_effect = { OWNER = scope:bishop }
-			}
-			else_if = {
-				limit = { religion = religion:buddhism_religion }
-				create_artifact_pedestal_reliquary_buddhism_effect = { OWNER = scope:bishop }
-			}
-			else_if = {
-				limit = { religion = religion:judaism_religion }
-				create_artifact_pedestal_reliquary_judaism_effect = { OWNER = scope:bishop }
-			}
-			else = {
-				create_artifact_sculpture_religious_effect = { OWNER = scope:bishop }
-			}
+			create_artifact_sculpture_religious_effect = { OWNER = scope:bishop }
 			scope:newly_created_artifact = { save_scope_as = bishop_relic }
 		}
 		if = {
@@ -29138,35 +28838,6 @@ scripted_trigger hold_court_8090_emissary_trigger = {
 	diplomacy >= 8
 }
 
-scripted_trigger hold_court_8090_qadi_trigger = {
-	liege = { can_employ_court_position_type = chief_qadi_court_position }
-	has_religion = religion:islam_religion
-	has_trait = education_learning
-	trigger_if = {
-		limit = {
-			liege.faith = { has_doctrine = doctrine_gender_male_dominated }
-		}
-		is_male = yes
-	}
-	trigger_if = {
-		limit = {
-			liege.faith = { has_doctrine = doctrine_gender_female_dominated }
-		}
-		is_female = yes
-	}
-}				
-
-scripted_trigger hold_court_8090_garuda_trigger = {
-	liege = { can_employ_court_position_type = garuda_court_position }
-	is_knight = yes
-	can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = liege }
-}
-
-scripted_trigger hold_court_8090_swans_trigger = {
-	liege = { can_employ_court_position_type = keeper_of_swans_court_position }
-	is_vassal_of = liege
-}
-
 scripted_effect hold_court_8090_hook_effect = {
 	if = {
 		limit = {
@@ -30109,57 +29780,6 @@ hold_court.8090 = {
 						value = flag:cultural_emissary
 					}
 					hold_court_8090_old_holder_effect = { POS = cultural_emissary_court_position }
-				}
-				2 = { # CHIEF QADI
-					trigger = { hold_court_8090_qadi_trigger = yes }
-					modifier = {
-						add = 25
-						has_trait = scholar
-					}
-					modifier = {
-						factor = 0.5
-						root = { employs_court_position = chief_qadi_court_position }
-					}
-					modifier = { factor = learning }
-					set_variable = {
-						name = hold_court_8090_position
-						value = flag:chief_qadi
-					}
-					hold_court_8090_old_holder_effect = { POS = chief_qadi_court_position }
-				}
-				2 = { # GARUDA
-					trigger = { hold_court_8090_garuda_trigger = yes }
-					modifier = {
-						add = 25
-						has_trait = lifestyle_blademaster
-					}
-					modifier = {
-						factor = 0.5
-						root = { employs_court_position = garuda_court_position }
-					}
-					modifier = { factor = prowess }
-					set_variable = {
-						name = hold_court_8090_position
-						value = flag:garuda
-					}
-					hold_court_8090_old_holder_effect = { POS = garuda_court_position }
-				}
-				2 = { # KEEPER OF SWANS
-					trigger = { hold_court_8090_swans_trigger = yes }
-					modifier = {
-						add = 25
-						has_trait = lifestyle_hunter
-					}
-					modifier = {
-						factor = 0.5
-						root = { employs_court_position = keeper_of_swans_court_position }
-					}
-					modifier = { factor = stewardship }
-					set_variable = {
-						name = hold_court_8090_position
-						value = flag:keeper_of_swans
-					}
-					hold_court_8090_old_holder_effect = { POS = keeper_of_swans_court_position }
 				}
 			}
 			grant_random_empty_court_position_effect = { POSITIONER = root CANDIDATE = scope:vassal }
@@ -31771,25 +31391,9 @@ hold_court.8110 = {
 scripted_trigger hold_court_8120_syncretic_faith_trigger = {
 	NOT = { scope:peasant.religion = root.religion }
 	OR = {
-		AND = { # Eastern
-			scope:peasant.faith.religion = { is_in_family = rf_eastern }
-			faith = { has_doctrine = tenet_eastern_syncretism }
-		}
 		AND = { # Pagan
 			scope:peasant.faith = { has_doctrine = unreformed_faith_doctrine }
 			faith = { has_doctrine = tenet_unreformed_syncretism }
-		}
-		AND = { # Christian
-			scope:peasant.religion = religion:christianity_religion
-			faith = { has_doctrine = tenet_christian_syncretism }
-		}
-		AND = { # Islam
-			scope:peasant.religion = religion:islam_religion
-			faith = { has_doctrine = tenet_islamic_syncretism }
-		}
-		AND = { # Judaism
-			scope:peasant.religion = religion:judaism_religion
-			faith = { has_doctrine = tenet_jewish_syncretism }
 		}
 	}
 }
@@ -31974,40 +31578,12 @@ hold_court.8120 = {
 		if = {
 			limit = {
 				AND = { 
-					scope:peasant.faith.religion = { is_in_family = rf_eastern }
-					faith = { has_doctrine = tenet_eastern_syncretism }
-				}
-			}
-			custom_tooltip = hold_court.8120.b.tt_eastern # Eastern
-		}
-		else_if = {
-			limit = {
-				AND = { 
 					scope:peasant.faith = { has_doctrine = unreformed_faith_doctrine }
 					faith = { has_doctrine = tenet_unreformed_syncretism }
 				}
 			}
 			custom_tooltip = hold_court.8120.b.tt_pagan # Pagan
 		}
-		else_if = {
-			limit = {
-				AND = { 
-					scope:peasant.religion = religion:christianity_religion
-					faith = { has_doctrine = tenet_christian_syncretism }
-				}
-			}
-			custom_tooltip = hold_court.8120.b.tt_christianity # Christian
-		}
-		else_if = {
-			limit = {
-				AND = { 
-					scope:peasant.religion = religion:islam_religion
-					faith = { has_doctrine = tenet_islamic_syncretism }
-				}
-			}
-			custom_tooltip = hold_court.8120.b.tt_islam # Islam
-		}
-		else = { custom_tooltip = hold_court.8120.b.tt_judaism } # Judaism
 		add_piety = medium_piety_gain
 		hold_court_8120_stop_effect = yes
 		ai_chance = {
@@ -37708,25 +37284,9 @@ scripted_trigger hold_court_8200_infidel_trigger = {
 	is_available_ai_adult = yes
 	NOT = { faith = root.faith }
 	NOR = {
-		AND = { # Eastern
-			religion = { is_in_family = rf_eastern }
-			root.faith = { has_doctrine = tenet_eastern_syncretism }
-		}
 		AND = { # Pagan
 			faith = { has_doctrine = unreformed_faith_doctrine }
 			root.faith = { has_doctrine = tenet_unreformed_syncretism }
-		}
-		AND = { # Christian
-			religion = religion:christianity_religion
-			root.faith = { has_doctrine = tenet_christian_syncretism }
-		}
-		AND = { # Islam
-			religion = religion:islam_religion
-			root.faith = { has_doctrine = tenet_islamic_syncretism }
-		}
-		AND = { # Judaism
-			religion = religion:judaism_religion
-			root.faith = { has_doctrine = tenet_jewish_syncretism }
 		}
 	}
 	NAND = {
